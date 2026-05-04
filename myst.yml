@@ -35,6 +35,7 @@ project:
   toc:
     - file: index.md
       title: Home
+
     # ─── FRONT MATTER ───────────────────────────────────────────────
     - title: Front Matter
       children:
@@ -50,267 +51,292 @@ project:
           title: "The Two Mental Models"
         - file: chapters/fm-setup.md
           title: "Required Setup"
-    # ─── MODULE 0 ───────────────────────────────────────────────────
-    - title: "Module 0: From Renting Muscle to Renting Cognition"
+
+    # ─── MODULE I: FOUNDATIONS ──────────────────────────────────────
+    - title: "Module I: Foundations"
       children:
-        - file: chapters/ch00-1-machines-learned-to-sweat.md
-          title: "0.1 — When Machines Learned to Sweat"
-        - file: chapters/ch00-2-machines-learned-to-think.md
-          title: "0.2 — When Machines Learned to Think"
-        - file: chapters/ch00-3-builders-question.md
-          title: "0.3 — The Builder's Question"
-    # ─── MODULE 1 ───────────────────────────────────────────────────
-    - title: "Module 1: AI Basics — The Foundation Everyone Skips"
+
+        - title: "Chapter 0: From Renting Muscle to Renting Cognition"
+          children:
+            - file: chapters/ch00-1-machines-learned-to-sweat.md
+              title: "0.1 — When Machines Learned to Sweat"
+            - file: chapters/ch00-2-machines-learned-to-think.md
+              title: "0.2 — When Machines Learned to Think"
+            - file: chapters/ch00-3-builders-question.md
+              title: "0.3 — The Builder's Question"
+
+        - title: "Chapter 1: AI Basics — The Foundation Everyone Skips"
+          children:
+            - file: chapters/ch01-1-what-is-an-llm.md
+              title: "1.1 — What Is a Large Language Model, Really?"
+            - file: chapters/ch01-2-flashlight-theory.md
+              title: "1.2 — The Flashlight Theory"
+            - file: chapters/ch01-3-meeting-the-models.md
+              title: "1.3 — Meeting the Models"
+            - file: chapters/ch01-4-tokens.md
+              title: "1.4 — Tokens: The Atoms of Machine Language"
+            - file: chapters/ch01-5-token-economy.md
+              title: "1.5 — The Token Economy"
+            - file: chapters/ch01-6-context.md
+              title: "1.6 — Context: The Working Memory of the AI"
+            - file: chapters/ch01-7-context-window.md
+              title: "1.7 — The Context Window"
+            - file: chapters/ch01-8-context-engineering.md
+              title: "1.8 — Context Engineering"
+            - file: chapters/ch01-9-context-rot.md
+              title: "1.9 — Context Rot"
+            - file: chapters/ch01-10-voice.md
+              title: "1.10 — Voice Changes Everything"
+
+    # ─── MODULE II: YOUR WORKSHOP ───────────────────────────────────
+    - title: "Module II: Your Workshop"
       children:
-        - file: chapters/ch01-1-what-is-an-llm.md
-          title: "1.1 — What Is a Large Language Model, Really?"
-        - file: chapters/ch01-2-flashlight-theory.md
-          title: "1.2 — The Flashlight Theory"
-        - file: chapters/ch01-3-meeting-the-models.md
-          title: "1.3 — Meeting the Models"
-        - file: chapters/ch01-4-tokens.md
-          title: "1.4 — Tokens: The Atoms of Machine Language"
-        - file: chapters/ch01-5-token-economy.md
-          title: "1.5 — The Token Economy"
-        - file: chapters/ch01-6-context.md
-          title: "1.6 — Context: The Working Memory of the AI"
-        - file: chapters/ch01-7-context-window.md
-          title: "1.7 — The Context Window"
-        - file: chapters/ch01-8-context-engineering.md
-          title: "1.8 — Context Engineering"
-        - file: chapters/ch01-9-context-rot.md
-          title: "1.9 — Context Rot"
-        - file: chapters/ch01-10-voice.md
-          title: "1.10 — Voice Changes Everything"
-    # ─── MODULE 2 ───────────────────────────────────────────────────
-    - title: "Module 2: Standing Up Your Cognitive Workshop"
+
+        - title: "Chapter 2: Standing Up Your Cognitive Workshop"
+          children:
+            - file: chapters/ch02-1-three-tool-stack.md
+              title: "2.1 — The Three-Tool Stack"
+            - file: chapters/ch02-2-gemini-gems.md
+              title: "2.2 — Setting Up Gemini and Gems"
+            - file: chapters/ch02-3-claude-desktop.md
+              title: "2.3 — Setting Up Claude Desktop"
+            - file: chapters/ch02-4-antigravity.md
+              title: "2.4 — Setting Up Google Antigravity"
+            - file: chapters/ch02-5-persona.md
+              title: "2.5 — The Persona Question"
+            - file: chapters/ch02-6-system-prompt.md
+              title: "2.6 — The System Prompt"
+            - file: chapters/ch02-7-config-files.md
+              title: "2.7 — The Three Configuration Files"
+
+        - title: "Chapter 3: Tools and the MCP Revolution"
+          children:
+            - file: chapters/ch03-1-what-mcp-is.md
+              title: "3.1 — What MCP Servers Actually Are"
+            - file: chapters/ch03-2-github.md
+              title: "3.2 — GitHub"
+            - file: chapters/ch03-3-devtools.md
+              title: "3.3 — Chrome DevTools"
+            - file: chapters/ch03-4-firecrawl.md
+              title: "3.4 — Firecrawl"
+            - file: chapters/ch03-5-godaddy.md
+              title: "3.5 — GoDaddy"
+            - file: chapters/ch03-6-dice.md
+              title: "3.6 — Dice"
+            - file: chapters/ch03-7-pipedream.md
+              title: "3.7 — Pipedream"
+            - file: chapters/ch03-8-google-products.md
+              title: "3.8 — The Google Products"
+            - file: chapters/ch03-9-supabase.md
+              title: "3.9 — Supabase"
+            - file: chapters/ch03-10-netlify.md
+              title: "3.10 — Netlify"
+            - file: chapters/ch03-11-universal-pattern.md
+              title: "3.11 — A Universal Pattern for Any Tool"
+
+        - title: "Chapter 4: Skills — Teaching Your AI New Tricks"
+          children:
+            - file: chapters/ch04-1-what-is-a-skill.md
+              title: "4.1 — What Is a Skill?"
+            - file: chapters/ch04-2-anatomy-of-a-skill.md
+              title: "4.2 — Anatomy of a Well-Written Skill"
+            - file: chapters/ch04-3-commands.md
+              title: "4.3 — Commands"
+            - file: chapters/ch04-4-api-to-skill.md
+              title: "4.4 — Turn Any API into a Skill"
+
+    # ─── MODULE III: ADVANCED TECHNIQUES ────────────────────────────
+    - title: "Module III: Advanced Techniques"
       children:
-        - file: chapters/ch02-1-three-tool-stack.md
-          title: "2.1 — The Three-Tool Stack"
-        - file: chapters/ch02-2-gemini-gems.md
-          title: "2.2 — Setting Up Gemini and Gems"
-        - file: chapters/ch02-3-claude-desktop.md
-          title: "2.3 — Setting Up Claude Desktop"
-        - file: chapters/ch02-4-antigravity.md
-          title: "2.4 — Setting Up Google Antigravity"
-        - file: chapters/ch02-5-persona.md
-          title: "2.5 — The Persona Question"
-        - file: chapters/ch02-6-system-prompt.md
-          title: "2.6 — The System Prompt"
-        - file: chapters/ch02-7-config-files.md
-          title: "2.7 — The Three Configuration Files"
-    # ─── MODULE 3 ───────────────────────────────────────────────────
-    - title: "Module 3: Tools and the MCP Revolution"
+
+        - title: "Chapter 5: The Six Engineering Disciplines"
+          children:
+            - file: chapters/ch05-1-beyond-prompt-engineering.md
+              title: "5.1 — Beyond Prompt Engineering"
+            - file: chapters/ch05-2-prompt-engineering.md
+              title: "5.2 — Prompt Engineering"
+            - file: chapters/ch05-3-system-prompting.md
+              title: "5.3 — System Prompting"
+            - file: chapters/ch05-4-meta-prompting.md
+              title: "5.4 — Meta Prompting"
+            - file: chapters/ch05-5-context-engineering.md
+              title: "5.5 — Context Engineering"
+            - file: chapters/ch05-6-memory-engineering.md
+              title: "5.6 — Memory Engineering"
+            - file: chapters/ch05-7-harness-engineering.md
+              title: "5.7 — Harness Engineering"
+
+        - title: "Chapter 6: Plan Mode — Think Before You Build"
+          children:
+            - file: chapters/ch06-1-compounding-error.md
+              title: "6.1 — The Compounding Error Problem"
+            - file: chapters/ch06-2-what-plan-mode-is.md
+              title: "6.2 — What Plan Mode Actually Is"
+            - file: chapters/ch06-3-activating-plan-mode.md
+              title: "6.3 — Activating and Exiting Plan Mode"
+            - file: chapters/ch06-4-readonly-toolkit.md
+              title: "6.4 — The Read-Only Toolkit"
+            - file: chapters/ch06-5-plan-as-contract.md
+              title: "6.5 — The Plan as a Contract"
+            - file: chapters/ch06-6-when-to-use.md
+              title: "6.6 — When to Use Plan Mode"
+            - file: chapters/ch06-7-when-to-skip.md
+              title: "6.7 — When to Skip Plan Mode"
+            - file: chapters/ch06-8-opus-plus-sonnet.md
+              title: "6.8 — The Opus-Plus-Sonnet Pattern"
+            - file: chapters/ch06-9-plans-that-compound.md
+              title: "6.9 — Plans That Compound"
+            - file: chapters/ch06-10-ultraplan.md
+              title: "6.10 — Ultraplan: Planning in the Cloud"
+            - file: chapters/ch06-11-multi-agent-planning.md
+              title: "6.11 — Multi-Agent Planning"
+            - file: chapters/ch06-12-business-analogy.md
+              title: "6.12 — The Business Analogy"
+
+        - title: "Chapter 7: Memory — How Your AI Learns You"
+          children:
+            - file: chapters/ch07-1-memory-in-ai.md
+              title: "7.1 — Memory in Conversational AI"
+            - file: chapters/ch07-2-memory-file.md
+              title: "7.2 — The memory.md File and Patterns"
+            - file: chapters/ch07-3-curating-memory.md
+              title: "7.3 — Curating What Gets Remembered"
+            - file: chapters/ch07-4-privacy.md
+              title: "7.4 — The Privacy Question"
+
+        - title: "Chapter 8: Plugins — Extending Your Workshop"
+          children:
+            - file: chapters/ch08-1-what-plugins-are.md
+              title: "8.1 — What Plugins Are"
+            - file: chapters/ch08-2-discovering-plugins.md
+              title: "8.2 — Discovering Plugins You Already Need"
+            - file: chapters/ch08-3-installing-plugins.md
+              title: "8.3 — Installing and Configuring a Plugin"
+            - file: chapters/ch08-4-building-a-plugin.md
+              title: "8.4 — Building Your First Plugin"
+
+    # ─── MODULE IV: BUILDING A TEAM ─────────────────────────────────
+    - title: "Module IV: Building a Team"
       children:
-        - file: chapters/ch03-1-what-mcp-is.md
-          title: "3.1 — What MCP Servers Actually Are"
-        - file: chapters/ch03-2-github.md
-          title: "3.2 — GitHub"
-        - file: chapters/ch03-3-devtools.md
-          title: "3.3 — Chrome DevTools"
-        - file: chapters/ch03-4-firecrawl.md
-          title: "3.4 — Firecrawl"
-        - file: chapters/ch03-5-godaddy.md
-          title: "3.5 — GoDaddy"
-        - file: chapters/ch03-6-dice.md
-          title: "3.6 — Dice"
-        - file: chapters/ch03-7-pipedream.md
-          title: "3.7 — Pipedream"
-        - file: chapters/ch03-8-google-products.md
-          title: "3.8 — The Google Products"
-        - file: chapters/ch03-9-supabase.md
-          title: "3.9 — Supabase"
-        - file: chapters/ch03-10-netlify.md
-          title: "3.10 — Netlify"
-        - file: chapters/ch03-11-universal-pattern.md
-          title: "3.11 — A Universal Pattern for Any Tool"
-    # ─── MODULE 4 ───────────────────────────────────────────────────
-    - title: "Module 4: Skills — Teaching Your AI New Tricks"
+
+        - title: "Chapter 9: Custom Sub-Agents"
+          children:
+            - file: chapters/ch09-1-specialist-mindset.md
+              title: "9.1 — The Specialist Mindset"
+            - file: chapters/ch09-2-when-to-spawn.md
+              title: "9.2 — When to Spawn a Sub-Agent"
+            - file: chapters/ch09-3-designing-a-subagent.md
+              title: "9.3 — Designing a Sub-Agent"
+
+        - title: "Chapter 10: Agent Teams — From Solo to Squad"
+          children:
+            - file: chapters/ch10-1-solo-to-squad.md
+              title: "10.1 — From Solo to Squad"
+            - file: chapters/ch10-2-coordination-patterns.md
+              title: "10.2 — Coordination Patterns"
+            - file: chapters/ch10-3-orchestrator-antipattern.md
+              title: "10.3 — The Orchestrator Anti-Pattern"
+
+        - title: "Chapter 11: The Agent SDK"
+          children:
+            - file: chapters/ch11-1-when-to-reach-for-sdk.md
+              title: "11.1 — When to Reach for the SDK"
+            - file: chapters/ch11-2-building-blocks.md
+              title: "11.2 — The Building Blocks of an Agent"
+            - file: chapters/ch11-3-reading-sdk-docs.md
+              title: "11.3 — Reading SDK Documentation Productively"
+
+    # ─── MODULE V: SYSTEMS ──────────────────────────────────────────
+    - title: "Module V: Systems"
       children:
-        - file: chapters/ch04-1-what-is-a-skill.md
-          title: "4.1 — What Is a Skill?"
-        - file: chapters/ch04-2-anatomy-of-a-skill.md
-          title: "4.2 — Anatomy of a Well-Written Skill"
-        - file: chapters/ch04-3-commands.md
-          title: "4.3 — Commands"
-        - file: chapters/ch04-4-api-to-skill.md
-          title: "4.4 — Turn Any API into a Skill"
-    # ─── MODULE 5 ───────────────────────────────────────────────────
-    - title: "Module 5: The Six Engineering Disciplines"
+
+        - title: "Chapter 12: Self-Learning Systems"
+          children:
+            - file: chapters/ch12-1-compounding-loop.md
+              title: "12.1 — The Compounding Loop"
+            - file: chapters/ch12-2-reflection-pattern.md
+              title: "12.2 — The Reflection Pattern"
+            - file: chapters/ch12-3-learning-memory.md
+              title: "12.3 — Building a Learning Memory"
+            - file: chapters/ch12-4-continuous-improvement.md
+              title: "12.4 — Designing for Continuous Improvement"
+
+        - title: "Chapter 13: Hooks, Channels, and Automations"
+          children:
+            - file: chapters/ch13-1-hooks.md
+              title: "13.1 — Hooks"
+            - file: chapters/ch13-2-channels.md
+              title: "13.2 — Channels"
+            - file: chapters/ch13-3-scheduled-tasks.md
+              title: "13.3 — Scheduled Tasks"
+            - file: chapters/ch13-4-daily-briefing-agent.md
+              title: "13.4 — The Daily Briefing Agent"
+
+        - title: "Chapter 14: Security and Trust"
+          children:
+            - file: chapters/ch14-1-security-posture.md
+              title: "14.1 — Security Posture"
+            - file: chapters/ch14-2-data-usage.md
+              title: "14.2 — Data Usage: What the Model Sees"
+            - file: chapters/ch14-3-zero-data-retention.md
+              title: "14.3 — Zero Data Retention"
+            - file: chapters/ch14-4-building-inside-guardrails.md
+              title: "14.4 — Building Inside the Guardrails"
+
+    # ─── MODULE VI: STRATEGY ────────────────────────────────────────
+    - title: "Module VI: Strategy"
       children:
-        - file: chapters/ch05-1-beyond-prompt-engineering.md
-          title: "5.1 — Beyond Prompt Engineering"
-        - file: chapters/ch05-2-prompt-engineering.md
-          title: "5.2 — Prompt Engineering"
-        - file: chapters/ch05-3-system-prompting.md
-          title: "5.3 — System Prompting"
-        - file: chapters/ch05-4-meta-prompting.md
-          title: "5.4 — Meta Prompting"
-        - file: chapters/ch05-5-context-engineering.md
-          title: "5.5 — Context Engineering"
-        - file: chapters/ch05-6-memory-engineering.md
-          title: "5.6 — Memory Engineering"
-        - file: chapters/ch05-7-harness-engineering.md
-          title: "5.7 — Harness Engineering"
-    # ─── MODULE 6 ───────────────────────────────────────────────────
-    - title: "Module 6: Plan Mode — Think Before You Build"
-      children:
-        - file: chapters/ch06-1-compounding-error.md
-          title: "6.1 — The Compounding Error Problem"
-        - file: chapters/ch06-2-what-plan-mode-is.md
-          title: "6.2 — What Plan Mode Actually Is"
-        - file: chapters/ch06-3-activating-plan-mode.md
-          title: "6.3 — Activating and Exiting Plan Mode"
-        - file: chapters/ch06-4-readonly-toolkit.md
-          title: "6.4 — The Read-Only Toolkit"
-        - file: chapters/ch06-5-plan-as-contract.md
-          title: "6.5 — The Plan as a Contract"
-        - file: chapters/ch06-6-when-to-use.md
-          title: "6.6 — When to Use Plan Mode"
-        - file: chapters/ch06-7-when-to-skip.md
-          title: "6.7 — When to Skip Plan Mode"
-        - file: chapters/ch06-8-opus-plus-sonnet.md
-          title: "6.8 — The Opus-Plus-Sonnet Pattern"
-        - file: chapters/ch06-9-plans-that-compound.md
-          title: "6.9 — Plans That Compound"
-        - file: chapters/ch06-10-ultraplan.md
-          title: "6.10 — Ultraplan: Planning in the Cloud"
-        - file: chapters/ch06-11-multi-agent-planning.md
-          title: "6.11 — Multi-Agent Planning"
-        - file: chapters/ch06-12-business-analogy.md
-          title: "6.12 — The Business Analogy"
-    # ─── MODULE 7 ───────────────────────────────────────────────────
-    - title: "Module 7: Memory — How Your AI Learns You"
-      children:
-        - file: chapters/ch07-1-memory-in-ai.md
-          title: "7.1 — Memory in Conversational AI"
-        - file: chapters/ch07-2-memory-file.md
-          title: "7.2 — The memory.md File and Patterns"
-        - file: chapters/ch07-3-curating-memory.md
-          title: "7.3 — Curating What Gets Remembered"
-        - file: chapters/ch07-4-privacy.md
-          title: "7.4 — The Privacy Question"
-    # ─── MODULE 8 ───────────────────────────────────────────────────
-    - title: "Module 8: Plugins — Extending Your Workshop"
-      children:
-        - file: chapters/ch08-1-what-plugins-are.md
-          title: "8.1 — What Plugins Are"
-        - file: chapters/ch08-2-discovering-plugins.md
-          title: "8.2 — Discovering Plugins You Already Need"
-        - file: chapters/ch08-3-installing-plugins.md
-          title: "8.3 — Installing and Configuring a Plugin"
-        - file: chapters/ch08-4-building-a-plugin.md
-          title: "8.4 — Building Your First Plugin"
-    # ─── MODULE 9 ───────────────────────────────────────────────────
-    - title: "Module 9: Custom Sub-Agents"
-      children:
-        - file: chapters/ch09-1-specialist-mindset.md
-          title: "9.1 — The Specialist Mindset"
-        - file: chapters/ch09-2-when-to-spawn.md
-          title: "9.2 — When to Spawn a Sub-Agent"
-        - file: chapters/ch09-3-designing-a-subagent.md
-          title: "9.3 — Designing a Sub-Agent"
-    # ─── MODULE 10 ──────────────────────────────────────────────────
-    - title: "Module 10: Agent Teams — From Solo to Squad"
-      children:
-        - file: chapters/ch10-1-solo-to-squad.md
-          title: "10.1 — From Solo to Squad"
-        - file: chapters/ch10-2-coordination-patterns.md
-          title: "10.2 — Coordination Patterns"
-        - file: chapters/ch10-3-orchestrator-antipattern.md
-          title: "10.3 — The Orchestrator Anti-Pattern"
-    # ─── MODULE 11 ──────────────────────────────────────────────────
-    - title: "Module 11: The Agent SDK"
-      children:
-        - file: chapters/ch11-1-when-to-reach-for-sdk.md
-          title: "11.1 — When to Reach for the SDK"
-        - file: chapters/ch11-2-building-blocks.md
-          title: "11.2 — The Building Blocks of an Agent"
-        - file: chapters/ch11-3-reading-sdk-docs.md
-          title: "11.3 — Reading SDK Documentation Productively"
-    # ─── MODULE 12 ──────────────────────────────────────────────────
-    - title: "Module 12: Self-Learning Systems"
-      children:
-        - file: chapters/ch12-1-compounding-loop.md
-          title: "12.1 — The Compounding Loop"
-        - file: chapters/ch12-2-reflection-pattern.md
-          title: "12.2 — The Reflection Pattern"
-        - file: chapters/ch12-3-learning-memory.md
-          title: "12.3 — Building a Learning Memory"
-        - file: chapters/ch12-4-continuous-improvement.md
-          title: "12.4 — Designing for Continuous Improvement"
-    # ─── MODULE 13 ──────────────────────────────────────────────────
-    - title: "Module 13: Hooks, Channels, and Automations"
-      children:
-        - file: chapters/ch13-1-hooks.md
-          title: "13.1 — Hooks"
-        - file: chapters/ch13-2-channels.md
-          title: "13.2 — Channels"
-        - file: chapters/ch13-3-scheduled-tasks.md
-          title: "13.3 — Scheduled Tasks"
-        - file: chapters/ch13-4-daily-briefing-agent.md
-          title: "13.4 — The Daily Briefing Agent"
-    # ─── MODULE 14 ──────────────────────────────────────────────────
-    - title: "Module 14: Security and Trust"
-      children:
-        - file: chapters/ch14-1-security-posture.md
-          title: "14.1 — Security Posture"
-        - file: chapters/ch14-2-data-usage.md
-          title: "14.2 — Data Usage: What the Model Sees"
-        - file: chapters/ch14-3-zero-data-retention.md
-          title: "14.3 — Zero Data Retention"
-        - file: chapters/ch14-4-building-inside-guardrails.md
-          title: "14.4 — Building Inside the Guardrails"
-    # ─── MODULE 15 ──────────────────────────────────────────────────
-    - title: "Module 15: The Knowledge Tax"
-      children:
-        - file: chapters/ch15-1-knowledge-tax.md
-          title: "15.1 — The Knowledge Tax"
-        - file: chapters/ch15-2-original-moat.md
-          title: "15.2 — The Original Moat"
-        - file: chapters/ch15-3-internet-cracked-moat.md
-          title: "15.3 — The Internet Cracked the First Moat"
-        - file: chapters/ch15-4-three-moats.md
-          title: "15.4 — The Three Moats That Survived"
-        - file: chapters/ch15-5-ai-attacks-last-moat.md
-          title: "15.5 — AI Is Attacking the Last Moat"
-        - file: chapters/ch15-6-two-traditions.md
-          title: "15.6 — Two Traditions, One Gap"
-        - file: chapters/ch15-7-where-premium-comes-from.md
-          title: "15.7 — Where the Premium Comes From"
-        - file: chapters/ch15-8-making-tax-computable.md
-          title: "15.8 — Making the Tax Computable"
-        - file: chapters/ch15-9-what-0-65-means.md
-          title: "15.9 — What 0.65 Means"
-        - file: chapters/ch15-10-where-does-your-pack-stand.md
-          title: "15.10 — Where Does Your Pack Stand?"
-        - file: chapters/ch15-11-builders-paradox.md
-          title: "15.11 — The Builder's Paradox"
-        - file: chapters/ch15-12-role-vulnerability-scorecard.md
-          title: "15.12 — The Role Vulnerability Scorecard"
-    # ─── MODULE 16 ──────────────────────────────────────────────────
-    - title: "Module 16: Basal-Cognitive Architecture"
-      children:
-        - file: chapters/ch16-1-brain-not-best-metaphor.md
-          title: "16.1 — The Brain Was Never the Best Metaphor"
-        - file: chapters/ch16-2-three-billion-years.md
-          title: "16.2 — Three Billion Years of Evidence"
-        - file: chapters/ch16-3-why-hierarchy-breaks.md
-          title: "16.3 — Why Hierarchical Orchestration Breaks"
-        - file: chapters/ch16-4-corporations-to-tissues.md
-          title: "16.4 — From Agent Corporations to Agent Tissues"
-        - file: chapters/ch16-5-cognitive-light-cone.md
-          title: "16.5 — The Cognitive Light Cone"
-        - file: chapters/ch16-6-six-dimensions.md
-          title: "16.6 — The Six Dimensions"
-        - file: chapters/ch16-7-composing-across-scales.md
-          title: "16.7 — Composing Across Scales"
-        - file: chapters/ch16-8-robustness-test.md
-          title: "16.8 — The Robustness-Under-Perturbation Test"
-        - file: chapters/ch16-9-theory-to-production.md
-          title: "16.9 — From Theory to Production Stack"
-        - file: chapters/ch16-10-end-of-book.md
-          title: "16.10 — The End of the Book and the Start of the Career"
+
+        - title: "Chapter 15: The Knowledge Tax"
+          children:
+            - file: chapters/ch15-1-knowledge-tax.md
+              title: "15.1 — The Knowledge Tax"
+            - file: chapters/ch15-2-original-moat.md
+              title: "15.2 — The Original Moat"
+            - file: chapters/ch15-3-internet-cracked-moat.md
+              title: "15.3 — The Internet Cracked the First Moat"
+            - file: chapters/ch15-4-three-moats.md
+              title: "15.4 — The Three Moats That Survived"
+            - file: chapters/ch15-5-ai-attacks-last-moat.md
+              title: "15.5 — AI Is Attacking the Last Moat"
+            - file: chapters/ch15-6-two-traditions.md
+              title: "15.6 — Two Traditions, One Gap"
+            - file: chapters/ch15-7-where-premium-comes-from.md
+              title: "15.7 — Where the Premium Comes From"
+            - file: chapters/ch15-8-making-tax-computable.md
+              title: "15.8 — Making the Tax Computable"
+            - file: chapters/ch15-9-what-0-65-means.md
+              title: "15.9 — What 0.65 Means"
+            - file: chapters/ch15-10-where-does-your-pack-stand.md
+              title: "15.10 — Where Does Your Pack Stand?"
+            - file: chapters/ch15-11-builders-paradox.md
+              title: "15.11 — The Builder's Paradox"
+            - file: chapters/ch15-12-role-vulnerability-scorecard.md
+              title: "15.12 — The Role Vulnerability Scorecard"
+
+        - title: "Chapter 16: Basal-Cognitive Architecture"
+          children:
+            - file: chapters/ch16-1-brain-not-best-metaphor.md
+              title: "16.1 — The Brain Was Never the Best Metaphor"
+            - file: chapters/ch16-2-three-billion-years.md
+              title: "16.2 — Three Billion Years of Evidence"
+            - file: chapters/ch16-3-why-hierarchy-breaks.md
+              title: "16.3 — Why Hierarchical Orchestration Breaks"
+            - file: chapters/ch16-4-corporations-to-tissues.md
+              title: "16.4 — From Agent Corporations to Agent Tissues"
+            - file: chapters/ch16-5-cognitive-light-cone.md
+              title: "16.5 — The Cognitive Light Cone"
+            - file: chapters/ch16-6-six-dimensions.md
+              title: "16.6 — The Six Dimensions"
+            - file: chapters/ch16-7-composing-across-scales.md
+              title: "16.7 — Composing Across Scales"
+            - file: chapters/ch16-8-robustness-test.md
+              title: "16.8 — The Robustness-Under-Perturbation Test"
+            - file: chapters/ch16-9-theory-to-production.md
+              title: "16.9 — From Theory to Production Stack"
+            - file: chapters/ch16-10-end-of-book.md
+              title: "16.10 — The End of the Book and the Start of the Career"
+
     # ─── APPENDICES ─────────────────────────────────────────────────
     - title: "Appendices"
       children:
