@@ -5,93 +5,93 @@
 
 ---
 
-**1.** A marketing manager at a mid-size firm uses ChatGPT daily. Each morning she opens a new chat, describes the task in detail, gets output, and closes the window. She considers herself a power AI user. From the architectural perspective presented in Chapter 4, what is the core limitation of her approach — and what does it prevent?
+**1.** Which of the following best defines an AI skill, as distinguished from a one-time prompt?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. She is using the wrong AI model for marketing tasks; a specialized tool would yield better results.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. She loses all context between sessions, which forces the AI to re-learn her preferences each time.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Her workflow is prompt-based, not skill-based — so her expertise never accumulates into a persistent, callable capability; every session starts at zero.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Her outputs are inconsistent because she is not using enough examples in each prompt.  
-
----
-
-**2.** Two consultants each spend 30 minutes building the same type of analysis for a client. Consultant A writes a detailed prompt each time and gets good output. Consultant B built a skill six months ago and now invokes it with a single trigger phrase. Both produce equivalent deliverables today. Analyze the *strategic* difference in their positions.
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. There is no meaningful difference — they achieve the same outcome in roughly the same time.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Consultant B has a reusable system that encodes professional judgment, compounds in value with each refinement, and frees cognitive resources for higher-order work — a structural advantage Consultant A cannot match without equivalent investment.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Consultant A's approach is more adaptable because each prompt can be customized, whereas Consultant B's skill may produce rigid, templated output.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Consultant B's advantage is purely speed; the quality of both approaches is equivalent over time.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. A prompt that is especially long and detailed  
+&nbsp;&nbsp;&nbsp;&nbsp;B. A saved, named, reusable capability with consistent instructions that can be invoked repeatedly  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Any AI interaction that produces a formatted output  
+&nbsp;&nbsp;&nbsp;&nbsp;D. A prompt stored in a chat history for future reference  
 
 ---
 
-**3.** A well-designed skill has four components: name/trigger, instructions, context, and output format. A colleague argues that context is unnecessary overhead — "just give good instructions and the AI will figure out the rest." Evaluate this claim.
+**2.** The anatomy of a well-built AI skill consists of four components. Which of the following correctly identifies all four?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The claim is correct; detailed instructions subsume context, making it redundant.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The claim is partially correct; context only matters for client-facing skills, not internal analysis.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The claim is incorrect; without embedded context (industry, role, standards, client profile), the skill produces generic output that requires manual correction — defeating the purpose of a reusable capability.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The claim is correct; modern AI models infer context from prior conversations automatically.  
-
----
-
-**4.** The skill-building process begins with identifying a repeating task, then describing the ideal output *before* writing instructions. Why is this sequencing — output-first, instructions-second — architecturally important?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. It saves time by letting the AI generate instructions from examples rather than from scratch.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Anchoring to a best-ever example establishes a concrete quality benchmark, which prevents the instructions from defaulting to vague generalities that produce mediocre, inconsistent output.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. It allows the user to skip the instruction-writing step entirely if the example is good enough.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. It ensures the AI understands the user's writing style before attempting the task.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Name and trigger, instructions, context, and output format  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Name and trigger, model selection, tone guidelines, and example outputs  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Instructions, context, feedback loop, and version history  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Task description, API integration, output format, and user permissions  
 
 ---
 
-**5.** The process of using an AI to write the instructions for another AI capability is called meta-prompting. What is the deeper rationale for this approach beyond mere convenience?
+**3.** What is meta-prompting in the context of skill building?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. It is faster because AI can generate text more quickly than humans can type.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. It bypasses the need to understand what makes a good skill instruction set.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. It leverages the AI's structural understanding of prompt design to translate domain expertise and quality examples into precise, complete skill specifications — a task humans find difficult to perform from scratch.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. It produces skills that are more compatible with the underlying AI model's architecture.  
-
----
-
-**6.** A business analyst wants to connect her AI to her company's CRM via its public API. She has no coding background. Based on the API-to-skill framework in Chapter 4, which of the following best describes her path?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. She must hire a developer to write the integration; AI cannot navigate API documentation without technical configuration.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. She should read the tool's developer documentation to understand its capability (inputs, outputs, what it does), then describe that capability to her AI and ask it to write the skill instructions — no code required.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. She should use a no-code platform like Zapier instead, since API integration is outside the scope of AI skills.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. She must first obtain enterprise-level API access before the AI can interact with external software.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Writing a prompt that asks the AI to critique its own previous response  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Using a second AI model to validate the output of the first  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Using an AI to write the skill's instruction set, rather than drafting it entirely from scratch yourself  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Providing the AI with multiple examples before giving it the actual task  
 
 ---
 
-**7.** An AI skill and a one-time prompt can both produce a high-quality contract summary. What distinguishes the *skill* version as a superior organizational asset, even if the prompt produces equally good output in a single use?
+**4.** An Application Programming Interface (API) is best described as:
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The skill uses a more powerful AI model, producing more accurate summaries.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The skill is shareable — it can be deployed across a team without anyone needing to recreate the process.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The skill encodes a defined standard (structure, emphasis, format, risk flags) that runs identically across every contract, every user, every time — transforming individual expertise into an institutional capability.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Skills retain memory of prior contracts to improve future summaries automatically.  
-
----
-
-**8.** A professional is choosing which tasks to convert into skills first. She has three candidates: (1) a task she does five times a week with a predictable pattern, (2) a task she does monthly but that directly determines client retention, (3) a task she does daily that she finds draining and mindless. Which framing best guides her prioritization?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Start with the monthly task because it has the highest stakes; frequency is secondary to importance.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Start with the daily task because eliminating cognitive friction always improves morale and output quality.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. High-frequency tasks maximize time recovery; high-value tasks justify deeper investment in quality; tedious tasks yield disproportionate psychological relief — all three are valid first targets because they address distinct dimensions of professional leverage.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Focus only on fully automatable tasks; any task requiring judgment should remain manual.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. A graphical dashboard that allows non-technical users to configure software settings  
+&nbsp;&nbsp;&nbsp;&nbsp;B. A standardized way for software systems to communicate and exchange data with each other  
+&nbsp;&nbsp;&nbsp;&nbsp;C. A type of AI model specifically designed for business process automation  
+&nbsp;&nbsp;&nbsp;&nbsp;D. A secure database that stores credentials and configuration for AI tools  
 
 ---
 
-**9.** Chapter 4 argues that a mature skill library represents a "structural advantage" — not merely a productivity gain. What is the theoretical basis for this distinction?
+**5.** When building a new skill, the chapter recommends beginning by describing the ideal output *before* writing instructions. What is the primary reason for this output-first approach?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. A skill library reduces software licensing costs, making it a financial rather than a strategic asset.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Because skills encode professional judgment, domain standards, and quality criteria accumulated over time, they are difficult to observe, replicate, or compress — making them a form of durable, defensible competitive capital that compounds with use.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Skills are proprietary AI models that competitors cannot access without purchasing a license.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The advantage is primarily reputational — clients prefer professionals who visibly use advanced tools.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. It reduces the number of tokens the AI needs to process  
+&nbsp;&nbsp;&nbsp;&nbsp;B. It ensures the AI defaults to the most concise possible response  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Studying your best prior work clarifies what quality looks like so the instructions can reliably reproduce it  
+&nbsp;&nbsp;&nbsp;&nbsp;D. It allows you to skip the testing and refinement phase  
 
 ---
 
-**10.** A team proposes the following workflow: every professional writes their own prompts from scratch, refines them over time, and stores the best ones in a shared document. Evaluate this approach against the skill-library model described in Chapter 4.
+**6.** A marketing manager at a regional bank writes a fresh prompt every Monday to generate a weekly competitive analysis. She spends about 25 minutes on the prompt each time and is reasonably satisfied with the results. Based on the chapter's framework, what would most improve her workflow?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The approaches are functionally equivalent; a shared prompt document is essentially a skill library.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The team's approach is superior because it preserves individual customization and avoids over-standardization.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The shared-prompt approach lacks the defining features of a skill: it has no persistent trigger, no embedded context, no enforced output format, and no mechanism for incremental refinement — so it cannot compound in value or execute expertise at scale the way a properly structured skill library does.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The team's approach is fine for small teams but breaks down only at enterprise scale.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Switching to a more powerful AI model for the task  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Building a named skill with standing instructions, role context, and a fixed output format so the task runs consistently in a fraction of the time  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Breaking the prompt into smaller, more focused sub-prompts  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Saving the best version of her weekly prompt in a notes app for copy-pasting  
+
+---
+
+**7.** What is the key distinction between a skill and a saved chat?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Skills can only be used in enterprise AI platforms, while saved chats work in any tool  
+&nbsp;&nbsp;&nbsp;&nbsp;B. A saved chat preserves conversation history; a skill provides standing instructions that govern AI behavior every time it is invoked, regardless of prior conversation  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Skills are faster to build but produce lower-quality output than saved chats  
+&nbsp;&nbsp;&nbsp;&nbsp;D. A saved chat includes context and output format, while a skill only stores the prompt  
+
+---
+
+**8.** In the context of a personal skill library, "structural advantage" refers to:
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Using AI tools that competitors have not yet licensed  
+&nbsp;&nbsp;&nbsp;&nbsp;B. A technical edge gained by integrating more APIs than peers  
+&nbsp;&nbsp;&nbsp;&nbsp;C. A durable, compounding capability gap — built from systematized expertise — that others cannot quickly replicate without investing equivalent time and deliberate effort  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The productivity boost from switching to a faster AI model  
+
+---
+
+**9.** A consultant wants to use a market research tool that has a publicly available API. She has no developer on her team. Which sequence best reflects the chapter's guidance for converting that API into a usable skill?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Hire a freelance developer to write the integration code, then save it as a script  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Read the full technical API specification, then manually write the HTTP request syntax  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Locate the tool's API documentation, identify the capability and input/output structure, then ask an AI to write the skill instructions based on that documentation  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Contact the tool's support team to request a pre-built skill template  
+
+---
+
+**10.** In the Meridian Capital Partners case, Marcus consistently outperformed Priya despite both using AI tools and investing comparable time. Which explanation best accounts for the performance gap?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Marcus used more advanced AI models that Priya did not have access to  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Marcus built a library of named skills with defined instructions, context, and output formats, while Priya rewrote one-time prompts from scratch each session — losing consistency and accumulated refinement  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Marcus delegated more tasks to junior staff, freeing time for higher-quality AI interactions  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Priya's prompts were too short, while Marcus wrote longer and more detailed single-use prompts  
 
 ---
 
@@ -99,13 +99,13 @@
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
-| 1 | C | The architectural failure is prompt-dependence: expertise never crystallizes into a persistent, callable capability. Each session starts from zero because nothing accumulates. The chapter frames this as the fundamental difference between *using* AI and *owning* AI — prompts are ephemeral; skills persist and compound. |
-| 2 | B | The strategic difference is not speed alone but *architecture*. Consultant B has converted professional judgment into a system that runs consistently, refines over time, and frees cognitive capacity for higher-order work. The chapter calls this leverage — a structural difference in how work is done, not just how fast. |
-| 3 | C | Context transforms a generic capability into a domain-specific one. Without it, the skill lacks knowledge of industry norms, role expectations, and quality standards — producing output that is structurally correct but professionally generic. The chapter identifies context as what makes output "sound like it came from someone who knows your business." |
-| 4 | B | Output-first sequencing grounds the instruction set in a concrete, real-world quality standard rather than abstract intention. The best-ever example functions as a specification — making explicit what "excellent" looks like so the instructions can reliably reproduce it. Starting with instructions risks building toward a vague target. |
-| 5 | C | Meta-prompting bridges two competencies: the user's domain expertise and the AI's structural understanding of what good instructions require. The user provides the *what* (task description, quality example); the AI translates it into precise, complete specifications — a task humans typically underperform because they lack meta-awareness of how instruction quality drives output quality. |
-| 6 | B | The API-to-skill framework explicitly removes the technical barrier. The user needs only conceptual understanding — what the API does, what inputs it takes, what it returns — then describes that to the AI, which writes the skill instructions. This pathway turns previously developer-gated tools into capabilities available to any professional. |
-| 7 | C | The skill version is an organizational asset because it institutionalizes a *standard*: the same structure, risk flags, format, and emphasis applied uniformly across every instance. A one-time prompt encodes expertise in a person's head at a moment in time; a skill encodes it in a system that outlasts any single use and runs identically for anyone who invokes it. |
-| 8 | C | The chapter identifies three task types not as a ranking but as a framework — each targets a different dimension of professional leverage. High-frequency tasks maximize time recovery. High-value tasks justify the deepest investment in quality. Tedious tasks yield relief disproportionate to effort. Building across all three creates a more comprehensive skill library than optimizing for any single criterion. |
-| 9 | B | The "structural advantage" claim rests on the nature of what skills encode: accumulated professional judgment, domain-specific standards, and quality criteria that take sustained effort to build. Because these are invisible to competitors, difficult to replicate without equivalent investment, and compound with each refinement, they constitute durable competitive capital — not just a faster workflow. |
-| 10 | C | A shared prompt document fails as a skill library on every architectural dimension: prompts have no persistent triggers, no embedded context, no enforced output format, and no structured mechanism for refinement. The result is a collection of starting points, not a system of capabilities. The skill-library model is defined precisely by these structural features — which is why it compounds in value while a prompt document remains flat. |
+| 1 | B | A skill is explicitly defined as a saved, named, reusable capability — distinct from a one-time prompt (A) or a chat history entry (D). Option C describes any formatted output, which is not the defining feature of a skill. |
+| 2 | A | The chapter identifies the four components as: name and trigger, instructions, context, and output format. The other options mix in elements not part of the chapter's framework (model selection, feedback loops, version history). |
+| 3 | C | Meta-prompting in skill building means using an AI (specifically Claude) to draft the skill's instruction set from your description and an example of ideal output. It is not self-critique (A), dual-model validation (B), or few-shot prompting (D). |
+| 4 | B | An API is a standardized interface for software-to-software communication — the mechanism that lets your AI act on the world through external tools. Options A, C, and D describe dashboards, specialized models, or credential stores, none of which define an API. |
+| 5 | C | The chapter explicitly recommends studying your best-ever example of a task before writing instructions, so the skill is designed to reproduce that quality level consistently. It has nothing to do with token efficiency (A), brevity (B), or skipping testing (D). |
+| 6 | B | The chapter's framework is clear: a repeating, pattern-based task is exactly the use case for a skill. Saving a prompt in notes (D) recreates the same inconsistency problem. Switching models (A) or splitting prompts (C) does not address the core issue of reusability and consistency. |
+| 7 | B | A skill contains standing instructions that shape AI behavior on every invocation; a saved chat is a record of a prior conversation. Skills are platform-independent (not limited to enterprise tools), so A is false. C and D misrepresent the relative quality and component structure. |
+| 8 | C | The chapter describes structural advantage as a durable, hard-to-replicate capability gap built through deliberate, sustained skill-building — not a licensing edge (A), API count (B), or model speed (D). |
+| 9 | C | The chapter explicitly describes this workflow: find the documentation, understand the capability, then ask an AI to write the skill instructions. No developer (A) or manual coding (B) is required, and the chapter does not recommend requesting vendor templates (D). |
+| 10 | B | The case study directly attributes the gap to Marcus's named, structured skill library versus Priya's session-by-session prompt rewriting. There is no mention of model differences (A), staffing (C), or prompt length (D) as contributing factors. |
