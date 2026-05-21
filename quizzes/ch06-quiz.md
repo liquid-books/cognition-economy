@@ -5,93 +5,93 @@
 
 ---
 
-**1.** A marketing director asks an AI to draft a full go-to-market strategy. She provides her industry, product, and a brief description of her "target business professional." The AI returns 3,000 polished words — later found to be calibrated entirely to mid-level managers, not the C-suite executives she actually sells to. Which statement best explains the root cause of this failure?
+**1.** What is Plan Mode?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The AI model lacked sufficient knowledge of enterprise marketing strategies.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The AI executed a well-defined task correctly, but the task itself was built on an unchallenged assumption that was never surfaced before execution.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The output was too long; shorter prompts would have produced more accurate results.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The director should have reviewed the output in stages rather than waiting for a complete draft.  
-
----
-
-**2.** During the planning phase, an AI is permitted to read documents, map dependencies, identify risks, and ask clarifying questions — but is explicitly prohibited from drafting any portion of the final output. What is the primary strategic purpose of maintaining this read-only constraint?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. It reduces API token consumption during the planning phase, lowering overall cost.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. It forces the AI to externalize its assumptions and decision points before they become embedded in completed work, where they are far harder to detect and correct.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. It ensures the planning agent and execution agent operate from separate context windows for security purposes.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. It prevents the AI from anchoring too strongly to its first draft, encouraging more creative output later.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. A feature that automatically checks AI outputs for factual errors before delivering them to the user  
+&nbsp;&nbsp;&nbsp;&nbsp;B. A deliberate practice of separating the thinking phase from the doing phase — asking the AI to produce and review a plan before any output is created  
+&nbsp;&nbsp;&nbsp;&nbsp;C. A setting that limits how many tasks an AI can execute in a single session  
+&nbsp;&nbsp;&nbsp;&nbsp;D. A workflow in which the AI generates multiple versions of an output so the user can choose the best one  
 
 ---
 
-**3.** A consultant reviews an AI-generated project plan and approves it with the comment: "Looks fine — proceed." Two weeks later, the deliverable omits a key stakeholder audience that was never mentioned in the plan. The consultant argues the AI "should have known." Evaluate this outcome using the plan-as-contract framework.
+**2.** What is compounding error in the context of AI-assisted work?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The consultant is correct; the AI bears full responsibility because it produced the plan and should have anticipated the gap.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The failure was in execution — the AI deviated from its approved scope without authorization.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The consultant's approval converted the plan into a mutual agreement on scope, sequence, and assumptions; the omitted audience represents a gap in the plan the consultant confirmed as complete. The failure is diagnostic of the planning phase, not execution.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. This outcome is unavoidable because AI cannot independently identify unknown stakeholders.  
-
----
-
-**4.** A product manager must decide whether to use Plan Mode for two upcoming tasks: (A) writing a one-sentence status update for Slack, and (B) drafting a board-level strategic memo that will inform a $2M budget decision. Applying the complexity-irreversibility framework, which assessment is most defensible?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Both tasks warrant Plan Mode because any communication involving leadership carries reputational risk.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Neither task warrants Plan Mode because experienced professionals should be able to guide the AI intuitively without a formal planning gate.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Only Task A warrants Plan Mode because short outputs are more likely to be misinterpreted.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Only Task B warrants Plan Mode — it combines high complexity with high irreversibility. Task A is simple and trivially correctable, making planning overhead with no proportionate return.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. The tendency of AI models to repeat the same mistake across different sessions due to memory limitations  
+&nbsp;&nbsp;&nbsp;&nbsp;B. A situation in which an AI makes so many small errors that the user loses trust and abandons the tool entirely  
+&nbsp;&nbsp;&nbsp;&nbsp;C. A flawed assumption made early in a complex task that propagates through subsequent steps, producing a polished output built on a wrong foundation  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The accumulation of billing charges when an AI model runs an unexpectedly long sequence of tool calls  
 
 ---
 
-**5.** An engineering lead splits AI work across two models: she uses a high-capability reasoning model to interrogate assumptions, map risks, and produce a structured plan, then passes that approved plan to a faster, lighter model for code generation and documentation. A colleague argues this adds unnecessary complexity. What is the strongest counterargument?
+**3.** During the planning phase, the AI operates under what is called the read-only toolkit constraint. What does this mean?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The split is necessary because different models are trained on different data and must be sequenced to prevent hallucination.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The two-phase approach matches model capability to cognitive demand: deep reasoning belongs at planning, where quality differences are most consequential, while execution — bounded by an approved plan — proceeds reliably at lower cost and higher speed.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Using a powerful model for execution is cost-prohibitive at enterprise scale, making the split an unavoidable budget constraint rather than a strategic choice.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Lighter models produce better output because they are less likely to over-engineer solutions.  
-
----
-
-**6.** A law firm has used Plan Mode for client proposal work for eighteen months, refining its plan template after each engagement. A new partner observes that proposals are now produced faster and with fewer revision cycles than at peer firms. Which concept best explains this competitive advantage?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. The firm has automated its proposal process, eliminating the need for human judgment on scope decisions.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Recurring plans tested and improved through real executions accumulate institutional knowledge over time — each iteration surfaces and resolves a category of error, compounding into a framework that works reliably at scale.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The firm's AI models have been fine-tuned on its internal documents, improving domain accuracy.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Faster proposals indicate the planning phase is being appropriately skipped in routine cases, freeing capacity for complex work.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. The AI is restricted to retrieving information from pre-approved databases and cannot access the open web  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The AI may read, analyze, and question, but may not produce the actual deliverable until the plan has been reviewed and approved  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The user is permitted only to read the AI's plan and cannot edit or annotate it before approving  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The AI runs in a sandboxed environment where it cannot write to any file system  
 
 ---
 
-**7.** An executive faces a restructuring decision with multi-year financial and operational consequences. She dedicates two full days to planning before any execution begins: she generates a comprehensive plan, challenges its assumptions, requests revisions, reviews it again with fresh eyes the following morning, and commits to execution only after the plan holds up under repeated scrutiny. A peer calls this over-preparation. What principle most directly justifies her approach?
+**4.** What does it mean to treat a plan as a contract?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. AI-generated plans have a known systematic error rate that requires multiple regenerations to eliminate.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. For decisions combining high stakes and high complexity, the ratio of planning time to execution time among high-performing professionals is often one-to-one or greater — the planning phase is not overhead, it is the work that determines whether execution produces the intended outcome.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Longer planning periods reduce legal liability if the restructuring is later challenged by stakeholders.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. AI plan quality improves with each regeneration iteration, so repeated passes are always worth the cost.  
-
----
-
-**8.** A content operations team builds a workflow where a research agent gathers sources, a writing agent drafts sections, an analysis agent critiques logical gaps, and a formatting agent produces the final document. The team lead emphasizes that without a pre-approved plan, this workflow collapses. Why is the plan specifically load-bearing in a multi-agent context?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Plans prevent agents from overwriting each other's outputs by enforcing file-level locking.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The plan defines each agent's scope, required inputs, and expected output format — making handoffs between specialized agents explicit and auditable rather than implicit and fragile. Without it, agents operate without coordination context and the workflow becomes chaotic.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Multi-agent systems require a plan because individual agents lack persistent memory across separate sessions.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Plans assign priority levels to agents, ensuring the most capable model handles the highest-stakes subtask automatically.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. The plan should be stored in a version-controlled system so any changes can be audited later  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The plan should be co-signed by all stakeholders before the AI is allowed to begin execution  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Approving a plan is an explicit agreement on scope, sequence, assumptions, and success criteria — creating a shared reference point for evaluating the final output  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The AI is legally bound by its plan and cannot deviate from it under any circumstances  
 
 ---
 
-**9.** Consider the following parallel: a surgeon who skips the pre-operative review — forgoing scan analysis, complication mapping, and approach confirmation — in order to reach the operating table faster. This is characterized not as efficiency but as recklessness. What does this parallel reveal about AI-assisted professional work?
+**5.** What is the two-model workflow (the Opus-plus-Sonnet pattern), and why is it used?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. AI tools should only be used by domain-certified professionals who can independently verify outputs.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Skipping the planning phase to reach output faster does not save time — it trades a brief upfront investment for a high probability of foundational errors that are far more costly to correct after the fact than to prevent.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. AI-generated work should be reviewed by a second professional before delivery, just as surgeons work with an anesthesiology team.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The parallel illustrates that AI is inherently high-risk and should be reserved for situations where human alternatives are unavailable.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Two separate AI models fact-check each other's outputs in real time to reduce hallucination  
+&nbsp;&nbsp;&nbsp;&nbsp;B. A more powerful model handles the planning phase where deep reasoning matters most, and a faster model handles execution — combining planning-quality judgment with execution-speed throughput  
+&nbsp;&nbsp;&nbsp;&nbsp;C. One model is used for creative tasks and another for analytical tasks, dividing work by domain rather than by phase  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Two models run the same task in parallel so the user can compare outputs and select the stronger result  
 
 ---
 
-**10.** A colleague argues that Plan Mode is most valuable for users unfamiliar with AI, but experienced users can skip it because they intuitively know how to guide a model to a correct output. Evaluate this claim.
+**6.** What is Ultraplan?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The claim is valid — experienced users have internalized planning heuristics and can execute them mentally without a formal phase.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The claim is partially valid — Plan Mode is only necessary when the user lacks domain expertise in the subject matter of the task.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The claim inverts the actual risk: more capable AI produces more sophisticated, voluminous, convincing output in the wrong direction before errors surface. Prompt expertise does not eliminate foundational misalignment — it only makes flawed output arrive faster and look more credible. Plan Mode is most critical precisely when AI capability and task stakes are both high.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The claim is correct for most tasks but incorrect for code generation, where compilers and tests independently surface errors regardless of planning.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. A rapid-planning technique designed to compress the planning phase into a single prompt for time-sensitive work  
+&nbsp;&nbsp;&nbsp;&nbsp;B. An approach that treats the planning phase itself as a standalone project — using extended review cycles, multiple rounds of revision, and deliberate reflection before any execution begins  
+&nbsp;&nbsp;&nbsp;&nbsp;C. A cloud-based platform that automates plan generation and distributes tasks to specialized AI agents without human review  
+&nbsp;&nbsp;&nbsp;&nbsp;D. A template library of pre-approved plans that professionals can apply to common high-stakes tasks  
+
+---
+
+**7.** What is multi-agent planning?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. A technique in which the user simultaneously queries multiple AI providers and aggregates the responses  
+&nbsp;&nbsp;&nbsp;&nbsp;B. A planning approach in which the AI generates a plan by consulting several internal reasoning modules before presenting a final recommendation  
+&nbsp;&nbsp;&nbsp;&nbsp;C. A workflow in which a plan defines not just the steps of a complex task but which specialized agent or configured context handles each step — including the handoffs between them  
+&nbsp;&nbsp;&nbsp;&nbsp;D. An automation framework that allows AI agents to self-assign tasks without human-defined scope  
+
+---
+
+**8.** The business analogy of the architect, the surgeon, and the pilot is used to illustrate a common principle. What is that principle?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. In every high-stakes profession, preparation and planning are not overhead — they are the professional standard that makes reliable execution possible  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The best AI workflows mimic physical trades, where a clear division of labor between planners and builders reduces cost  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Professionals in regulated industries are legally required to document their planning process, and AI users should follow the same standard  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Complex tasks require credentialed experts, and AI should be limited to supporting roles rather than primary execution  
+
+---
+
+**9.** An investment firm rolls out an AI-assisted workflow for producing client reports. Analysts prompt the model directly for finished draft sections without providing explicit client context — benchmark selection, risk posture, or disclosure requirements. The AI generates fluent, professional-looking content, but compliance review later finds material errors embedded throughout. Which aspect of Plan Mode would most directly have prevented this outcome?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Using Ultraplan to extend the review cycle over multiple days before any drafting began  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The read-only planning phase, which forces implicit assumptions — such as which benchmark or risk posture applies — into the open before execution begins  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Routing all drafts through a more powerful model to improve reasoning quality before delivery to compliance  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Running a multi-agent workflow in which a separate review agent checks each section for regulatory compliance after drafting  
+
+---
+
+**10.** Under what conditions is Plan Mode most clearly non-negotiable, and what happens when neither condition is strongly present?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Plan Mode is required whenever an AI tool is used in a professional setting; it can be skipped only for personal tasks with no external audience  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Plan Mode is required when the task is technically complex; when a task is simple, the AI is trusted to self-plan without user review  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Plan Mode is non-negotiable when a task is both complex and difficult to undo; when a task is simple and easily reversible, skipping the plan is appropriate  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Plan Mode is required only when working with a model that lacks memory, since stateful models can self-correct across turns  
 
 ---
 
@@ -99,13 +99,13 @@
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
-| 1 | B | The AI executed correctly against the brief it received — "business professional" mapped by default to middle management, an assumption never challenged before execution. This is the compounding error problem: a small misalignment at the start became a foundational error by completion. The AI succeeded at the wrong task because the gap between what was asked and what was meant was never closed. |
-| 2 | B | The read-only constraint forces the AI's assumptions and decision points into the open before they are embedded in completed work. Most damage in a bad AI output happens invisibly — assumptions filled silently, choices made without flagging. The constraint converts invisible decisions into visible ones that can be evaluated and corrected before they become locked into the work. |
-| 3 | C | Approving a plan creates a mutual agreement on scope, sequence, and assumptions. The omitted audience was a gap in the plan that the consultant confirmed as complete. This is diagnostic of the planning phase: the plan was approved without scrutinizing whether all relevant stakeholders were represented. The AI executed faithfully against what was agreed upon. |
-| 4 | D | The complexity-irreversibility framework identifies Plan Mode as warranted when tasks are both complex and hard to undo. Task B is high on both dimensions: multi-stakeholder strategic scope and a $2M decision with long-term consequences. Task A is low on both — simple and trivially correctable. Applying Plan Mode uniformly regardless of these variables wastes planning overhead on work that does not require it. |
-| 5 | B | The two-phase split allocates model capability where it delivers the most value. Planning requires deep reasoning across multiple considerations simultaneously — this is where model quality differences are most consequential. Execution against an approved plan is a more bounded task a capable lighter model handles well at lower cost and higher speed. The handoff is the strategic feature, not the inefficiency. |
-| 6 | B | Plans for recurring tasks improve through iteration — each execution tests the plan against real work, exposes a category of error, and produces a refinement. After sufficient iterations, the plan has been validated across every scenario it has encountered. Individual learning compounds into organizational-level institutional knowledge: a framework that works reliably at scale because it has earned that reliability through repeated refinement. |
-| 7 | B | For high-stakes, high-complexity decisions, the ratio of planning to execution time among professionals — architects, surgeons, lawyers, consultants — is often one-to-one or greater. The planning phase on these engagements is not preparation for the work; it is the work that determines whether execution produces the intended outcome. A plan that does not hold up under scrutiny before execution would have produced a costly failure during it. |
-| 8 | B | In a multi-agent workflow, the plan is the coordination substrate. It defines each agent's scope, required inputs, and expected output format — making handoffs explicit and auditable. Without a plan, agents receive ambiguous inputs and produce outputs of undefined format, leaving the next agent with no reliable basis for its work. The plan transforms an ad-hoc chain into a repeatable production system. |
-| 9 | B | The surgeon analogy establishes that preparation time before acting is not overhead — it is the work that makes execution safe and effective. Skipping it to move faster trades a small upfront investment for a high probability of a hard-to-reverse failure. The same principle governs AI-assisted work: moving to execution without a planning gate does not save time when foundational errors must be torn down and rebuilt from scratch. |
-| 10 | C | The claim inverts the actual risk profile. The more capable the AI, the more polished, voluminous, and convincing its output — even when built on a flawed foundation. An experienced prompter who skips planning does not eliminate foundational misalignment; they accelerate the production of sophisticated work in the wrong direction. Plan Mode is most critical when AI capability is high and task stakes are high — the exact conditions where experienced users are most likely to feel they can skip it. |
+| 1 | B | Plan Mode is explicitly defined as a practice — a deliberate separation of the thinking phase from the doing phase — not a software feature or comparison mechanism. |
+| 2 | C | Compounding error is a foundational-level misalignment (a wrong assumption at step one) that propagates and amplifies through every subsequent step, producing polished but fundamentally flawed output. |
+| 3 | B | The read-only constraint means the AI may look, analyze, and question during the planning phase, but cannot produce the actual deliverable until the plan has been reviewed and approved by the user. |
+| 4 | C | Treating a plan as a contract means that the user's explicit approval establishes a shared reference for scope, sequence, assumptions, and success criteria — making it possible to diagnose later whether a failure was in planning or execution. |
+| 5 | B | The two-model workflow uses a more powerful model for the planning phase (where deep reasoning has the highest impact) and a faster model for execution (where consistent, reliable output matters more than raw reasoning depth), combining quality and efficiency. |
+| 6 | B | Ultraplan is a practice for genuinely high-stakes work in which the planning phase is treated as its own project — extended over time, reviewed repeatedly with fresh eyes, and refined before any execution is committed to. |
+| 7 | C | Multi-agent planning means the plan itself defines which specialized agent or context handles each component of a complex task, including what each agent receives as input and what it must deliver as output — the plan makes multi-step specialization possible. |
+| 8 | A | The analogy of architect, surgeon, and pilot demonstrates that in every high-stakes profession, extensive preparation before execution is the professional standard — not optional overhead — because the cost of being wrong in execution is too high to absorb. |
+| 9 | B | The read-only planning phase would have forced the AI to surface its assumptions — about benchmarks, risk posture, and disclosure language — before any drafting occurred, giving the user the opportunity to correct them while correction is still cheap. |
+| 10 | C | Plan Mode is non-negotiable when both complexity and irreversibility are present. When neither condition applies — the task is simple and the output is easy to redo — skipping the plan is appropriate and efficient. |
