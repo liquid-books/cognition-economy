@@ -1,137 +1,111 @@
 # Chapter 1 Quiz: AI Basics — The Foundation Everyone Skips
+*Florida Atlantic University — Graduate Course Assessment*
 
-**Instructions:** Choose the best answer for each question.
-
----
-
-## Question 1
-
-According to the Intelligence vs. Knowledge distinction in Chapter 1, which of the following best describes what a large language model (LLM) *brings* to every conversation?
-
-A. Detailed knowledge of your company's strategy, data, and customers  
-B. The ability to reason, synthesize, and generate — but not your specific business context  
-C. Up-to-date information about current events and recent data  
-D. A personalized memory of all your past conversations  
+**Instructions:** Select the best answer for each question.
 
 ---
 
-## Question 2
+**1.** A marketing director pastes her company's full 80-page brand guidelines into an AI conversation, then asks: *"What tone should I use for a press release about our new product launch?"* The response is generic and ignores several explicit tone rules buried in the middle of the document. What is the most likely explanation — and the correct intervention?
 
-The Flashlight Theory, developed by Matty Squarzoni, states that an LLM can only work with what is "illuminated" in the context. What does this imply when an AI gives you a generic, unhelpful answer?
-
-A. The model is not intelligent enough for your task  
-B. You should switch to a more expensive model tier  
-C. The relevant context was not placed in the beam — the room was still dark  
-D. The model's training data is outdated and needs to be refreshed  
+&nbsp;&nbsp;&nbsp;&nbsp;A. The model lacks the capability to process brand documents; she should switch to a more powerful model tier.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The relevant tone guidelines were likely buried in the middle of the document, where model attention is weakest; she should excerpt and place that section immediately before her question.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The model's training data doesn't include brand voice concepts, so no amount of additional context will help.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. She should break the press release task into smaller sub-questions to avoid overloading the context window.  
 
 ---
 
-## Question 3
+**2.** A consultant receives a strong AI-generated analysis on Monday using a detailed, well-structured prompt. By Friday, in the same conversation thread after 35 additional exchanges, she asks nearly the same question and receives a shallow, contradictory response. She has not changed models or subscription plans. What is the most defensible diagnosis?
 
-What is the **page-and-prompt pattern** described in the Flashlight Theory chapter?
-
-A. Writing your prompt on paper before typing it into the AI  
-B. Finding the relevant document, pasting it into the conversation, then asking your question  
-C. Asking the AI to search the web for a relevant page before answering  
-D. Breaking long prompts into pages of 500 words each  
+&nbsp;&nbsp;&nbsp;&nbsp;A. The model provider pushed an update between Monday and Friday that changed the model's behavior.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Context rot has degraded output quality — accumulated history, conflicting instructions, and goal drift have collapsed the signal-to-noise ratio of the conversation.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. She exceeded the context window's hard token limit, which caused the model to revert to default behavior.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The model requires a periodic re-authentication to maintain session performance across multiple days.  
 
 ---
 
-## Question 4
+**3.** An operations analyst must decide whether to continue a 40-exchange AI conversation or start a fresh one. The thread contains early format instructions, several mid-conversation pivots to new sub-topics, and growing repetition in recent responses. Which principle should govern her decision?
 
-AI model tiers are compared to smartphone lines in Chapter 1. Which tier is best suited for complex reasoning, nuanced writing, and deep analysis?
-
-A. Fast / Standard tier (e.g., Claude Haiku, Gemini Flash)  
-B. Balanced / Pro tier (e.g., Claude Sonnet)  
-C. Frontier / Max tier (e.g., Claude Opus, GPT-4o, Gemini Pro)  
-D. Open-weight local models (e.g., Llama, Mistral)  
+&nbsp;&nbsp;&nbsp;&nbsp;A. She should always continue existing conversations — starting fresh means losing all accumulated context.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. She should continue only if output quality is still high and goals remain coherent; otherwise she should distill key conclusions into a clean summary and open a new conversation.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. She should start fresh whenever a conversation exceeds 20 exchanges, regardless of current output quality.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. She should copy and re-paste the entire prior conversation into a new chat to preserve continuity while resetting attentional bias.  
 
 ---
 
-## Question 5
+**4.** A manager compares three approaches for a high-stakes strategic analysis: (A) a frontier-tier model with a vague one-sentence prompt; (B) a balanced-tier model with a well-structured, context-rich prompt including role, constraints, and relevant data; (C) a speed-tier model with a minimal prompt. What does the intelligence vs. knowledge framework predict about the relative output quality?
 
-Based on the token rule of thumb introduced in Chapter 1, approximately how many tokens does a 750-word document contain?
-
-A. 100 tokens  
-B. 500 tokens  
-C. 1,000 tokens  
-D. 5,000 tokens  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Approach A will produce the best output — frontier models have sufficient reasoning capability to compensate for vague prompts.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Approach C is adequate for most strategic tasks because speed-tier models have access to the same training data.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Approach B will likely outperform A — well-supplied, relevant knowledge activates a capable model's reasoning more effectively than raw model tier alone.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. All three approaches will produce equivalent output because the intelligence ceiling is the binding constraint, not context quality.  
 
 ---
 
-## Question 6
+**5.** A legal team is evaluating AI-assisted contract review for a multilingual portfolio — contracts in English, Japanese, and Arabic at roughly equal volume. They need to set a monthly token budget. Which factor is most critical to accurate cost planning?
 
-In the token economy, output tokens are consistently priced higher than input tokens. What is the primary reason for this pricing asymmetry?
-
-A. Output tokens are longer and harder to read  
-B. Generating text requires iterative processing one token at a time, which is more resource-intensive than reading input  
-C. Providers charge a premium because users value responses more than prompts  
-D. Output tokens consume more disk storage on the provider's servers  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Non-English scripts tokenize less efficiently than English, so Japanese and Arabic contracts will consume significantly more tokens per page and carry higher processing costs per unit of content.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Token costs are language-neutral; once word counts are known, budget planning is straightforward.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The team should translate all documents to English before processing to reduce token costs, since translation is computationally cheaper.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Input token costs for multilingual documents are negligible; only output token costs require careful budgeting.  
 
 ---
 
-## Question 7
+**6.** A product manager's AI conversation spans 40 messages. By the final messages, the model is re-explaining concepts it covered in message 5 and contradicting output specifications she locked in at message 1. Which structural property of AI conversations most directly explains this degradation?
 
-The "re-send problem" in AI conversations refers to which of the following?
-
-A. The need to rephrase your question if the AI gives a wrong answer  
-B. The fact that every new message you send re-sends the entire prior conversation history to the model  
-C. The model sending duplicate responses when the server is overloaded  
-D. The requirement to manually paste context into every new chat session  
+&nbsp;&nbsp;&nbsp;&nbsp;A. The model has a hard session limit that resets working context every 15–20 messages.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. LLMs are stateless — each new message re-sends the full conversation history, and as that history accumulates, early instructions compete for attention against a growing volume of later content.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. High message frequency within a session triggers a cost-reduction mode in which the provider substitutes a smaller model.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Conversations with frequent topic pivots are flagged by the platform and receive reduced processing priority.  
 
 ---
 
-## Question 8
+**7.** An executive drafts a 900-word context brief covering her company's full history, all current projects, team roster, and personal background. A colleague recommends trimming it to 150–200 focused words covering only her current role, active project, and output preferences. What principle most strongly supports the colleague's recommendation?
 
-The **"lost in the middle" problem** refers to a limitation of the context window. Which of the following best describes it?
-
-A. Models forget the beginning of a conversation once it exceeds a certain length  
-B. Models tend to attend less to content placed in the center of a long context compared to content at the beginning or end  
-C. Tokens in the middle of a word are processed less accurately than tokens at the start  
-D. Models ignore documents that are pasted in the middle of a conversation  
+&nbsp;&nbsp;&nbsp;&nbsp;A. AI providers penalize prompts that exceed 500 words, resulting in lower-quality outputs by design.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. A well-curated, high-signal context consistently outperforms a bloated one — irrelevant information dilutes the signal-to-noise ratio and competes with what actually matters for the task at hand.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The colleague is incorrect; more context always produces better outputs because the model has a larger information base to draw from.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Longer context briefs automatically trigger the lost-in-the-middle problem, causing the model to discard the entire document.  
 
 ---
 
-## Question 9
+**8.** A CFO asks an AI: *"How should we manage Q4 cash flow?"* and receives a generic textbook response about receivables cycles. She then pastes in her current balance sheet, 90-day receivables aging report, and payroll calendar before asking the same question. The second response is specific, ranked, and immediately actionable. Which explanation best accounts for the difference?
 
-Which of the following is **NOT** listed as a warning sign of context rot?
-
-A. The model begins repeating suggestions it already gave earlier in the conversation  
-B. Responses become more detailed and specific than earlier in the conversation  
-C. The model contradicts instructions it was given earlier in the chat  
-D. Output quality drops noticeably — responses feel generic or shallow  
+&nbsp;&nbsp;&nbsp;&nbsp;A. The second prompt used more precise financial vocabulary, which activated the model's specialized finance module.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The model's intelligence was unchanged; what changed is that specific, relevant knowledge was supplied — extending the flashlight beam to include exactly what was needed for targeted analysis.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Pasting structured financial documents causes the model to run a distinct inference process optimized for numerical reasoning.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The model learned from the first inadequate response and self-corrected on the second attempt using reinforcement signals.  
 
 ---
 
-## Question 10
+**9.** A researcher argues that voice input for AI work is primarily valuable because it is faster than typing. A colleague counters that the deeper benefit is qualitative. Which evidence most directly supports the colleague's position?
 
-Chapter 1 recommends **SuperWhisper** and **Wispr Flow** as tools for voice input. Beyond the speed advantage, what is identified as the deeper benefit of using voice to interact with AI?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Voice transcription accuracy is now equivalent to typing accuracy, making them interchangeable in terms of output quality.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Dictated content is consistently longer, more nuanced, and contains more contextual qualifications than typed content — and richer prompts produce qualitatively better AI outputs, independent of the speed advantage.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Voice tools cost less to operate than text interfaces, making them the cost-optimal channel for high-frequency AI use.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Voice input bypasses the context window entirely, enabling prompts of unlimited length.  
 
-A. Voice models are cheaper to run than text models, reducing API costs  
-B. Voice input bypasses the context window, allowing unlimited prompt length  
-C. Spoken prompts naturally include more nuance, context, and detail — leading to better AI outputs  
-D. Voice input automatically formats your prompts using the page-and-prompt pattern  
+---
+
+**10.** An organization is designing an enterprise AI usage policy to maximize output quality while managing costs as volume scales. Which combination of practices is most coherent with the principles developed across Chapter 1?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Maximize prompt length for every task; use frontier models exclusively; never start a new conversation to avoid losing context continuity.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Curate context to a high signal-to-noise ratio; match model tier to task complexity; reset conversations when quality degrades with a distilled clean summary; constrain output length when depth is not required.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Keep all prompts minimal to reduce input token costs; rely on the model's general training knowledge rather than supplying task-specific context; use speed-tier models for all tasks.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Use the context window at maximum capacity for every task; prioritize output quantity; rotate model providers weekly to benchmark performance.  
 
 ---
 
 ## Answer Key
 
-1. **B** — LLMs bring extraordinary intelligence (reasoning, synthesis, generation) but have no access to your specific business knowledge, data, or goals. That context must be supplied by you.
-
-2. **C** — The Flashlight Theory teaches that poor AI outputs almost always mean the room was dark — the relevant context was missing from the beam, not that the model lacks capability.
-
-3. **B** — The page-and-prompt pattern is the foundational technique: find the relevant document or reference, paste it into the conversation, then ask your question. This extends the flashlight beam to include the exact information the model needs.
-
-4. **C** — Frontier / Max tier models (Claude Opus, GPT-4o, Gemini Pro) are the heavyweight reasoners best suited for complex, nuanced, and multi-step tasks. Lower tiers are optimized for speed and volume.
-
-5. **C** — The rule of thumb is ~750 words ≈ 1,000 tokens. This approximation holds for typical English prose and is the key unit for estimating prompt cost and context size.
-
-6. **B** — Output generation is computationally more intensive because the model generates one token at a time in an iterative process, whereas reading input requires only a single forward pass.
-
-7. **B** — Because language models are stateless, every new message must include the full conversation history for the model to maintain continuity. This means turn 11 re-sends turns 1–10 plus the new message, compounding input costs over time.
-
-8. **B** — Research shows models attend more strongly to content near the beginning and end of a long context, and less to content in the middle. This means critical information buried in the center of a large document may be underweighted.
-
-9. **B** — Becoming *more* detailed and specific is the opposite of context rot. Warning signs are repetition, contradictions, confused goal orientation, and a generic quality drop — all signals that the whiteboard has become too crowded.
-
-10. **C** — The deeper benefit of voice input is qualitative, not just quantitative. Spoken language naturally carries more nuance, context, and detail than typed prompts, which tend to be compressed. Richer prompts produce richer outputs.
+| Q | Answer | Rationale |
+|---|--------|-----------|
+| 1 | B | The lost-in-the-middle problem predicts that information buried in the center of a long document receives less model attention; the correct fix is to excerpt the critical section and place it near the question. |
+| 2 | B | The four mechanisms of context rot — attention dilution, accumulated assumptions, conflicting instructions, and goal drift — collectively explain the quality degradation without requiring any external model change. |
+| 3 | B | The professional standard is output-quality-driven, not length-driven: continue if quality holds; distill and reset when warning signs appear, preserving insights while discarding accumulated noise. |
+| 4 | C | The intelligence vs. knowledge framework predicts that supplied knowledge is the binding variable; a well-briefed capable model will typically outperform an under-briefed frontier model on the same task. |
+| 5 | A | Non-Latin-script languages tokenize less efficiently than English — Japanese and Arabic text may require 2–3× more tokens per equivalent unit of meaning, making script composition a material cost variable at scale. |
+| 6 | B | LLMs are stateless: every turn re-sends the full conversation history as input, and as that history grows, early instructions face increasing attentional competition from later content — the direct structural cause of the described degradation. |
+| 7 | B | The signal-to-noise principle holds that a tightly curated context consistently outperforms a bloated one containing the same core information buried in irrelevant background that the model must filter. |
+| 8 | B | The flashlight analogy precisely explains this outcome: the model's intelligence was unchanged; what changed is the knowledge supplied — specific financial documents extended the beam and enabled targeted, actionable analysis. |
+| 9 | B | Research on dictated content shows it is longer and more nuanced than typed content; the chapter explicitly identifies this qualitative enrichment — richer prompts producing richer outputs — as the deeper benefit, not merely speed. |
+| 10 | B | This option synthesizes Chapter 1's core frameworks: context curation (signal-to-noise), model-tier matching (smartphone analogy), conversation management (context rot discipline), and output constraints (token economy). |
