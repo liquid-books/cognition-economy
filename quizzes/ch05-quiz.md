@@ -5,93 +5,93 @@
 
 ---
 
-**1.** A senior knowledge worker spends considerable time crafting careful, detailed prompts and consistently receives high-quality single-turn outputs. However, when starting a new session to continue a multi-week project, the AI treats the work as if it has never been discussed. The outputs become generic, and the worker must re-explain decisions made weeks ago. Which engineering discipline is most responsible for this gap — and what is the correct lever to address it?
+**1.** Which of the following best defines *prompt engineering* as a discipline?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. Prompt engineering — the worker needs longer, more detailed prompts at the start of each session.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. System prompting — the standing instructions should be updated to include all project history.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Memory engineering — the worker lacks a deliberate mechanism to persist context between sessions, and the minimum fix is a maintained "Working Brief" attached at the start of relevant sessions.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Context engineering — the worker should keep one continuous conversation open rather than starting new sessions.  
-
----
-
-**2.** An organization wants to deploy an AI-assisted client intake workflow. When a new inquiry email arrives, the system should automatically retrieve the sender's prior correspondence, check for any matching records, draft a personalized response in the firm's voice, and route the draft to the appropriate team member for review — all without manual initiation. Which discipline primarily governs the design of this workflow, and what does it require beyond the other five disciplines?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Context engineering — it governs what information flows into each AI call, which is the primary design challenge here.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. System prompting — a sufficiently detailed system prompt can automate all of these steps.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Harness engineering — it requires designing the triggers, tool connections, data routing, and human review checkpoints that make the workflow operate autonomously.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Meta prompting — the firm should ask the AI to design the workflow instructions, then execute them manually each time.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Designing persistent workflows that run without active user involvement  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Crafting individual instructions to produce high-quality outputs from a single AI exchange  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Managing what information enters a conversation and how it is structured  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Using AI to write the instructions that AI will later follow  
 
 ---
 
-**3.** A consultant runs a complex analysis session, attaching a 60-page industry report, three years of financial data, a competitor brief, and a client email thread — all to answer a single strategic question. The AI's response is surprisingly shallow, misses the core issue, and fixates on peripheral data from the financial appendix. Applying the discipline framework, what is the most likely cause of this failure?
+**2.** A system prompt differs from an ordinary prompt primarily because it:
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The AI model lacks the capability to handle strategic questions and should be replaced.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The consultant failed to include examples of the desired output format.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The context window was filled with irrelevant material, reducing the AI's effective working capacity for the actual question and burying the key framing.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The system prompt was not configured for financial analysis tasks.  
-
----
-
-**4.** A marketing director needs to create a reusable instruction set for producing executive briefings — a task her team performs weekly. She considers writing the instructions herself. Why would a meta-prompting approach likely produce a superior result, and what does that approach involve?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Meta prompting is faster but not necessarily higher quality — it trades quality for speed.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Having the AI interview her about the task surfaces implicit requirements, gaps, and unstated preferences she would overlook when writing instructions unilaterally — producing a more complete and precise instruction set.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Meta prompting accesses a library of pre-built professional templates optimized for marketing use cases.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The AI generates instructions that bypass the context window limit, allowing larger documents to be processed.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Is written by AI rather than by the user  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Replaces the need for prompt engineering on routine tasks  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Loads silently before every conversation, establishing the AI's standing role and rules  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Stores structured data that persists between sessions in a queryable database  
 
 ---
 
-**5.** Two analysts at the same firm use identical AI subscriptions and write equally well-crafted prompts. Analyst A produces outputs that consistently match her professional standards, rarely require rework, and reflect awareness of her firm's communication norms. Analyst B's outputs are competent but generic — correct in content but requiring significant revision for tone, structure, and fit. No difference in prompt quality explains the gap. What is the most precise diagnosis?
+**3.** *Meta prompting*, as defined within the six disciplines, refers to:
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. Analyst A has more experience with AI and her prompts are actually more skillful than they appear.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Analyst A has a well-configured system prompt that provides her professional role, communication preferences, and output standards as persistent standing context — eliminating the need to re-specify these in every prompt.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Analyst A uses a different AI model that is better suited to professional writing tasks.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Analyst A breaks complex tasks into smaller prompts, which is a prompt engineering technique Analyst B has not learned.  
-
----
-
-**6.** The six engineering disciplines are described as a layered system in which each discipline multiplies the value of the one below it. A colleague argues this framing is overstated — that the skills can be learned independently and combined additively. What is the strongest argument against the additive view, grounded in how the disciplines actually interact?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. The disciplines are branded as a system for marketing purposes; in practice they are largely independent.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. A well-engineered harness executing a poorly-formed prompt still produces poor output; a rich system prompt cannot compensate for context that is irrelevant or absent; memory engineering only delivers value if it feeds into sessions with proper framing. Each discipline depends on the integrity of the layers beneath it — degradation at any level propagates upward.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The multiplicative relationship only applies to harness engineering and context engineering; the other disciplines are genuinely additive.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The layered model applies only when all six disciplines are fully mastered; partial mastery produces no compounding benefit.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Adding detailed background documents to the context window before asking a question  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Writing a system prompt that covers multiple professional roles simultaneously  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Using AI to generate the instructions that AI will subsequently use to complete work  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Chaining multiple AI models so that each one refines the previous model's output  
 
 ---
 
-**7.** A professional is preparing for a high-stakes client presentation. She has a strong system prompt, a well-designed meeting-prep skill, and her project's Working Brief. She is deciding between: (A) opening a fresh session and attaching the Working Brief plus the three most recent client emails, or (B) continuing a 90-message conversation from two weeks ago that has covered many related topics. Which choice reflects sound context engineering, and why?
+**4.** *Context engineering* is best described as:
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. Option B — the longer conversation history provides richer context and should always be preferred over starting fresh.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Option A — a fresh session with deliberately curated, relevant context gives the AI higher-quality signal. Long conversations cause early framing to degrade proportionally as new content accumulates, reducing the AI's coherence with the original purpose.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Option B — AI models are specifically optimized for long-running sessions and perform best with extended history.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Option A — only because attaching the Working Brief is faster than scrolling through an old conversation.  
-
----
-
-**8.** Consider the three layers of memory engineering: conversation memory, file-based memory, and database memory. A solo consultant wants AI continuity across client engagements but has no developer resources and cannot set up database infrastructure. Which layer is the appropriate lever, what does it require in practice, and what is its key limitation compared to the most powerful layer?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Conversation memory is the appropriate layer — she should keep all sessions open indefinitely to preserve continuity.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Database memory is the only viable option; without it, meaningful continuity is impossible.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. File-based memory is the right lever — maintained as a living document (e.g., a "Working Brief") attached at the start of sessions. Its limitation is that it requires manual maintenance and cannot automatically accumulate knowledge across sessions the way database memory can.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. File-based memory is the right lever, and it is functionally equivalent to database memory for most professional use cases.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Fine-tuning an AI model on proprietary organizational data  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The practice of deliberately designing what information enters an AI conversation, how it is structured, and when it appears  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Creating a standing instruction that defines the AI's role before any conversation begins  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Connecting an AI to external databases so it can answer questions about live data  
 
 ---
 
-**9.** A team deploys an AI workflow for weekly competitive intelligence reports. They have invested in prompt engineering and harness engineering but skipped system prompting and memory engineering. After two months, the reports are technically accurate but stylistically inconsistent, ignore the firm's established framing conventions, and fail to build on prior weeks' findings. Using the discipline framework, identify the two missing layers and explain why each gap produces the specific failure described.
+**5.** An advisor prepares for a client meeting by attaching the client's most recent email, a prior proposal, and notes from the last interaction before asking the AI for a briefing. Compared to simply providing the client's name, the richer input session will almost certainly produce more relevant output. This improvement is best attributed to which discipline?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. Context engineering and meta prompting — the team is not managing context window usage and has not used AI to optimize their prompts.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. System prompting and memory engineering — the missing system prompt explains the inconsistent tone and stylistic drift (no standing definition of voice, format, or conventions); the missing memory engineering explains why each report ignores prior weeks' findings (no persistent knowledge across sessions).  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Meta prompting and harness engineering — the prompts were written manually and the workflow was not properly automated.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Context engineering and harness engineering — the documents are too long and the automation triggers are misconfigured.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Harness engineering — the advisor has triggered an automated workflow  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Memory engineering — the advisor is building long-term continuity across sessions  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Meta prompting — the advisor is letting AI design the briefing structure  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Context engineering — the advisor is deliberately managing what information the AI has access to  
 
 ---
 
-**10.** Harness engineering is described as having the highest setup cost of all six disciplines but delivering leverage that is qualitatively different from the others. What is the structural distinction that makes harness engineering categorically different — not merely incrementally better — than mastering the first five disciplines?
+**6.** *Memory engineering* addresses which fundamental limitation of AI systems?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. Harness engineering eliminates the need for prompt engineering once workflows are built, reducing total cognitive overhead.  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Harness engineering is the only discipline that requires technical programming skills, which is why it is inaccessible to most professionals.  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The first five disciplines optimize individual AI interactions — each requiring active human initiation. Harness engineering removes the human from the initiation loop entirely, enabling workflows that trigger, execute, and deliver outputs autonomously, fundamentally changing the ratio of professional time to productive output.  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Harness engineering provides the most value because it combines all five disciplines into a single interface, reducing the need to learn them separately.  
+&nbsp;&nbsp;&nbsp;&nbsp;A. AI models cannot process documents longer than a few thousand words  
+&nbsp;&nbsp;&nbsp;&nbsp;B. AI has no native long-term memory — every new conversation begins at zero  
+&nbsp;&nbsp;&nbsp;&nbsp;C. AI cannot distinguish between high-priority and low-priority information in a prompt  
+&nbsp;&nbsp;&nbsp;&nbsp;D. AI requires explicit formatting instructions or it defaults to unstructured output  
+
+---
+
+**7.** Which of the following is the most accurate definition of *harness engineering*?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Selecting the most capable AI model for a given professional task  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Writing a reusable prompt template that can be shared across a team  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Designing the full environment — tools, workflows, triggers, and output routing — within which an AI operates with minimal ongoing user input  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Summarizing prior session output into a document that is injected at the start of the next session  
+
+---
+
+**8.** A professional analyst has a well-crafted prompt, a detailed system prompt, and carefully selected source documents — yet the AI output is still inconsistent across sessions. Key decisions made weeks ago and ongoing project context are unavailable to the AI at the start of each new conversation. Which discipline is most clearly absent?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Prompt engineering — the individual instructions need to be more specific  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Context engineering — the analyst is including too much irrelevant information  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Memory engineering — there is no mechanism for persisting information between sessions  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Harness engineering — the analyst has not yet connected external tools to the workflow  
+
+---
+
+**9.** The six disciplines are described as layers that build on each other rather than independent skills. Which statement best captures why this layered structure matters?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Learning the disciplines in order guarantees that each one becomes unnecessary once the next is mastered  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Each discipline multiplies the value of the ones below it, so mastery compounds rather than simply adds  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The upper disciplines (context, memory, harness) are only relevant for technical users who can write code  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The disciplines are sequential steps in a single workflow rather than ongoing, parallel capabilities  
+
+---
+
+**10.** A financial advisory firm wants AI to draft client responses automatically when emails arrive — pulling prior correspondence, checking account data, generating a structured reply, and routing the draft to the advisor for final approval. The advisor only appears at the end to review and send. This scenario represents the primary value proposition of which discipline?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Meta prompting — the firm is using AI to design better instructions for the response workflow  
+&nbsp;&nbsp;&nbsp;&nbsp;B. System prompting — the standing instruction encodes the firm's voice and compliance rules  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Memory engineering — the workflow is storing client history for use in future sessions  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Harness engineering — the firm has designed an automated environment where AI works between advisor touchpoints  
 
 ---
 
@@ -99,13 +99,13 @@
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
-| 1 | C | The failure is cross-session discontinuity — the hallmark of absent memory engineering. Prompt engineering governs single-turn quality; system prompts store role context but not project-specific history; keeping one long conversation open violates sound context engineering principles. The Working Brief is the minimum viable memory engineering practice. |
-| 2 | C | Autonomous, trigger-based, multi-tool workflows are the defining domain of harness engineering. It requires more than the other disciplines because it demands designing the environment — triggers, data routing, tool connections, human review checkpoints — not just the content of individual AI interactions. |
-| 3 | C | This is a context engineering failure. The context window is finite working memory; loading it with large, partially irrelevant documents crowds out the AI's effective capacity for the actual question. The financial appendix dominating the output signals the AI is processing volume rather than signal. The fix is deliberate curation — attach only what is directly relevant to the specific question. |
-| 4 | B | The core argument for meta prompting is that writing good instructions requires knowing what to include — and humans systematically miss their own blind spots. The AI-driven interview process surfaces implicit requirements and unstated assumptions, producing instructions more complete than self-authored ones. |
-| 5 | B | System prompting is the standing context that loads before every exchange. It defines role, tone, format preferences, and quality standards persistently, so they do not need to be re-specified in each prompt. When equally good prompts produce systematically different output fit, the difference is almost always at the system prompt layer. |
-| 6 | B | The disciplines are interdependent in a layered hierarchy, not independent modules. A harness executing weak prompts scales weak outputs. A rich system prompt cannot supply context that was never engineered into the session. Memory engineering only creates value when it feeds into sessions with sound framing and context management. Failure at any layer propagates upward — this is the structural argument against additive independence. |
-| 7 | B | Context engineering principles specify that: (1) context should be deliberately curated, not accumulated; (2) framing placed early has disproportionate influence; (3) long conversations cause early context to degrade proportionally. A fresh session with targeted, relevant documents gives the AI higher-quality signal than a drifted 90-message thread. |
-| 8 | C | File-based memory is accessible without technical infrastructure and provides meaningful continuity when maintained as a living document. Its key limitation versus database memory is that it requires manual upkeep and cannot autonomously accumulate knowledge — it only carries what the human explicitly captures and injects. Database memory enables structured, self-accumulating persistence across unlimited sessions. |
-| 9 | B | System prompting governs persistent tone, style, and conventions — its absence causes stylistic inconsistency. Memory engineering governs what knowledge carries across sessions — its absence means each weekly report starts from zero, unable to build on prior findings. The two failures map precisely to the two missing disciplines. |
-| 10 | C | The first five disciplines all require a human to initiate each interaction. Harness engineering removes that requirement — workflows fire on triggers, execute autonomously, and deliver outputs to the right place without human initiation. This changes the fundamental leverage ratio, not just the quality of individual interactions. |
+| 1 | B | Prompt engineering is defined as crafting individual instructions that produce high-quality outputs. Option A describes harness engineering, C describes context engineering, and D describes meta prompting. |
+| 2 | C | A system prompt loads silently before every exchange, establishing the AI's standing role, tone, and rules. Option A describes meta prompting, B is incorrect (prompt engineering still matters), and D describes database-layer memory engineering. |
+| 3 | C | Meta prompting is specifically the practice of using AI to write the instructions that AI will subsequently use — not the work itself. Options A and D describe other disciplines, and B mischaracterizes what a system prompt does. |
+| 4 | B | Context engineering is the deliberate design of what information enters a conversation, how it is structured, and when it appears. Option A describes model fine-tuning (out of scope), C describes system prompting, and D describes tool/database integration. |
+| 5 | D | Attaching relevant documents and prior correspondence before asking a question is a direct application of context engineering — deliberately managing the information available to the AI. The other options describe different disciplines. |
+| 6 | B | The chapter states plainly that AI has no native long-term memory and every conversation begins at zero. Memory engineering is the discipline that addresses this by building and managing persistent information. The other options describe real limitations but are not what memory engineering specifically targets. |
+| 7 | C | Harness engineering is defined as designing the full environment — tools connected, workflows defined, triggers set, outputs routed — so AI can work with minimal ongoing user input. The other options describe prompt reuse (B), model selection (A), or memory engineering (D). |
+| 8 | C | The analyst has covered prompt, system, and context disciplines but lacks any mechanism for persisting context across sessions. Key decisions and project history disappear at session end. Memory engineering — file-based or database-based persistence — is what is missing. |
+| 9 | B | The chapter explicitly describes the disciplines as compounding: each one multiplies the value of everything below it, making the combined effect non-linear. Option A is the opposite of what is described, and C and D misrepresent the framework. |
+| 10 | D | The scenario describes a fully automated trigger-to-draft pipeline that runs with minimal advisor involvement — the defining characteristic of harness engineering. The other disciplines are present in the background but harness engineering is what enables the workflow to operate autonomously between advisor touchpoints. |
