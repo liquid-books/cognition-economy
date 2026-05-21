@@ -197,12 +197,27 @@ The architectural future. Agent tissues, not agent corporations. Three billion y
 
 ---
 
+## Course Information
+
+:::{admonition} ISM 6427C — Business Innovation with Artificial Intelligence
+:class: note
+
+**3 Credit Hours · Florida Atlantic University**
+
+Students gain a business perspective of artificial intelligence (AI) and other emerging technologies as drivers of innovation in businesses. They learn how AI is used in practice across organizations and industries, how to plan, manage and maintain AI projects, and how to address the AI challenges and implications for the organization and society.
+
+**Instructor:** [Dr. Ernesto Lee](https://business.fau.edu/faculty-research/faculty-profiles/profile/leee.php) · College of Business · Florida Atlantic University
+:::
+
+---
+
 ## About the Author
 
 **Dr. Ernesto Lee** is an educator, author, and entrepreneur whose work sits at the intersection of artificial intelligence and business. He is the author of [*AI and the Art of Productive Struggle*](https://www.amazon.com/AI-Art-Productive-Struggle-Reshapes/dp/B0FJ7MN1ZW/) and [*The Apex Rulebook*](https://www.amazon.com/APEX-Rule-Book-Brutal-Predator/dp/B0GVS3CNBH/), holds faculty appointments at major institutions, and has built and exited several technology ventures.
 
 His teaching focuses on what he calls *productive struggle* — the belief that real learning happens when authentic cognitive challenge meets the right tools.
 
+- **FAU Faculty Profile:** [business.fau.edu](https://business.fau.edu/faculty-research/faculty-profiles/profile/leee.php)
 - **Blog and writing:** [drleee.io](https://drleee.io)
 - **Company:** [drleee.ai](https://drleee.ai)
 
