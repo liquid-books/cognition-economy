@@ -5,93 +5,93 @@
 
 ---
 
-**1.** A manufacturing firm installs AI tools across its departments. Within six months, every employee is using AI to draft emails, summarize reports, and generate presentations faster. Productivity is up 35%. Leadership declares the AI initiative a success and moves on. Which strategic error does this scenario most clearly illustrate?
+**1.** Which of the following best describes the core business model insight of the Industrial Revolution?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The firm invested in AI before its workforce had sufficient technical training  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The firm confused adoption — adding a tool to an existing structure — with reorganization, which would redesign the structure around what the tool makes possible  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The firm failed to measure ROI before scaling the initiative  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The firm allowed employees to use AI unsupervised, creating governance risk  
-
----
-
-**2.** The Industrial Revolution's lasting competitive advantage came not from which firms owned steam engines first, but from which firms asked a fundamentally different question about what steam engines made possible. What is the parallel strategic implication for organizations navigating the AI era?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Early AI adopters will retain their lead because first-mover advantages in technology are durable  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The advantage will go to organizations that secure exclusive access to the most powerful AI models  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Since AI tools are nearly universally accessible, the durable advantage belongs to organizations that redesign their operations around AI — not merely those that use it  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Organizations should delay adoption until AI tools mature and stabilize, to avoid premature investment  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Machines replaced human workers, permanently reducing the size of the labor force.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Mechanical force became a rentable commodity, separating physical output from human labor.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Factory owners gained advantage primarily by hiring more technically skilled engineers.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Steam power made it possible to produce higher-quality goods than handcraft methods could achieve.  
 
 ---
 
-**3.** The progression from pre-industrial to industrial to digital to AI eras can be characterized as a series of shifting bottlenecks. In each era, when one constraint is lifted, a new constraint emerges. What does this pattern predict will be the *primary* competitive bottleneck in the AI era?
+**2.** The Builder's Question, as introduced in Module 0.3, asks:
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. Access to large volumes of training data and proprietary datasets  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The speed of AI model inference and computational infrastructure  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The ability to attract and retain software engineers who can build AI systems  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Disciplined strategic clarity about what question the organization is actually trying to answer  
-
----
-
-**4.** Two operations managers at competing firms receive identical AI tool access on the same day. Manager A uses it immediately to improve personal productivity — faster emails, quicker summaries, on-demand analysis. Manager B spends the first week mapping workflows to identify where cognitive processing (rather than judgment) is occurring. By year-end, Manager B's team handles twice the volume with fewer headcount, while Manager A's team is 30% more efficient. What best explains the performance gap?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Manager B's team had simpler workflows that were more amenable to automation  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Manager A lacked sufficient technical skill to use the tool at full capacity  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Manager B asked an architecture question — how to redesign work structurally — while Manager A asked only a productivity question  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Manager B's firm had a larger budget for AI infrastructure, enabling deeper integration  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Which AI tools are most cost-effective for a given industry vertical?  
+&nbsp;&nbsp;&nbsp;&nbsp;B. How can AI help us do what we already do, but faster?  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Can we redesign work so that AI makes it structurally better — not just faster?  
+&nbsp;&nbsp;&nbsp;&nbsp;D. What is the minimum viable AI adoption threshold to remain competitive by 2028?  
 
 ---
 
-**5.** A knowledge worker uses AI by typing specific factual questions and pasting the answers into presentations. A colleague in the same role instead begins each project by drafting a context document — the client situation, the key questions the project must answer, the assumptions currently in play — and uses it as the basis for every AI conversation, asking the AI to challenge hypotheses and surface blind spots. Which principle best explains why the second approach produces structurally better outputs?
+**3.** In the two-mill-owners analogy, Thomas increases production by 40% after purchasing power looms, while George ultimately produces twelve times Thomas's output. What explains the difference?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The second worker is using a more capable AI model that produces higher-quality reasoning  
-&nbsp;&nbsp;&nbsp;&nbsp;B. AI produces better outputs when used for retrieval; complex reasoning should be reserved for human analysts  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The quality gap reflects what each person brings to the interaction — the AI responds to disciplined, context-rich input with dramatically better reasoning than it does to isolated queries  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The second approach works because repeated use of the same AI builds a persistent model of the user's preferences over time  
-
----
-
-**6.** The claim that "saying 'we use AI' is the 2025 version of saying 'we have electricity'" is analytically grounded in a specific historical pattern. What is the underlying argument?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. AI, like electricity, will eventually become free, eliminating cost as a barrier to adoption  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Technologies that begin as competitive differentiators inevitably become infrastructure — table stakes — once access becomes universal; advantage then shifts to how an organization redesigns around the technology  
-&nbsp;&nbsp;&nbsp;&nbsp;C. AI, like early electrical systems, is too unreliable for mission-critical business processes  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The comparison warns that AI will require centralized regulation, just as electrical grids required government oversight  
+&nbsp;&nbsp;&nbsp;&nbsp;A. George purchased more machines and could therefore achieve greater economies of scale.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. George retained skilled weavers to oversee quality, while Thomas replaced them too quickly.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Thomas added machines to his existing structure; George redesigned his entire operation around the new leverage.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Thomas's older floor plan was physically incompatible with the full power loom configuration.  
 
 ---
 
-**7.** An organization implements a five-step workflow redesign: identify the cognitive bottleneck, separate judgment from processing, route processing to AI, elevate the human role to judgment-intensive work, and systematically document the resulting system. The fifth step — building a compounding asset — is identified as the source of *durable* competitive advantage. Why does documentation of a redesigned AI workflow create an advantage that competitors cannot easily replicate?
+**4.** A regional insurance company currently employs twelve analysts to read incoming claims narratives, flag anomalies, and route them to the appropriate adjusters. After deploying an AI system, management instructs the analysts to use it to summarize each narrative before routing — saving about two hours per analyst per day. Six months later, a competitor has redesigned the same workflow so that the AI performs the triage and routing automatically; analysts now review only the flagged edge cases. Which concept from Chapter 0 best explains the strategic gap between these two organizations?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. Documented workflows qualify for intellectual property protection, creating a legal moat  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Documentation reduces the need to retrain employees, lowering operational costs over time  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The institutional knowledge embedded in a refined, documented system accumulates over time and cannot be copied simply by acquiring the same tools  
-&nbsp;&nbsp;&nbsp;&nbsp;D. AI models perform significantly better when given documented process inputs rather than conversational prompts  
-
----
-
-**8.** The Industrial Revolution is characterized not primarily as a labor-displacement event but as a business model reset triggered by a shift in which resource became scarce. Applying this analytical frame to the AI era: what resource has shifted from scarce to abundant, and what resource has therefore become newly scarce?
-
-&nbsp;&nbsp;&nbsp;&nbsp;A. Data has shifted from scarce to abundant; computational power is now the scarce resource  
-&nbsp;&nbsp;&nbsp;&nbsp;B. Raw cognitive processing — reading, summarizing, classifying, drafting — has shifted from scarce to abundant; disciplined strategic thinking about direction is now the scarce resource  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Human labor has shifted from scarce to abundant due to automation; technical expertise is now scarce  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Information access has shifted from scarce to abundant; the ability to generate new information is now scarce  
+&nbsp;&nbsp;&nbsp;&nbsp;A. The commoditization of mechanical force  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The distinction between adoption and redesign  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The judgment vs. processing distinction, applied only at the individual level  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The compounding asset concept, because the competitor has more data  
 
 ---
 
-**9.** A hospital's clinical documentation team spends 70% of its time reading physician notes, extracting structured data, and drafting insurance pre-authorization letters — with senior clinicians spending the remaining 30% on actual coverage decisions. Applying the redesign framework's distinction between *judgment* and *processing*, what is the correct analysis?
+**5.** Which of the following best describes what "renting cognition" means in practical terms?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. The entire workflow should be automated, since insurance pre-authorization follows standardized rules  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The reading, extraction, and drafting activities are cognitive processing that can be routed to AI, preserving senior clinician time for the coverage decisions that require medical judgment and accountability  
-&nbsp;&nbsp;&nbsp;&nbsp;C. The workflow cannot be redesigned because healthcare data is regulated, making AI integration legally prohibited  
-&nbsp;&nbsp;&nbsp;&nbsp;D. Senior clinicians should use AI to accelerate coverage decisions, since judgment tasks benefit most from AI speed  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Hiring contract knowledge workers on a per-project basis instead of maintaining a full-time staff.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Licensing proprietary AI models from large technology companies for internal deployment.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Accessing reasoning, summarization, drafting, and classification capabilities on demand — much as one accesses electrical power — rather than staffing those functions with humans.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Outsourcing strategic planning to AI systems that can evaluate large datasets without human oversight.  
 
 ---
 
-**10.** Module 0 advances a unified argument across its three sections by applying a single analytical pattern at increasing levels of strategic depth. Which of the following most accurately synthesizes the complete argument?
+**6.** The chapter identifies a new bottleneck that emerges once cognitive processing is no longer scarce. What is it?
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. AI tools are improving rapidly and organizations should monitor developments before making significant investments  
-&nbsp;&nbsp;&nbsp;&nbsp;B. The AI Revolution will primarily affect white-collar workers, paralleling how the Industrial Revolution primarily affected manual laborers  
-&nbsp;&nbsp;&nbsp;&nbsp;C. Every major economic revolution follows the same pattern — a new kind of leverage becomes rentable, the scarce resource shifts, and the winners are those who redesign their operations around the new leverage rather than merely adopting it; in the current era, cognition is that leverage  
-&nbsp;&nbsp;&nbsp;&nbsp;D. The competitive advantage from AI lies in acquiring proprietary models and datasets before they become widely available  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Access to large language models and the APIs needed to integrate them into existing systems.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The availability of high-quality training data for fine-tuning models to specific industries.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Disciplined thinking about direction — knowing what question to actually pursue.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Regulatory compliance, since AI-generated outputs must be audited before use.  
+
+---
+
+**7.** A consultant named Carlos uses AI daily, asking it factual questions and pasting answers into client decks. His colleague Priya builds a detailed context file before each engagement — capturing the client's situation, key questions, and political dynamics — then asks the AI to challenge her working hypothesis and identify what she may be missing. The chapter uses this contrast to illustrate which distinction?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. The difference between consumer AI tools and enterprise-grade AI platforms.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The difference between using AI as a search engine versus as a reasoning partner — i.e., between a query and disciplined input.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The difference between analysts who trust AI output and those who verify it through primary research.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The difference between prompt engineering skill levels, which determines the value ceiling of any AI interaction.  
+
+---
+
+**8.** Which of the following correctly distinguishes *judgment* from *cognitive processing* as those terms are used in Chapter 0?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. Judgment refers to decisions made by senior leadership; cognitive processing refers to decisions made by individual contributors.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Judgment involves AI-assisted synthesis; cognitive processing refers to unassisted human analysis.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Cognitive processing includes tasks like reading, summarizing, classifying, and drafting; judgment involves experience, values, relationships, and accountability — things that cannot be automated away.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Cognitive processing is a subset of judgment; every cognitive task ultimately requires a human decision point before it has organizational value.  
+
+---
+
+**9.** A mid-size law firm announces in its annual report: *"We have fully integrated AI into our practice. Every attorney now has access to an AI assistant."* Based on the argument in Chapter 0, how should a strategist interpret this statement?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. The firm has achieved a durable competitive advantage, since early adopters in professional services typically hold their lead for five or more years.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The firm has completed the harder part of AI transformation — cultural acceptance — and the workflow redesign will follow naturally.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The statement describes adoption, not redesign; it is roughly equivalent to announcing "our attorneys all have electricity," and offers little strategic signal.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The firm is well-positioned as long as it monitors AI output quality and maintains human review at every step.  
+
+---
+
+**10.** The chapter describes a "compounding asset" that organizations build when they move from adoption to redesign. Which of the following best describes what that asset is?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. A proprietary AI model trained on the organization's internal data, which becomes more accurate over time.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. A growing library of prompts and templates that attorneys, analysts, or operators can share across teams.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Documented workflows, refined systems, and accumulated institutional knowledge baked into the process — which competitors cannot quickly copy because the learning takes time to accumulate.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Network effects generated when more users interact with the same AI system, improving its outputs for all users simultaneously.  
 
 ---
 
@@ -99,13 +99,13 @@
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
-| 1 | B | The chapter defines the core strategic error as confusing adoption (adding AI to an existing structure for a lift) with reorganization (redesigning the structure itself around what AI makes possible) — illustrated directly by the contrast between Thomas and George. |
-| 2 | C | Since AI tools are available to anyone for roughly $20/month, access is not a moat; durable advantage belongs to organizations that ask the Builder's Question and redesign operations, mirroring the pattern of mill owners who reorganized vs. those who merely purchased machines. |
-| 3 | D | The chapter's bottleneck-shift table shows each era removes one constraint and reveals the next; in the AI era, cognitive processing is no longer the bottleneck — the new scarce resource is disciplined strategic clarity about what question to pursue. |
-| 4 | C | The chapter frames this as the difference between the adoption question ("can AI help us do this faster?") and the Builder's Question ("can we design work that produces structurally better outcomes because AI is in the loop?") — an architecture question, not a productivity question. |
-| 5 | C | The chapter's contrast between the fact-querying consultant and the context-providing consultant establishes that output quality is not a function of the model but of what the user brings; disciplined, context-rich input — described as a "flashlight" — produces dramatically better reasoning than isolated queries. |
-| 6 | B | The electricity analogy illustrates that technologies transition from differentiator to infrastructure as access universalizes; the chapter argues AI adoption will follow this arc from competitive edge to table stake within years, not decades, making reorganization — not adoption — the strategic lever. |
-| 7 | C | Step 5 of the redesign framework identifies the compounding asset as institutional knowledge embedded in the system through refinement over time — something that cannot be replicated simply by acquiring the same tools, because the accumulated learning takes time to build. |
-| 8 | B | The chapter's explicit parallel: just as the Industrial Revolution made mechanical force abundant (shifting scarcity to logistics and capital), the AI Revolution makes cognitive processing abundant, shifting scarcity to disciplined thinking about direction — what the cognitive horsepower should be pointed at. |
-| 9 | B | The framework defines processing as reading, summarizing, classifying, and drafting — all of which describe the 70% of the team's work — and judgment as tasks requiring experience, values, relationships, and accountability, which describes coverage decisions; routing processing to AI elevates humans to judgment work. |
-| 10 | C | This synthesizes all three modules: the recurring pattern (leverage becomes rentable → scarcity shifts → winners redesign), the specific instantiation (cognition as the current leverage), and the strategic implication (redesign, not adoption, produces durable advantage in the cognition economy). |
+| 1 | B | The chapter's core framing: the Industrial Revolution made mechanical force *rentable*, separating physical output from human labor — not merely displacing workers or improving quality. |
+| 2 | C | The Builder's Question is explicitly defined in Module 0.3 as asking whether work can be *structurally redesigned* around AI — not just accelerated. Option B describes the adoption question, not the Builder's Question. |
+| 3 | C | The chapter is explicit: Thomas added machines to his existing structure and got a 40% lift; George "redesigned his entire operation around the new leverage" and ultimately produced twelve times Thomas's output. |
+| 4 | B | The first organization is adopting AI as a productivity tool within an unchanged process; the competitor has redesigned the workflow so AI is a structural step. This is the adoption-vs-redesign distinction from Module 0.3. |
+| 5 | C | "Renting cognition" means accessing reasoning and cognitive work on demand — like a utility — rather than staffing those functions. It is not about contract labor (A), licensing fees (B), or autonomous strategic AI (D). |
+| 6 | C | The chapter's bottleneck table explicitly states that in the AI era, the bottleneck shifts to "disciplined thinking about direction." Access, data, and regulation are distractors not featured in this framing. |
+| 7 | B | The Carlos/Priya contrast illustrates using AI as a search engine (a query) versus using it as a reasoning partner with disciplined contextual input — the chapter's central applied distinction in Module 0.2. |
+| 8 | C | The chapter explicitly lists what processing is (reading, summarizing, classifying, drafting) and what judgment is (experience, values, relationships, accountability) — and notes that judgment is *more* valuable as processing becomes cheap. |
+| 9 | C | The chapter states directly: *"'We use AI' is the 2025 version of 'we have electricity.'"* Adoption of the tool is now approaching table-stake status; the strategic question is redesign, not access. |
+| 10 | C | The chapter describes the compounding asset as documented systems, refined workflows, and institutional knowledge embedded in the process — which accumulates over time and is hard to replicate quickly. Options A and D describe AI model improvements, not organizational learning assets. |
