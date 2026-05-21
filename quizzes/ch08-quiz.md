@@ -1,137 +1,111 @@
 # Chapter 8 Quiz: Plugins — Extending Your Workshop
+*Florida Atlantic University — Graduate Course Assessment*
 
-**Instructions:** Choose the best answer for each question.
-
----
-
-## Question 1
-
-What is the key difference between a plugin and an MCP (Model Context Protocol) connection?
-
-A. Plugins are more powerful and customizable than MCP connections  
-B. Plugins install with a single click and are cloud-based; MCP connections require configuration and run locally  
-C. MCP connections are maintained by tool providers; plugins require developer setup  
-D. Plugins only work with Gemini, while MCP connections only work with Claude  
+**Instructions:** Select the best answer for each question.
 
 ---
 
-## Question 2
+**1.** A business analyst already has MCP connections to her cloud database and a custom system prompt configured for her data workflows. A colleague suggests she replace those with equivalent marketplace plugins for simplicity. Evaluate this recommendation.
 
-How does a plugin differ from a skill in the AI workshop context?
-
-A. Skills are faster to install; plugins require more setup  
-B. A skill tells your AI *how to behave* for a task; a plugin tells your AI *where to get information or what to do* in the real world  
-C. Plugins shape the thinking process; skills extend the reach of your AI  
-D. Skills and plugins are different names for the same concept  
+&nbsp;&nbsp;&nbsp;&nbsp;A. The colleague is correct — plugins are objectively superior because they require less ongoing maintenance.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The recommendation misunderstands the tradeoff: plugins maximize convenience but sacrifice the configurability and local-machine access that MCP provides; the analyst should keep MCP where control matters.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Both approaches are equivalent — the choice is purely aesthetic and has no workflow implications.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. MCP connections are always preferable because cloud-based plugins introduce unacceptable security risk for any business use.  
 
 ---
 
-## Question 3
+**2.** A sales team has a detailed skill that structures how the AI drafts client proposals — tone, sections, and formatting. A manager argues this is sufficient and no plugin is needed. A senior analyst disagrees. What is the analytical basis for the analyst's disagreement?
 
-According to Chapter 8, what is the recommended starting point for identifying which plugins you actually need?
-
-A. Install the most popular plugins in the marketplace first  
-B. Ask your AI tool to recommend plugins based on your job title  
-C. Start with friction — identify tasks you do outside your AI conversation that you wish you could do inside it  
-D. Read plugin reviews and install the highest-rated ones  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Skills are always less reliable than plugins and should be replaced whenever possible.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Skills define how the AI thinks and behaves; they cannot supply live client data from the CRM. Without a plugin, the AI is drafting proposals based on described context rather than actual account records.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Plugins make skills redundant once installed, so the skill should be retired.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The analyst is wrong — a well-written skill can substitute for any external data connection.  
 
 ---
 
-## Question 4
+**3.** A department head is evaluating the plugin marketplace and finds herself drawn to installing integrations for tools her team uses occasionally, tools that look impressive, and tools recommended by peers in other industries. Apply the chapter's discovery framework: which of these impulses is most likely to produce a useful plugin library?
 
-Which of the following is listed as one of the five highest-friction integration categories for most business professionals?
-
-A. Gaming and entertainment  
-B. Real-time information (e.g., current news, live stock prices)  
-C. Personal social media management  
-D. File compression and storage  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Tools recommended by peers, because social proof indicates broad utility.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Tools that look impressive, because capability breadth signals long-term value.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. None of them — the correct starting point is identifying personal friction: the specific tasks currently performed outside the AI conversation that interrupt thinking and require tab-switching or manual data transfer.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Tools used occasionally, because infrequent tasks have the highest ROI when automated.  
 
 ---
 
-## Question 5
+**4.** During plugin installation, an AI integration requests access to a user's contacts, calendar, file system, and billing records — even though the plugin's stated function is to search a knowledge base. How should a professional evaluate and respond to this permission request?
 
-What is the recommended way to verify that a plugin is working after installation?
-
-A. Restart your computer and open a new conversation  
-B. Read the plugin's documentation to confirm the setup  
-C. Ask your AI a general question and see if anything changes  
-D. Immediately ask a question that specifically requires the plugin's connected data  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Grant all permissions immediately; restricting them may cause the plugin to malfunction.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Decline all permissions and test whether the plugin works anyway.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Treat permission scope as a governance decision: grant only what is functionally necessary for the intended capability and decline anything that represents overreach — applying the same judgment used for any enterprise application.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Consult the IT department before granting any permissions, as plugin authentication is always a security vulnerability.  
 
 ---
 
-## Question 6
+**5.** A consultant installed 22 plugins over three months and reports that her AI workflow feels cluttered and harder to reason with, even though she uses only four of the integrations regularly. Synthesize a principle from the chapter that explains this outcome and prescribes a remedy.
 
-The chapter warns that plugins may request more permissions than they strictly need. What is the recommended approach?
-
-A. Always grant all requested permissions to ensure the plugin works correctly  
-B. Deny all permissions and see if the plugin still functions  
-C. Read the permissions list and grant what is genuinely needed; decline anything that feels like overreach  
-D. Uninstall any plugin that requests more than three permissions  
+&nbsp;&nbsp;&nbsp;&nbsp;A. The AI model degrades in quality when too many plugins are active simultaneously; the solution is to upgrade to a higher-tier plan.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Restraint is itself a discipline: plugins installed without a specific articulated use case add cognitive overhead without adding value. The remedy is to audit the library and remove anything without a clear, regularly-used purpose.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The problem is platform-specific and can be resolved by switching to a competing AI tool.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Twenty-two plugins is within normal range; the consultant should install additional plugins to fill remaining capability gaps before evaluating performance.  
 
 ---
 
-## Question 7
+**6.** An operations manager cannot find a marketplace plugin for the proprietary inventory system her firm uses. Her first instinct is to accept the gap and work around it manually. Evaluate this response against the chapter's framework for build-vs-install decisions.
 
-What is the primary tradeoff between using plugins versus MCP connections?
-
-A. Cost — plugins are free; MCP connections require a paid plan  
-B. Speed — MCP connections respond faster than plugins  
-C. Control vs. convenience — MCP offers maximum flexibility; plugins offer maximum convenience  
-D. Security — MCP connections are more secure than cloud-based plugins  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Her instinct is correct — custom development is only appropriate for engineering teams, not business professionals.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. The gap represents a build opportunity: a plugin is fundamentally a defined input-output specification connecting the AI to a data source, and the four-step build process — beginning with a plain-English capability definition — is accessible to non-developers when the AI assists with the specification.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The correct response is to switch to an inventory system that has marketplace plugin support.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Manually working around the gap is always preferable to building a custom integration, which introduces unacceptable maintenance risk.  
 
 ---
 
-## Question 8
+**7.** In the four-step process for building a custom plugin, Step 1 requires defining the capability in plain English before any technical work begins. What is the underlying reasoning for sequencing the process this way?
 
-In the four-step process for building a custom plugin, what is the correct first step?
-
-A. Write the plugin code using Python or JavaScript  
-B. Paste the API documentation into Claude and ask it to generate code  
-C. Define the capability in plain English — what the plugin does, its input, and its expected output  
-D. Search the marketplace to confirm the plugin does not already exist  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Plain-English documentation is a compliance requirement for enterprise AI governance.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Starting with a clear articulation of what the plugin does, what it takes as input, and what it produces as output forces the builder to validate their own mental model — vague specs produce broken tools, and ambiguity discovered early is cheaper than ambiguity discovered in production.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The sequence is arbitrary; technical specification and plain-English definition can be done in any order without affecting outcomes.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Plain-English definitions are the format required by all plugin APIs and cannot be skipped for technical reasons.  
 
 ---
 
-## Question 9
+**8.** Two organizations operate at different levels of AI maturity. Firm A uses only marketplace plugins. Firm B has built several custom plugins tailored to its proprietary workflows, with AI assistance at each step. What does this distinction signal about organizational capability, and what is its strategic implication?
 
-Why does the author recommend installing only plugins you have a specific, articulated use case for?
-
-A. Unused plugins slow down your AI's response time  
-B. Each plugin has a monthly fee that adds up quickly  
-C. Too many installed plugins can confuse the AI about which one to use  
-D. A plugin you install and ignore adds cognitive overhead without adding value  
+&nbsp;&nbsp;&nbsp;&nbsp;A. Firm B is taking on unnecessary risk; marketplace plugins are always more reliable than custom-built integrations.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Firm A is more agile because it avoids the maintenance burden of custom tools.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. Firm B has crossed from tool-user to tool-maker — it can create integrations that competitors using only marketplace solutions cannot replicate, because the capabilities are built around proprietary processes rather than generic use cases.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The distinction has no strategic implication; both firms have equivalent AI capability once they have covered the same functional categories.  
 
 ---
 
-## Question 10
+**9.** A team must choose between a cloud-based plugin and a locally-configured MCP connection for a workflow that handles sensitive client financial records. What framework should guide this architectural decision?
 
-The chapter's applied exercise asks readers to install three plugins in one week. Which combination correctly describes those three?
+&nbsp;&nbsp;&nbsp;&nbsp;A. Always choose the option with faster installation time to accelerate adoption.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. Always choose MCP because local connections are inherently superior to cloud integrations.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The decision should be governed by the control-vs-convenience tradeoff in the context of data sensitivity: where data governance, auditability, and configuration precision matter most, MCP's local-machine architecture justifies the additional setup cost over the convenience of a cloud-based plugin.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. Cloud-based plugins offer equivalent security to local MCP connections and should always be preferred for ease of maintenance.  
 
-A. A search plugin, a productivity plugin, and a social media plugin  
-B. A web search plugin, a plugin for your most-used business tool, and a custom plugin you build yourself  
-C. A CRM plugin, a calendar plugin, and a communication plugin  
-D. One plugin each for Claude, Gemini, and ChatGPT  
+---
+
+**10.** A professional builds a workflow that combines a skill defining how the AI structures weekly client reports with a plugin that pulls live project status from the team's project management system. Compared to using either a skill or a plugin alone, what does this combination uniquely accomplish?
+
+&nbsp;&nbsp;&nbsp;&nbsp;A. It reduces the number of prompts required but does not change the quality or accuracy of outputs.  
+&nbsp;&nbsp;&nbsp;&nbsp;B. It eliminates the need for any human review before reports are sent to clients.  
+&nbsp;&nbsp;&nbsp;&nbsp;C. The skill governs process and format while the plugin supplies current reality — together they produce outputs that are both consistently structured and grounded in live data, something neither a standalone skill nor a standalone plugin can deliver.  
+&nbsp;&nbsp;&nbsp;&nbsp;D. The combination is redundant; a sufficiently detailed skill can substitute for any plugin by providing the AI with enough background context.  
 
 ---
 
 ## Answer Key
 
-1. **B** — Plugins install with a single click and are cloud-based integrations maintained by tool providers, while MCP connections require configuration and connect to your local machine.
-
-2. **B** — The chapter explicitly states: "A skill shapes the thinking. A plugin extends the reach." Skills define how the AI behaves; plugins connect it to real-world information and actions.
-
-3. **C** — The chapter's core discovery method is to "start with friction" — identifying where you switch tabs, copy-paste, or manually fetch information during your workday.
-
-4. **B** — Real-time information is listed as one of the five primary high-friction categories, because AI training data has a cutoff date and a search plugin eliminates that limitation.
-
-5. **D** — After installing a plugin, the chapter advises testing with a question that specifically requires the connected data — not a general question — so you know immediately if something went wrong.
-
-6. **C** — The chapter advises reading the permissions list carefully and granting only what the plugin genuinely needs for the capabilities you want, declining anything that feels like overreach.
-
-7. **C** — "The tradeoff is control. MCP gives you maximum flexibility... Plugins give you maximum convenience." Both have a place in the workshop.
-
-8. **C** — Step 1 is to define the capability in plain English: what the plugin does, what it takes as input, and what it produces as output — before touching anything technical.
-
-9. **D** — The chapter states: "A plugin you install and ignore is not a neutral addition — it adds to the cognitive overhead of your setup without adding value."
-
-10. **B** — The three-plugin exercise calls for: (1) a web search plugin for real-time information, (2) a plugin for your most-used business tool, and (3) a custom plugin you build yourself using the four-step process.
+| Q | Answer | Rationale |
+|---|--------|-----------|
+| 1 | B | MCP and plugins serve different purposes: MCP offers maximum flexibility and local-machine access at the cost of configuration; plugins offer maximum convenience at the cost of control. Replacing MCP with plugins is appropriate only when convenience outweighs the need for configurability — not as a blanket improvement. |
+| 2 | B | Skills shape how the AI thinks and behaves; they cannot supply live external data. A plugin is the layer that makes actual account records available in the conversation. The most powerful workflows use both — a skill that defines the process, and a plugin that provides the live data that process runs on. |
+| 3 | C | The discovery framework begins with friction: the specific tasks currently performed outside the AI conversation — tab-switching, copy-pasting, manually fetching data. Social proof, impressiveness, and occasional utility are all inferior starting points because they prioritize external signals over personal workflow reality. |
+| 4 | C | Permission scope is a governance decision, not a formality. Plugin authentication requires the same judgment applied to any enterprise application: grant what is functionally necessary, decline overreach. Permissions for capabilities unrelated to the plugin's stated function are a red flag warranting scrutiny. |
+| 5 | B | A plugin installed without a specific use case "adds to the cognitive overhead of your setup without adding value." Restraint — articulating a specific use case before installation — is the prescribed discipline. A cluttered plugin library is the predictable outcome of violating this principle. |
+| 6 | B | The chapter frames building a custom plugin as accessible to non-developers when approached correctly: define the capability in plain English, use the AI to write the specification, test on real inputs, document clearly. A marketplace gap is not a dead end — it is a build signal for workflows too specific or proprietary to attract third-party plugin development. |
+| 7 | B | Plain-English definition is a forcing function for clarity. The build process begins here precisely because ambiguity in the specification produces unusable outputs. Discovering gaps in the mental model at Step 1 costs nothing; discovering them after a full specification has been generated is more expensive to resolve. |
+| 8 | C | Building custom plugins signals a transition from tool-user to tool-maker — an organizational capability that cannot be replicated by competitors limited to generic marketplace solutions. Custom integrations encode proprietary processes directly into the AI workflow, creating durable operational advantages tied to the firm's specific data and practices. |
+| 9 | C | The control-vs-convenience tradeoff is the central architectural framework for this decision. When data sensitivity, auditability, and configuration precision are primary concerns, MCP's local-machine architecture is the appropriate choice despite its higher setup cost. Cloud-based plugins are not inherently insecure, but they offer less control over data routing and configuration — a meaningful distinction for sensitive financial workflows. |
+| 10 | C | A skill without a plugin operates on described or static context. A plugin without a skill delivers raw data without structured process. Their combination produces outputs that are simultaneously well-structured and grounded in current reality — the defining characteristic of a mature, connected AI workflow that neither component achieves independently. |
