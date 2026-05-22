@@ -33,6 +33,20 @@ Every module ends with a real exercise. Not a quiz — something you actually *d
 
 ---
 
+:::{admonition} ⚡ Before You Start: Run the Quickstart
+:class: important
+
+This book teaches you to **build with AI**, not just chat with it. Every chapter assumes you have **Claude Code** open and a working setup. Twenty minutes of setup now will save you hours of confusion later.
+
+**→ Go here first: [code.claude.com/docs/en/quickstart](https://code.claude.com/docs/en/quickstart)**
+
+Run through the official Claude Code quickstart in order. Do the install. Do the first conversation. Do the first edit. Do the first agent. By the time you reach Chapter 2 of this book, you should have already built something — anything — with the tool. The book moves faster when the tool is already in your hands.
+
+If you only have time for one thing before you start reading: do the Quickstart. The rest of the book is downhill from there.
+:::
+
+---
+
 ## What This Book Is About
 
 For the past century, competitive advantage meant one thing: **information asymmetry**. If you knew something the market didn't, you could charge for the gap. That moat held for generations.
