@@ -6,22 +6,22 @@
 
 ## Question 1
 
-According to Chapter 2, what is the central difference between Claude.ai chat and Claude Code?
+According to Chapter 2, what is the relationship between the three tools introduced — Claude Desktop, Gemini, and Google AI Studio?
 
-- A) Claude.ai chat is free; Claude Code requires a paid subscription regardless of plan
-- B) Claude.ai chat only handles text; Claude Code only handles images and video
-- C) Claude.ai chat is a conversation loop where it responds; Claude Code is agentic — it reads files, writes files, runs commands, and produces real deliverables
-- D) Claude Code is a stripped-down version of Claude.ai chat with fewer features
-- E) Claude.ai chat is for businesses; Claude Code is for individual consumer use
+- A) They are tightly integrated into a single connected system that shares memory across tools
+- B) They are three independent products from three different companies — they do not share data, do not talk to each other, and are chosen between based on what you are trying to do
+- C) Gemini and AI Studio are the same product accessed through different interfaces
+- D) Claude Desktop is the master tool, and the other two are plug-ins for it
+- E) All three are made by Google and run on the same underlying model
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ Pricing is not the distinction the chapter draws. The chapter focuses on the behavioral difference between the two products, not the billing model.
-- B) ❌ This is fabricated. The chapter does not describe a media split between the two products.
-- ⭐ C) ✅ The chapter states: "Claude Code is different. Claude Code is an agentic environment. When you ask it for something, it does not just respond — it *acts*. It reads files on your computer. It writes new files. It runs commands. It searches the web. It produces deliverables, not just answers."
-- D) ❌ The chapter argues the opposite — Claude Code is more capable than Claude.ai chat, not less, because it can take action on your computer.
-- E) ❌ The chapter does not segment the two products by user type; both are available to individuals and businesses.
+- A) ❌ The chapter is explicit: "they do not share data. They do not talk to each other."
+- ⭐ B) ✅ The chapter states: "these three tools are completely independent of each other. They do not share data. They do not talk to each other. They are three separate products from three different companies — and you choose between them based on what you are trying to do, not use them as a connected system."
+- C) ❌ The chapter is explicit that Gemini (consumer product) and AI Studio (developer/sandbox) are "entirely different product[s]."
+- D) ❌ Claude Desktop is described as "a standalone thinking partner" — not a master tool.
+- E) ❌ Claude is made by Anthropic. Only Gemini and AI Studio are Google products.
 
 </details>
 
@@ -29,22 +29,22 @@ According to Chapter 2, what is the central difference between Claude.ai chat an
 
 ## Question 2
 
-Which TWO statements correctly describe the Agent Manager surface of the Antigravity 2.0 IDE?
+According to the chapter, the *primary* reason to prefer Claude Desktop over the Claude browser version is:
 
-- A) The Agent Manager is the developer-focused code editor inside Antigravity
-- B) The Agent Manager is described by the chapter as "the entire product" for business users' purposes
-- C) You switch to the Agent Manager by pressing CMD+E on a Mac or CTRL+E on Windows
-- D) The Agent Manager requires fluency in at least one programming language to use
-- E) The Agent Manager is a separate paid add-on that must be purchased after installing the IDE
+- A) Claude Desktop runs a more powerful model than the browser
+- B) Persistence — the desktop app lets you set a system prompt that loads automatically before every conversation; the browser version does not preserve this across sessions
+- C) Claude Desktop is free while the browser version is paid
+- D) Claude Desktop has direct access to your Gmail and Drive
+- E) Claude Desktop integrates directly with Gemini and AI Studio
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The chapter is explicit: "The Editor. A full code editor for engineers. You can ignore this. It is not for you." The Editor is the developer surface, not the Agent Manager.
-- ⭐ B) ✅ The chapter states: "Business users do not need to touch the Editor surface of Antigravity. Ever. The Agent Manager is the entire product for your purposes."
-- ⭐ C) ✅ The chapter states: "To switch to the Agent Manager once Antigravity is installed, press **CMD+E** on a Mac or **CTRL+E** on Windows."
-- D) ❌ The chapter calls the Agent Manager an "orchestration 'no code' view" and explicitly tells business users no technical skills are required.
-- E) ❌ The chapter states Antigravity is "free during preview" and the Agent Manager is one of the three surfaces of the same product — not a separate paid add-on.
+- A) ❌ The chapter never claims the desktop runs a more powerful model. Both connect to Claude.
+- ⭐ B) ✅ The chapter states: "The reason to prefer the desktop application over the browser version is persistence. The desktop app lets you set a system prompt — a standing set of instructions — that loads before every conversation automatically... The browser version does not preserve this across sessions."
+- C) ❌ Cost is not framed as the differentiator; the chapter mentions Claude Pro ($20/month) as the recommended tier.
+- D) ❌ The chapter says the opposite: Claude does not connect to your Gmail or Drive — Gemini does.
+- E) ❌ The chapter is explicit that the three tools do not connect to each other.
 
 </details>
 
@@ -52,22 +52,22 @@ Which TWO statements correctly describe the Agent Manager surface of the Antigra
 
 ## Question 3
 
-The chapter uses one dominant analogy to explain what a configured workshop should feel like. What is that analogy?
+The chapter explains *why* you would use Gemini rather than Claude. Which TWO statements correctly describe Gemini's role in the workshop?
 
-- A) A factory assembly line with automated robotic arms
-- B) A professional carpenter's desk where the tools live in fixed places, sharpened and ready
-- C) A modern open-floor coworking space with hot-desking
-- D) A library with books organized by the Dewey Decimal system
-- E) A modern kitchen with smart appliances connected to the cloud
+- A) Gemini is preferred when your task touches Google data — Gmail, Drive, Docs, Calendar — because it has native awareness of your Google ecosystem when you ask
+- B) Gemini's **Gems** feature lets you save a configuration with its own instructions that load automatically every time you open that Gem — eliminating the need to re-explain context for repeated tasks
+- C) Gemini is preferred over Claude for deep reasoning and nuanced writing tasks
+- D) Gemini is the master tool that orchestrates Claude and AI Studio
+- E) Gemini is faster than Claude because it runs locally on your machine
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The factory analogy belongs to Chapter 13 (reactive vs. proactive AI), not Chapter 2.
-- ⭐ B) ✅ The chapter states: "Think about a carpenter's desk. Not a home-improvement project. A working professional carpenter. The tools are not in a pile. They are not in a drawer somewhere. They are on the wall, in the order she uses them, sharpened and ready."
-- C) ❌ The chapter explicitly contrasts the workshop with cluttered, friction-filled spaces, but does not use the coworking analogy.
-- D) ❌ The library analogy is not used. The pinned project plans on the wall (system prompts) are the closest the chapter comes, but the dominant metaphor is the carpenter's desk.
-- E) ❌ The chapter does not use a smart kitchen analogy. The dominant metaphor throughout is the carpenter's professional desk.
+- ⭐ A) ✅ The chapter states: "The reason to use Gemini is... it is native to Google's ecosystem... Gemini has awareness of your Gmail, Drive, Docs, and Calendar when you explicitly ask it to use them... Claude cannot."
+- ⭐ B) ✅ The chapter states: "A Gem is a saved AI configuration that lives inside Gemini. You give it instructions — a system prompt — and every time you open that Gem, it loads those instructions automatically... You do not explain yourself from scratch every session."
+- C) ❌ The chapter explicitly says "Gemini is not a substitute for Claude when you need deep reasoning or nuanced writing." Claude is preferred for that work.
+- D) ❌ The chapter never describes Gemini as a master tool; the three are independent.
+- E) ❌ Gemini does not run locally — it runs on Google's cloud at gemini.google.com.
 
 </details>
 
@@ -75,22 +75,22 @@ The chapter uses one dominant analogy to explain what a configured workshop shou
 
 ## Question 4
 
-What is the meta-prompting technique introduced in this chapter, and why does the chapter say to use it?
+Google AI Studio is introduced as a third, distinct tool. According to the chapter, what is the primary thing you must obtain from AI Studio that the rest of the book will rely on?
 
-- A) Writing your own system prompt from scratch, then asking the AI to grade it on a 1–10 scale
-- B) Letting the AI interview you first with structured questions, then having the AI write the system prompt based on your answers
-- C) Copying another consultant's system prompt and editing it lightly to fit your role
-- D) Using a paid prompt-engineering service to draft your CLAUDE.md
-- E) Generating ten different system prompts and A/B testing each one for a month
+- A) A monthly subscription receipt
+- B) An API key — a unique code that identifies your account and lets other tools connect to Google's AI models on your behalf
+- C) A printed certificate of authentication
+- D) A new Google account separate from your personal one
+- E) Antigravity IDE access
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The chapter argues against writing your own system prompt at all. Self-grading by the AI is not part of the meta-prompting technique.
-- ⭐ B) ✅ The chapter states: "The technique that works is called **meta-prompting**. You ask the AI to interview you. The AI asks questions — about your role, your work, your preferences, your pet peeves about generic AI responses. You answer honestly. The AI takes your answers and writes the system prompt for you."
-- C) ❌ The chapter does not recommend copying other people's system prompts; it warns that doing so produces generic output that does not match your specific work.
-- D) ❌ No paid prompt-engineering service is mentioned in the chapter.
-- E) ❌ A/B testing of multiple prompts is not the technique described. The chapter recommends a single interview-driven prompt that is updated as your work changes.
+- A) ❌ A subscription receipt is not mentioned anywhere in the AI Studio setup.
+- ⭐ B) ✅ The chapter states: "AI Studio is where you get your access key — a unique code that identifies your account and lets other tools connect to Google's AI models on your behalf. Getting one costs nothing and takes two minutes."
+- C) ❌ No certificate is involved; the API key is a copyable text string stored in a password manager.
+- D) ❌ The chapter explicitly says "Same Google account" — you do not need a new one.
+- E) ❌ Antigravity is referenced only in Tracks B and C of the applied exercise, not as the AI Studio output.
 
 </details>
 
@@ -98,22 +98,22 @@ What is the meta-prompting technique introduced in this chapter, and why does th
 
 ## Question 5
 
-According to the chapter, what are the four components of a strong system prompt?
+The chapter introduces **meta-prompting** as the recommended way to create a system prompt. What does meta-prompting actually mean, and why does the chapter argue it produces better results than writing the prompt manually?
 
-- A) Goals, Resources, Constraints, Timeline
-- B) Role, Context, Rules, Format
-- C) Identity, Authority, Memory, Action
-- D) Question, Hypothesis, Method, Conclusion
-- E) Voice, Tone, Audience, Channel
+- A) You hire a professional prompt engineer to write the prompt for you
+- B) You describe yourself and your preferences to the AI, the AI interviews you with follow-up questions, and the AI then writes the system prompt — which you paste into the tool's settings
+- C) You copy a generic prompt from a public template library without modification
+- D) You record yourself describing your job and the prompt is generated from the audio transcript
+- E) You write your system prompt in Latin so the model takes it more seriously
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ This is a project-management framework, not the four-part system prompt model the chapter introduces.
-- ⭐ B) ✅ The chapter states: "A strong system prompt covers four things. You can remember them as Role, Context, Rules, Format."
-- C) ❌ This is not the chapter's framework. Identity and authority are not the named components.
-- D) ❌ This is the scientific method, not the system prompt framework.
-- E) ❌ Voice and tone are touched on under "Format," but the chapter's named four-part framework is Role, Context, Rules, Format — not Voice, Tone, Audience, Channel.
+- A) ❌ Hiring a prompt engineer is not what the chapter describes.
+- ⭐ B) ✅ The chapter states: "do not write yours yourself. Use the tool to write it. You describe yourself and your preferences — the tool generates the prompt. This is called meta-prompting and it produces dramatically better results than anything written manually." The applied exercise gives the explicit interview script.
+- C) ❌ The chapter explicitly recommends a *personalized* interview, not a copied template.
+- D) ❌ Audio transcripts are not the mechanism described.
+- E) ❌ This is a fabricated tactic not mentioned in the chapter.
 
 </details>
 
@@ -121,22 +121,22 @@ According to the chapter, what are the four components of a strong system prompt
 
 ## Question 6
 
-Which TWO statements about the relationship between Claude Code's configuration and Antigravity's configuration are correct according to Chapter 2?
+The chapter argues that a system prompt should cover four things. Which TWO of the following are explicitly listed as components of a strong system prompt?
 
-- A) The two tools share a single configuration file synchronized through your Google account
-- B) Claude Code's CLAUDE.md is a long-form professional brief; Antigravity's per-task briefings are short, scoped, and execution-focused
-- C) Copying your Claude Code CLAUDE.md unchanged into Antigravity is the most common configuration mistake
-- D) Antigravity does not support any form of agent instructions; only Claude Code can be configured
-- E) Both tools require identical configurations or they will produce conflicting outputs
+- A) Role — what job is this tool doing for you, stated specifically (e.g., "strategic advisor helping a VP of Sales at a B2B software company")
+- B) Format — length, structure, headers or not, formal or direct
+- C) Salary — what hourly rate you would pay the AI if it were a human
+- D) Geographic location — the IP address the model should appear to operate from
+- E) Encryption keys — cryptographic material the model uses to sign its outputs
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The chapter is explicit that the two configurations are independent: "They are independent. They do not share data."
-- ⭐ B) ✅ The chapter states: "Claude Code's configuration is a long-form professional brief. Antigravity's per-task instructions are short, scoped, and execution-focused."
-- ⭐ C) ✅ The chapter states: "Copying one to the other is the most common configuration mistake — and it produces output that feels generic in both places."
-- D) ❌ The chapter describes Antigravity agent tasks as receiving plain-English briefings: "Each task you delegate gets its own briefing." Antigravity is configured at the task level.
-- E) ❌ The chapter argues the opposite — that the two configurations *should differ* because the two tools do different work.
+- ⭐ A) ✅ The chapter lists Role: "What job is this tool doing for you right now? Be specific. 'You are an AI assistant' is useless. 'You are a strategic advisor helping a VP of Sales at a B2B software company preparing for board presentations and customer conversations' is useful."
+- ⭐ B) ✅ The chapter lists Format: "Length, structure, headers or not, formal or direct. The tool will follow your format preference consistently if you state it clearly." The four components are Role, Context, Rules, Format.
+- C) ❌ Salary is never mentioned as a system prompt component.
+- D) ❌ Geographic location/IP is never mentioned in the chapter's system prompt anatomy.
+- E) ❌ Encryption keys are not part of a system prompt; this is a fabricated option.
 
 </details>
 
@@ -144,22 +144,22 @@ Which TWO statements about the relationship between Claude Code's configuration 
 
 ## Question 7
 
-In the Westgate Strategy Partners case study, what did Priya Raman identify as the root cause of the firm's disappointing ninety-day AI rollout?
+The chapter argues professionals *should* give their AI a persona. According to the chapter, what is the actual definition of a "persona" in this context?
 
-- A) The two tools selected were the wrong tools for a consulting firm
-- B) The firm had not paid for premium tiers of either Claude Code or Antigravity
-- C) The firm had given consultants the tools but not the workshop — both tools were installed but neither had been configured
-- D) The firm's IT vendor had not centrally configured the tools before rollout
-- E) Consultants were spending too much time in the Agent Manager and not enough time in the Editor surface
+- A) A fictional character name with a backstory (e.g., "Aurora the Wise Witch")
+- B) A professional role and a communication style — for example: "You are a senior business analyst. You lead with the most important finding. You are direct and you do not hedge."
+- C) A visual avatar shown next to every response
+- D) A voice imitation of a famous executive
+- E) A legal disclaimer the AI must read before every response
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The case study does not blame the tool choice. Both Claude Code and Antigravity are presented as the right tools — they were simply not configured.
-- B) ❌ Pricing tiers are not raised as the cause in the case. The chapter describes Antigravity as free during preview.
-- ⭐ C) ✅ The case study states: "Raman's diagnosis was simple. The firm had given consultants the tools but not the workshop. Both Claude Code and Antigravity had been installed; neither had been configured."
-- D) ❌ This is one of the partners' objections that Raman explicitly *rejects*. The chapter argues centralized configuration "would produce the same generic output the firm was already getting."
-- E) ❌ The opposite is described in the case — most consultants were stuck in the Editor view, never having switched to the Agent Manager.
+- A) ❌ The chapter explicitly rejects this: "A persona is not a name and a backstory."
+- ⭐ B) ✅ The chapter states: "A persona is not a name and a backstory. It is a professional role and a communication style. 'You are a senior business analyst. You lead with the most important finding. You are direct and you do not hedge.' That is a persona. It tells the tool what kind of thinking to apply and how to communicate the result."
+- C) ❌ Visual avatars are not mentioned anywhere in the chapter's persona definition.
+- D) ❌ Voice imitation is not part of the persona concept.
+- E) ❌ Legal disclaimers are not what a persona means in the chapter.
 
 </details>
 
@@ -167,22 +167,22 @@ In the Westgate Strategy Partners case study, what did Priya Raman identify as t
 
 ## Question 8
 
-The chapter argues that "configuration is the whole game." What specifically does it claim separates professionals who get real AI leverage from those who do not?
+According to the chapter, what is the appropriate use of Google AI Studio in the daily workshop?
 
-- A) Access to better hardware and faster internet connections
-- B) Years of experience using AI tools in previous jobs
-- C) Whether the professional has invested the time to configure their tools so the tools know who they are and what good output looks like
-- D) Whether the professional uses paid versus free tiers of AI products
-- E) Whether the professional has a technical or engineering background
+- A) As your daily driver for all writing and analysis work
+- B) As a sandbox — for experimenting with new capabilities, testing parameters Gemini does not expose (like temperature), and accessing models before they reach the consumer product
+- C) As a real-time backup that mirrors every Claude conversation
+- D) As the primary place to draft client deliverables
+- E) As a calendar and scheduling tool
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The chapter explicitly rejects this: "It is not the speed of their hardware."
-- B) ❌ Experience is not the variable named. The chapter argues even new users with configured tools outperform experienced users with unconfigured ones.
-- ⭐ C) ✅ The chapter states: "The people who get leverage configured their tools once and never look back. Their tools know who they are. Their tools know what good output looks like... This is the difference between using AI and having a workshop. The workshop is configured."
-- D) ❌ The chapter does not make pricing tier the deciding factor. Configuration, not subscription level, is the key variable.
-- E) ❌ The chapter is written explicitly for business users with no technical background. Engineering background is not the variable.
+- A) ❌ The chapter is explicit: "AI Studio is not your daily driver for most tasks. It is a sandbox."
+- ⭐ B) ✅ The chapter states: "Use AI Studio when you are experimenting with something new, testing a capability before using it in real work, or accessing model parameters that Gemini does not expose... AI Studio is not your daily driver for most tasks. It is a sandbox."
+- C) ❌ The chapter is explicit that the tools do not share data, so this mirroring is impossible.
+- D) ❌ The chapter says daily writing work belongs in Claude or Gemini, not in the sandbox.
+- E) ❌ AI Studio is not a calendar tool.
 
 </details>
 
@@ -190,22 +190,22 @@ The chapter argues that "configuration is the whole game." What specifically doe
 
 ## Question 9
 
-Which TWO of the following best describe what an "artifact" is inside the Antigravity 2.0 IDE Agent Manager, according to the chapter?
+In the Meridian Strategy Group case study, two senior partners argued *against* using a configured system prompt — they believed an AI constrained by a system prompt was "by definition less useful than an unconstrained one." According to the chapter, what is the consultant Marcus Trent's *counter-argument*, drawing on the antigravity concept?
 
-- A) A chat-window message displayed inside the Agent Manager that disappears when the session ends
-- B) A real deliverable produced by an agent — a markdown report, a diff view, a diagram, or a browser recording — that you can review, save, share, or revise
-- C) A receipt of payment generated when an agent completes a task
-- D) Something the agent creates "to allow it to get its work done or communicate its accomplishments to the human user"
-- E) A user authentication token required to start a new agent session
+- A) Senior partners are usually right about strategic decisions and the firm should defer
+- B) A well-configured AI removes friction rather than adding it — it functions like a professional who already understands the context rather than a stranger who must be re-briefed every time; without persistent configuration, AI degrades into a novelty rather than a professional instrument
+- C) System prompts make AI run faster on the firm's hardware
+- D) System prompts are required by Anthropic's terms of service
+- E) Trent agreed with the partners and abandoned the workshop project
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The chapter is explicit that artifacts are *not* chat messages: "Artifacts are not chat messages. They are real deliverables."
-- ⭐ B) ✅ The chapter states: "Artifacts are not chat messages. They are real deliverables. Markdown reports. Diff views showing what changed in a document. Diagrams. Browser recordings. Things you can hand to your team without retyping."
-- C) ❌ Artifacts are work products, not financial receipts. The chapter never describes artifacts in billing terms.
-- ⭐ D) ✅ This is the chapter's working definition, drawn directly from Google's Antigravity documentation summarized in the chapter: artifacts are "anything that the agent creates to allow it to get its work done or communicate its accomplishments to the human user."
-- E) ❌ Authentication tokens are not artifacts. Artifacts are the agent's outputs, not credentials.
+- A) ❌ The case study explicitly describes Trent disagreeing with the partners — and being right.
+- ⭐ B) ✅ The case states: "Trent, drawing on the antigravity concept he had studied — the idea that a well-configured AI *removes friction* rather than adding it, functioning like a professional who already understands the context rather than a stranger who must be re-briefed — argued the opposite: that without persistent configuration, AI degrades into a novelty rather than a professional instrument."
+- C) ❌ Hardware speed is not part of the argument.
+- D) ❌ No vendor terms-of-service argument is made.
+- E) ❌ The case describes Trent's plan being funded for a 30-day pilot, not abandoned.
 
 </details>
 
@@ -213,22 +213,22 @@ Which TWO of the following best describe what an "artifact" is inside the Antigr
 
 ## Question 10
 
-Which TWO statements correctly capture why the chapter recommends *two* AI tools rather than one or ten?
+The Meridian Strategy Group case study identifies a *consistent pattern* in why the firm's first AI initiative produced disappointing results. Which TWO statements describe that pattern?
 
-- A) Two tools cover the two modes of professional AI work — direct conversational work (Claude Code) and delegated parallel work (Antigravity Agent Manager)
-- B) Two well-configured tools beat ten unconfigured ones because configuration depth matters more than tool count
-- C) Two tools are required by Anthropic's enterprise licensing agreement
-- D) Two tools are recommended only for users with high-performance computers; users on older machines should pick one
-- E) Two tools are mandated by Google's Antigravity preview program terms of service
+- A) Consultants treated AI as an on-demand query tool rather than a configured professional environment — opening a browser tab, describing the task minimally, getting generic output, editing heavily, and closing the tab
+- B) The AI did not know who Meridian was, did not know what "our voice" meant, and did not know that Diane expected bullet points followed by a single recommendation sentence — because nothing was persisted between sessions
+- C) The firm tried to use too many different AI models simultaneously, causing them to interfere with each other
+- D) Consultants refused to use AI at all and continued writing everything by hand
+- E) The AI replaced 80% of the consultants in the first month, causing morale to collapse
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- ⭐ A) ✅ The chapter states: "The reason these two and not others: they cover the two modes of professional AI work. Claude Code is for *direct, conversational* work... Antigravity is for *delegated, parallel* work."
-- ⭐ B) ✅ The chapter states: "Two well-configured tools beat ten unconfigured ones every time. The professionals who actually get leverage from AI are running fewer tools more deeply — not more tools more shallowly."
-- C) ❌ The chapter does not cite any licensing agreement as the reason for the two-tool recommendation. It is a design choice, not a contractual requirement.
-- D) ❌ Hardware capability is not the reason given. The recommendation applies to all users regardless of machine.
-- E) ❌ Google's preview program is not the source of the two-tool recommendation. The reasoning is pedagogical and practical, not contractual.
+- ⭐ A) ✅ The case states: "nearly every consultant was treating AI as an on-demand query tool rather than a configured professional environment. They opened a browser tab, described their task with minimal context, received a generic response, edited it heavily, and closed the tab. The next time they needed AI assistance, they started over — same tool, zero memory, no standing instructions, no persistent configuration."
+- ⭐ B) ✅ The case states: "The AI did not know who Meridian was. It did not know what 'our voice' meant. It did not know that Diane expected bullet points followed by a single recommendation sentence, not three pages of hedged analysis."
+- C) ❌ The case never says the firm used multiple models that interfered with each other.
+- D) ❌ The case is explicit that consultants *did* use AI — just inefficiently.
+- E) ❌ The case never mentions AI replacing consultants. The issue was usage quality, not headcount.
 
 </details>
 

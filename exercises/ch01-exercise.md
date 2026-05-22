@@ -1,5 +1,5 @@
-# Applied Exercise — Chapter 1: AI Basics — The Foundation Everyone Skips
-*Florida Atlantic University — Graduate Course*
+# Applied Exercise — Chapter 1: What Is a Large Language Model, Really?
+*The Cognition Economy — Dr. Ernesto Lee, 2026*
 
 ---
 
@@ -116,23 +116,5 @@ Save your context brief somewhere you can access it in one click — a pinned no
 Now that you've completed the exercise, think about your own work. Pick one real task you do regularly — something that requires reading, summarizing, comparing, or drafting — and build your own version of what you just practiced. The best learning in this book happens when you bring your actual work to the tools.
 :::
 
-
-
-:::{figure} ../images/ch01-11-prompt-anatomy.png
-:label: fig-ch01-11
-:alt: Anatomy of a great AI prompt with labeled sections
-:width: 80%
-:align: center
-
-*Prompt Anatomy* — Role, context, task, format, constraints: the five parts of a prompt that works.
-:::
-
-:::{figure} ../images/ch01-12-ai-model-selection-guide.png
-:label: fig-ch01-12
-:alt: AI model selection comparison matrix
-:width: 80%
-:align: center
-
-*Choosing Your Model* — GPT-5.5, Claude Opus 4.7, and Gemini 3.1 Pro compared across the tasks that matter to business people.
-:::
-
+---
+*Applied Exercise for Chapter 1 — The Cognition Economy © Dr. Ernesto Lee, 2026.*
