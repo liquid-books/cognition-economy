@@ -54,6 +54,7 @@ Before diving in, set up your course workspace using the guides below. These wal
 
 1. **[FAU AI Workspace Setup](https://github.com/liquid-books/cognition-economy/blob/main/exercises/FAU-AI-Workspace-Setup%20(1).md)** — Step-by-step environment setup for course participants.
 2. **[Supabase & Netlify Credentials Addendum](https://github.com/liquid-books/cognition-economy/blob/main/exercises/Addendum-Supabase-Netlify-Credentials.md)** — Credentials and configuration for the cloud services used in the labs.
+3. **[📊 Course Slide Deck](https://drive.google.com/file/d/1gXOW7jQJfdqONEaMnPAG9kOA4yB3xdzm/view?usp=sharing)** — Full slide deck for the course.
 
 Complete both before starting Chapter 1.
 :::
