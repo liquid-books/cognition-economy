@@ -138,7 +138,7 @@ project:
 
 site:
   title: The Cognition Economy
-  logo_url: /cognition-economy/
+  logo_url: /
   options:
     logo_text: The Cognition Economy
   nav:

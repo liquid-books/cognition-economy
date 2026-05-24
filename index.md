@@ -47,6 +47,19 @@ If you only have time for one thing before you start reading: do the Quickstart.
 
 ---
 
+:::{admonition} 🚀 Getting Started — Workspace Setup
+:class: tip
+
+Before diving in, set up your course workspace using the guides below. These walk you through the tools and credentials you'll need for every exercise in the book.
+
+1. **[FAU AI Workspace Setup](https://github.com/liquid-books/cognition-economy/blob/main/exercises/FAU-AI-Workspace-Setup%20(1).md)** — Step-by-step environment setup for course participants.
+2. **[Supabase & Netlify Credentials Addendum](https://github.com/liquid-books/cognition-economy/blob/main/exercises/Addendum-Supabase-Netlify-Credentials.md)** — Credentials and configuration for the cloud services used in the labs.
+
+Complete both before starting Chapter 1.
+:::
+
+---
+
 ## What This Book Is About
 
 For the past century, competitive advantage meant one thing: **information asymmetry**. If you knew something the market didn't, you could charge for the gap. That moat held for generations.
