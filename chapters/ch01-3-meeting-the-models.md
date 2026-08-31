@@ -187,3 +187,7 @@ Use **Haiku or Flash** when you need fast, lightweight processing of many small 
 :::{tip} Try This
 Go to **[arena.ai](https://arena.ai)** and run one real question through two different models at the same time. Pick any question you'd actually care about the answer to. Spend 90 seconds comparing the tone and depth of the two responses — that instinct you build is worth more than any review article.
 :::
+
+:::{seealso}
+The full Chapter 1 text extends this tour with four related sections: **model routing** (flagships that delegate to sub-model families, and when to pin a model manually), **multimodal work** (PDF, image, video, and voice inputs as daily workflows), **when a business chooses open-weight or local models**, and **restricted-access frontier tiers**. See those sections in Chapter 1 for the details and hands-on activities.
+:::

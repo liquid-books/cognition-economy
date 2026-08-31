@@ -145,3 +145,7 @@ The two minutes you spend writing a clean summary are almost always returned ten
 :::{tip} Try This
 Look at your currently open AI conversations. Find the longest one. Scroll back to the beginning and compare the quality of the early responses to the most recent ones. Is there a difference? If so — you may be looking at context rot in real time.
 :::
+
+:::{seealso}
+The full Chapter 1 text follows this section with **Hallucination and the Verification Discipline** — why models fabricate, citation checking, confidence probing, and the verify-before-forward rule, with a hands-on citation-audit activity. See that section in Chapter 1 before you forward any AI output.
+:::

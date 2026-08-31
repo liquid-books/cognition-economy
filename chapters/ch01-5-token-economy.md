@@ -153,3 +153,7 @@ Knowing this helps you calibrate: don't be so obsessed with token efficiency tha
 :::{tip} Try This
 Open **[anthropic.com/pricing](https://www.anthropic.com/pricing)** and find the current input and output token price for Claude Sonnet. Then mentally estimate the token cost of your last full AI conversation — how many messages, roughly how long each one was. The number will probably surprise you with how low it is.
 :::
+
+:::{seealso}
+The full Chapter 1 text continues past the meter with **prompt caching, structured output, and token budgeting** — the cost and reliability mechanics you meet when you move from chatting to building — including a hands-on schema-vs-freeform comparison activity. See that section in Chapter 1.
+:::
