@@ -141,12 +141,30 @@ project:
     # ─── COMPANION PAGES (perishable layer — updated each edition) ──
     - title: "Companion Pages"
       children:
+        - file: companion/setup-companion.md
+          title: "Setup Companion — The Setup Sheet"
+        - file: companion/ch00-companion.md
+          title: "Ch 0 Companion — First Session"
+        - file: companion/ch01-companion.md
+          title: "Ch 1 Companion — Model Roster and Tools"
         - file: companion/ch02-companion.md
           title: "Ch 2 Companion — Setup Sheets"
+        - file: companion/ch03-companion.md
+          title: "Ch 3 Companion — MCP Connections"
+        - file: companion/ch04-companion.md
+          title: "Ch 4 Companion — Skill Containers"
         - file: companion/ch05-companion.md
           title: "Ch 5 Companion — Six Floors Click-Paths"
         - file: companion/ch06-companion.md
           title: "Ch 6 Companion — Planning Surfaces"
+        - file: companion/ch07-companion.md
+          title: "Ch 7 Companion — Memory Files and Locations"
+        - file: companion/ch08-companion.md
+          title: "Ch 8 Companion — Plugin Marketplaces"
+        - file: companion/ch09-companion.md
+          title: "Ch 9 Companion — Sub-Agent Click-Paths"
+        - file: companion/ch10-companion.md
+          title: "Ch 10 Companion — Agent Teams Setup"
         - file: companion/ch11-companion.md
           title: "Ch 11 Companion — SDK and Surfaces"
         - file: companion/ch12-companion.md
@@ -155,6 +173,10 @@ project:
           title: "Ch 13 Companion — Automation Setup"
         - file: companion/ch14-companion.md
           title: "Ch 14 Companion — Security and ZDR"
+        - file: companion/ch15-companion.md
+          title: "Ch 15 Companion — Knowledge-Tax Lab"
+        - file: companion/ch16-companion.md
+          title: "Ch 16 Companion — Capstone Build Sheets"
 
 site:
   title: The Cognition Economy
