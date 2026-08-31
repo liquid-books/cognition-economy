@@ -20,3 +20,5 @@ tags: [ai, business, cognition-economy]
 > *This chapter is scaffolded and ready for writing. Full content will be added in a subsequent session.*
 
 *(Chapter coming soon.)*
+
+*See also: the "Fifth Option: Managed and Hosted Agents" and "Platforms Your Employer Will Actually Hand You" sections in [Chapter 11](#ch11) for hosted agents (Claude Managed Agents, Manus) and enterprise platforms (Microsoft Copilot Studio / Agent 365, Gemini Enterprise).*

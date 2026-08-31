@@ -20,3 +20,5 @@ tags: [ai, business, cognition-economy]
 > *This chapter is scaffolded and ready for writing. Full content will be added in a subsequent session.*
 
 *(Chapter coming soon.)*
+
+*See also: the "Measuring Results" section in [Chapter 12](#ch12) for the metric-first, baseline, rubric-eval framework that proves a workflow actually improved.*
