@@ -487,7 +487,7 @@ tags: [ai, business, cognition-economy]
 
 ## Products and Tools (as of this edition)
 
-*Names current as of this edition; the companion site (drlee.io) tracks changes. Every entry below is a cross-reference to the concept it instantiates — the concepts are indexed above and will outlive the names.*
+*Names current as of this edition; the companion site (cognitioneconomy.net) tracks changes. Every entry below is a cross-reference to the concept it instantiates — the concepts are indexed above and will outlive the names.*
 
 - Agent SDK (Claude Agent SDK), *see* software development kit, agent, ch 11
 - Antigravity, *see* agent-orchestration workspace; three surfaces, ch 2

@@ -1,6 +1,6 @@
 # Chapters 13–14 Revision Notes — drafts/ (August 2026 audit pass)
 
-Scope: `chapters/ch13.md`, `chapters/ch14.md`, plus the eight numbered subfiles (all empty scaffolds — see bottom). Originals untouched. Companion URL convention: `drlee.io/ch13`, `drlee.io/ch14`.
+Scope: `chapters/ch13.md`, `chapters/ch14.md`, plus the eight numbered subfiles (all empty scaffolds — see bottom). Originals untouched. Companion URL convention: `cognitioneconomy.net/ch13-companion`, `cognitioneconomy.net/ch14-companion`.
 
 ---
 
@@ -41,7 +41,7 @@ Scope: `chapters/ch13.md`, `chapters/ch14.md`, plus the eight numbered subfiles 
 - "In January 2025, Ostrowski launched" → "Eighteen months into that modernization effort, Ostrowski launched" (sequence, not calendar).
 - All other case content (metrics like 42 minutes/14 inquiries/one-in-eight, the team, the debate, the Discussion Prompt, Discussion Guidelines) preserved verbatim.
 
-### Tracks collapsed (Move 1, drlee.io/ch13)
+### Tracks collapsed (Move 1, cognitioneconomy.net/ch13-companion)
 - "Choose Your Track" admonition + Tracks A/B/C + all code.claude.com and antigravity.google URLs + CMD+E + Agent Manager mechanics deleted. Replaced with "Three Surfaces, One Exercise" admonition (three surface types + companion pointer + the corrected scheduled-task-plus-channel framing + the hook event example), matching the pattern established in drafts/ch02.md.
 - Exercise restructured as Part 1 (write the spec — kept old Track B step 1's concrete guidance) + Part 2 (the former Track A manual version, de-branded). Old Track A step 5's confused "difference between Track C and Tracks A and B" line rewritten as the manual/automated contrast without track letters.
 - Reflection rewritten for single-path (was: "how the two tools handled the same specification" — reader only used one). New reflection keeps the contract-vs-delegation question and adds a trigger–work–channel spotting question.
@@ -70,7 +70,7 @@ Scope: `chapters/ch13.md`, `chapters/ch14.md`, plus the eight numbered subfiles 
 ### ZDR section restructured
 - **Promoted to lead:** "The detail to internalize in this section is not any specific vendor's offering — those will evolve. The detail to internalize is that Zero Data Retention is a thing you can ask for, by name…" now opens the section (was buried after the table).
 - **Vendor table DELETED**, replaced with the six-row vendor-neutral checklist per the audit (availability/tier; default-setting-or-addendum; no-training vs. no-retention; default retention window; subprocessors bound; written evidence for an auditor), formatted as a two-column list-table (question / what a good answer looks like).
-- **Added verbatim:** "As of this writing every major frontier vendor has a path to ZDR for enterprise customers; the mechanics differ and change often. The companion page at drlee.io/ch14 keeps a dated comparison." (Note: audit Move 6 says cut "as of this writing" hedges, but the Ch 14 section mandates this exact sentence — mandate wins.)
+- **Added verbatim:** "As of this writing every major frontier vendor has a path to ZDR for enterprise customers; the mechanics differ and change often. The companion page at cognitioneconomy.net/ch14-companion keeps a dated comparison." (Note: audit Move 6 says cut "as of this writing" hedges, but the Ch 14 section mandates this exact sentence — mandate wins.)
 - "The three major frontier vendors all offer ZDR as a contractual option… though the specifics differ in ways that matter" → deleted (superseded by the sentence above).
 - "commonly thirty days" → "typically measured in weeks, not hours, long enough that a regulator will ask about it." Downstream "even thirty days of retention" → "even a few weeks of retention"; "for thirty days" → "for weeks."
 - **Verify sidebar added** ("Is This Still True?", end of ZDR section): pull the current DPA; find the three phrases; get ZDR in writing; companion pointer.
@@ -93,7 +93,7 @@ Scope: `chapters/ch13.md`, `chapters/ch14.md`, plus the eight numbered subfiles 
 ### Cultural layer
 - "in the last three years" → "in recent years"; Pearlman & Strauss "ran exactly this briefing in early 2024" → "ran exactly this briefing" (the near-miss context carries the sequence).
 
-### Exercise bugs fixed (audit bug 11) + tracks collapsed (Move 1, drlee.io/ch14)
+### Exercise bugs fixed (audit bug 11) + tracks collapsed (Move 1, cognitioneconomy.net/ch14-companion)
 The three bugs:
 1. Track A said "the same artifacts Tracks A and B produce" (meant B and C) — moot after collapse; the "Three Surfaces" admonition now says all three surfaces produce the same three artifacts.
 2. Track A's steps produced two artifacts (risks + briefing) while its submission demanded three — fixed: step 3 now explicitly requests all three artifacts (approved-tools list with four questions, ranked risk gaps, fifteen-minute briefing), matching the submission block.

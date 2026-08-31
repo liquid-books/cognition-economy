@@ -155,7 +155,7 @@ One of the best demonstrations of the Flashlight Theory is with technical docume
 
 The model's training has a cutoff date. Anything that changed after that date is in the dark. But if you paste in the current documentation — you have solved the problem.
 
-Every major AI vendor publishes developer documentation that is regularly updated and freely accessible (current links live on the companion site at **drlee.io/ch01**). When you paste relevant sections into your prompt, you give the model accurate, current information to reason from.
+Every major AI vendor publishes developer documentation that is regularly updated and freely accessible (current links live on the companion site at **cognitioneconomy.net/ch01-companion**). When you paste relevant sections into your prompt, you give the model accurate, current information to reason from.
 
 This is the flashlight in action: you extended the beam to include today's documentation, and the model's intelligence went to work on accurate, current information.
 
@@ -176,5 +176,5 @@ This is the flashlight in action: you extended the beam to include today's docum
 ---
 
 :::{tip} Try This
-Find any current documentation page for a tool you use — your AI vendor's own docs work well (links at **drlee.io/ch01**) — copy the page text, paste it into your AI, and ask: *"Give me a plain-English summary of what this describes."* Notice how the model reasons from the document you gave it — that is the flashlight illuminating the room.
+Find any current documentation page for a tool you use — your AI vendor's own docs work well (links at **cognitioneconomy.net/ch01-companion**) — copy the page text, paste it into your AI, and ask: *"Give me a plain-English summary of what this describes."* Notice how the model reasons from the document you gave it — that is the flashlight illuminating the room.
 :::

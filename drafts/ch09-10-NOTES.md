@@ -10,10 +10,10 @@ The existing `drafts/ch09.md` fully implements the audit's CHAPTER 9 section:
 
 - ✅ Table retitled **"Three Built-In Specialist Roles You Will Usually Find"** with Scout / Planner / Generalist rows and the footnote *"The names differ by tool and change between releases; the roles do not."*
 - ✅ "Sonnet or higher" → "your provider's mid- or top-tier reasoning model, not its fastest and cheapest one — the work involves judgment about source quality…" (Track B step 5).
-- ✅ Track B/C rewritten dial-per-step ("Set the scope dial: personal… Exact click-path: companion site."), all wizard steps and code.claude.com / Antigravity 2.0 / CMD+E references removed; companion pointers use drlee.io/ch09.
+- ✅ Track B/C rewritten dial-per-step ("Set the scope dial: personal… Exact click-path: companion site."), all wizard steps and code.claude.com / Antigravity 2.0 / CMD+E references removed; companion pointers use cognitioneconomy.net/ch09-companion.
 - ✅ Case de-branded and date-scrubbed: "$87M in 2025" → "just under $90 million in annual revenue"; "Q1 2026" gone; "Gemini Enterprise / custom GPTs for 18 months" → "enterprise licenses for two major assistants… custom specialist containers"; "ran a time-and-motion study across forty consultants" per audit.
 - ✅ Reflection (bug #7) rewritten to work for any single track ("After completing your track…"), no cross-tool comparison.
-- ✅ Three-track admonition collapsed per Move 1 (one paragraph describing the three surface types + drlee.io/ch09).
+- ✅ Three-track admonition collapsed per Move 1 (one paragraph describing the three surface types + cognitioneconomy.net/ch09-companion).
 - ✅ "Is this still true?" sidebar present.
 - **ch09 stub files** (`ch09-1/-2/-3`): originals are empty scaffolds ("Chapter coming soon") with nothing perishable — no drafts needed.
 
@@ -25,7 +25,7 @@ The existing `drafts/ch09.md` fully implements the audit's CHAPTER 9 section:
 - Figure alt text updated ("Claude working" → "a model working"); label `fig-ch10-goal` preserved.
 
 ### Track B step 1 (most fragile sentence in the book)
-- Replaced version 2.1.32 + `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` flag + code.claude.com URL with the audit's evergreen phrasing: "Make sure agent teams are enabled… behind an opt-in setting at press time; may be on by default by the time you read this. The one-line setup is on the companion site (drlee.io/ch10)."
+- Replaced version 2.1.32 + `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` flag + code.claude.com URL with the audit's evergreen phrasing: "Make sure agent teams are enabled… behind an opt-in setting at press time; may be on by default by the time you read this. The one-line setup is on the companion site (cognitioneconomy.net/ch10-companion)."
 - Step 5 `/goal` syntax + doc URL → set a goal condition; syntax on companion page.
 - Step 3 keyboard-shortcut cycling → "Check in on each teammate's view."
 
@@ -45,7 +45,7 @@ The existing `drafts/ch09.md` fully implements the audit's CHAPTER 9 section:
 - "Claude Code's agent teams feature" → "an agent team"; "`/goal` command twice" → "set goal conditions twice."
 
 ### Tracks collapsed per Move 1
-- Three-track admonition ("Claude Desktop / Claude Code / Antigravity 2.0 IDE" + three doc URLs) → one paragraph describing the three surface types + **drlee.io/ch10**.
+- Three-track admonition ("Claude Desktop / Claude Code / Antigravity 2.0 IDE" + three doc URLs) → one paragraph describing the three surface types + **cognitioneconomy.net/ch10-companion**.
 - Track A retitled "Chat Assistant," de-branded (claude.ai/download removed), prompts and structure preserved verbatim.
 - Track C retitled "Agent-Orchestration Workspace"; Antigravity 2.0 / CMD+E / antigravity.google URL / "Artifacts" product term removed; same five steps, "Artifacts" → "deliverables."
 
@@ -53,7 +53,7 @@ The existing `drafts/ch09.md` fully implements the audit's CHAPTER 9 section:
 - Original asked everyone to compare "Track A" (lateral communication) vs "Track B" (visual workspaces) — mislabeled and assumed two tracks. Rewritten conditionally per track: Track B = lateral communication question; Track C = parallel-but-isolated question; Track A = synthesis-step question. Works for any single track.
 
 ### Added
-- "Is this still true?" end-of-chapter sidebar (Move 5): teams on by default? finish-line feature name? recommended team size? — drlee.io/ch10.
+- "Is this still true?" end-of-chapter sidebar (Move 5): teams on by default? finish-line feature name? recommended team size? — cognitioneconomy.net/ch10-companion.
 
 ### Left alone (per audit)
 Priya's board-meeting opener (verbatim); Hallway Argument admonition; sub-agents vs. teams "flip one arrow" section; three conditions for team territory; lead-assigned vs. self-claim; plan-first checkpoint; naming-teammates admonition; completion-condition loop concept; three traps + maturity arc; orchestrator-doing-the-work antipattern; unused-team trap; case tension structure; Track A prompts; discussion guidelines; all figure directives, labels, and frontmatter.

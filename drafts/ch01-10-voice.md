@@ -48,7 +48,7 @@ Anthropomorphization of AI tools is often treated as a cognitive bias to be corr
 
 ## Voice Tools (Two Examples at Press Time)
 
-The tools in this category change and multiply quickly; the current recommendations live at **drlee.io/ch01**. At press time, two tools dominate the voice-to-AI workflow for business professionals. Both work by capturing your voice, transcribing it with high accuracy in near-real-time, and routing the text wherever your cursor is — into any application, browser, or text field.
+The tools in this category change and multiply quickly; the current recommendations live at **cognitioneconomy.net/ch01-companion**. At press time, two tools dominate the voice-to-AI workflow for business professionals. Both work by capturing your voice, transcribing it with high accuracy in near-real-time, and routing the text wherever your cursor is — into any application, browser, or text field.
 
 ::::{grid} 1 1 2 2
 :::{card} 🎙️ SuperWhisper
@@ -75,7 +75,7 @@ Both tools are designed for the same use case: making voice input as frictionles
 
 Here is the complete setup process:
 
-**Step 1:** Download a dictation tool (both examples above had free tiers sufficient for daily use at press time; current links at drlee.io/ch01).
+**Step 1:** Download a dictation tool (both examples above had free tiers sufficient for daily use at press time; current links at cognitioneconomy.net/ch01-companion).
 
 **Step 2:** Follow the two-minute setup — grant microphone access, set your activation shortcut.
 
@@ -122,7 +122,7 @@ But the deeper benefit is not time saved — it is that the lower friction means
 
 1. Voice input changes the quality of AI interaction — spoken prompts are longer, more nuanced, and more context-rich than typed ones.
 2. Anthropomorphization (treating the AI like a thinking partner) is a feature for productive work, not a bias to correct.
-3. Dedicated dictation tools (SuperWhisper and Wispr Flow were two leading examples at press time) integrate voice into your AI workflow; current picks at drlee.io/ch01.
+3. Dedicated dictation tools (SuperWhisper and Wispr Flow were two leading examples at press time) integrate voice into your AI workflow; current picks at cognitioneconomy.net/ch01-companion.
 4. Setup takes under five minutes. The loop: click the chat field → activate voice shortcut → speak → release → send.
 5. Voice as a thinking tool — narrating a problem out loud before asking for solutions — is often more valuable than using voice purely for speed.
 :::
@@ -130,7 +130,7 @@ But the deeper benefit is not time saved — it is that the lower friction means
 ---
 
 :::{tip} Try This
-Download a dictation tool right now (SuperWhisper and Wispr Flow were two strong picks at press time; current links at **drlee.io/ch01**). Set up the activation shortcut. Then dictate your next AI prompt instead of typing it. Pay attention to how you naturally include more context when you speak.
+Download a dictation tool right now (SuperWhisper and Wispr Flow were two strong picks at press time; current links at **cognitioneconomy.net/ch01-companion**). Set up the activation shortcut. Then dictate your next AI prompt instead of typing it. Pay attention to how you naturally include more context when you speak.
 :::
 
 ---
@@ -143,7 +143,7 @@ Download a dictation tool right now (SuperWhisper and Wispr Flow were two strong
 
 ### Step 1 — Compare Three Models Side by Side (5 minutes)
 
-Run the same prompt through three different models simultaneously — one from each major family — using a side-by-side comparison platform. (We use arena.ai; current instructions and the click-path are at **drlee.io/ch01**.)
+Run the same prompt through three different models simultaneously — one from each major family — using a side-by-side comparison platform. (We use arena.ai; current instructions and the click-path are at **cognitioneconomy.net/ch01-companion**.)
 
 The prompt to run:
    > *"I'm a business professional with no AI background. In three bullet points, what would you need to know about me to give genuinely useful advice — not generic advice — about my work?"*
@@ -205,7 +205,7 @@ Write this as if briefing a highly capable new colleague on their first day.
 
 ### Step 5 — Tokenize Your Brief (5 minutes)
 
-1. Open a tokenizer tool in your browser (OpenAI publishes a free one; current link at **drlee.io/ch01**).
+1. Open a tokenizer tool in your browser (OpenAI publishes a free one; current link at **cognitioneconomy.net/ch01-companion**).
 2. Paste your context brief into the text field. The token count updates live as you type.
 3. Note the number. This is the "entry cost" — in tokens — every time you start a conversation with this brief.
 4. Now look up the current per-million *input* token price for your vendor's balanced-tier model on its pricing page.
@@ -215,7 +215,7 @@ Write this as if briefing a highly capable new colleague on their first day.
 
 ### Step 6 — Set Up Voice Input (5 minutes)
 
-Choose a dictation tool for your device (SuperWhisper and Wispr Flow were two strong options at press time; the current recommendations and download links are at **drlee.io/ch01**). Whatever tool you pick, the setup is the same shape:
+Choose a dictation tool for your device (SuperWhisper and Wispr Flow were two strong options at press time; the current recommendations and download links are at **cognitioneconomy.net/ch01-companion**). Whatever tool you pick, the setup is the same shape:
 
 1. Download and install it. Grant microphone access when prompted.
 2. Note your activation shortcut in the tool's settings.

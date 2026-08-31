@@ -138,6 +138,24 @@ project:
         - file: chapters/appendix-k-index.md
           title: "K — Index"
 
+    # ─── COMPANION PAGES (perishable layer — updated each edition) ──
+    - title: "Companion Pages"
+      children:
+        - file: companion/ch02-companion.md
+          title: "Ch 2 Companion — Setup Sheets"
+        - file: companion/ch05-companion.md
+          title: "Ch 5 Companion — Six Floors Click-Paths"
+        - file: companion/ch06-companion.md
+          title: "Ch 6 Companion — Planning Surfaces"
+        - file: companion/ch11-companion.md
+          title: "Ch 11 Companion — SDK and Surfaces"
+        - file: companion/ch12-companion.md
+          title: "Ch 12 Companion — Memory Files"
+        - file: companion/ch13-companion.md
+          title: "Ch 13 Companion — Automation Setup"
+        - file: companion/ch14-companion.md
+          title: "Ch 14 Companion — Security and ZDR"
+
 site:
   title: The Cognition Economy
   logo_url: /
@@ -145,9 +163,9 @@ site:
     logo_text: The Cognition Economy
   nav:
     - title: Home
-      url: /cognition-economy/
+      url: /
     - title: Start Reading
-      url: /cognition-economy/chapters/ch00.html
+      url: /chapters/ch00.html
     - title: drlee.io
       url: https://drlee.io
   actions:

@@ -6,8 +6,8 @@ verified every existing draft against the audit, applied all Chapter 1 fixes to 
 normalized the companion-URL convention. Originals in `chapters/` untouched.
 
 ## Companion URL convention
-Standardized on **`drlee.io/ch01`** (zero-padded, matching fm/ch02/ch03/ch04 agents' `chNN` usage).
-The prior agent had used `drlee.io/ch1` in four section files; all normalized to `ch01`.
+Standardized on **`cognitioneconomy.net/ch01-companion`** (zero-padded, matching fm/ch02/ch03/ch04 agents' `chNN` usage).
+The prior agent had used `cognitioneconomy.net/ch1` in four section files; all normalized to `ch01`.
 Chapter 0 has no tool click-paths and therefore no companion pointer was needed.
 
 ## Note on Tracks B/C
@@ -53,16 +53,16 @@ All by prior agent; verified complete against the audit this pass.
 - **§1.1:** "For twenty dollars a month" → "For the price of a lunch each month" (opening + key
   takeaway #5); named-version tier sentence (Opus 4.7 / GPT-5.5 / Gemini 3.1 Pro / Haiku / Flash)
   → tier language ("flagship frontier tier… fast, light tier").
-- **§1.2:** two `code.claude.com` doc URLs → vendor-neutral phrasing + `drlee.io/ch01` pointers
+- **§1.2:** two `code.claude.com` doc URLs → vendor-neutral phrasing + `cognitioneconomy.net/ch01-companion` pointers
   (body sentence and Try This).
 - **§1.3 replaced end-to-end** with the framework version from `drafts/ch01-3-meeting-the-models.md`
   (adapted to monolith spacing): smartphone-tier grid relabelled Flagship/Balanced/Fast; new "The
   Three Roles, By Family" section (role-first prose; Grok now "xAI's model," Elon Musk cut); all
   vendor lineup boxes + prices demoted into ONE boxed **"Model Roster — Fall 2026 edition"**
-  sidebar with drlee.io/ch01 pointer (the single place names/versions/prices survive; the one
+  sidebar with cognitioneconomy.net/ch01-companion pointer (the single place names/versions/prices survive; the one
   allowed literal "$20/month at press time" lives here); **o3/o4-mini deleted** (GPT-5.5 Pro noted
   as parenthetical parallel-reasoning variant); "Gemini Advanced (\$20/month) in Google One" cut
-  (retired plan name) → "paid consumer plan comparably priced"; `drleee.io` typo → drlee.io/ch01;
+  (retired plan name) → "paid consumer plan comparably priced"; `drleee.io` typo → cognitioneconomy.net/ch01-companion;
   arena.ai demoted from "best current platform" to "at press time, we use…" + companion fallback;
   added the audit's required evergreen sentence (gated frontier tiers above the flagship; flagships
   routing among sub-models).
@@ -83,13 +83,13 @@ All by prior agent; verified complete against the audit this pass.
 - **§1.8:** worked example "difficult 2024" → "difficult past year."
 - **§1.10:** section retitled **"Voice Tools (Two Examples at Press Time)"** with companion-pointer
   lead-in; setup Step 1, takeaway #3, and Try This de-hardcoded (tools kept as named press-time
-  examples, links → drlee.io/ch01); the two soft "research shows" claims reworded as verifiable/
+  examples, links → cognitioneconomy.net/ch01-companion); the two soft "research shows" claims reworded as verifiable/
   analogy-grounded statements (dictation studies → "a pattern documented… one you can verify on
   your own transcripts"; "strong cognitive science evidence" → rubber-duck-debugging analogy).
 - **Case study:** "In early 2025" deleted; "rolled out access to Claude Sonnet 4.6 … in February
   2025" → "rolled out access to a balanced-tier frontier model." Case logic untouched.
 - **Exercise:** **Step 1 rewritten** — arena.ai Battle-Mode click path collapsed to "we use
-  arena.ai; current instructions and the click-path are at drlee.io/ch01"; prompt and comparison
+  arena.ai; current instructions and the click-path are at cognitioneconomy.net/ch01-companion"; prompt and comparison
   goal preserved. **Steps 2–4 preserved verbatim** per audit. **Step 5 rewritten** — tokenizer URL
   → companion pointer; "$20/$17 plan prices," "\$3 per million," "1,600 conversations for \$1"
   → "look up the current per-million input price… a thousand-plus fully briefed conversations cost
@@ -103,7 +103,7 @@ All by prior agent; verified complete against the audit this pass.
 - All fixes mirror the monolith (the prior agent's section edits were correct and complete,
   including the section-file copy of the Pricing Asymmetry admonition — which in the section files
   had the stale $-figures rather than being empty; the truly empty one was only in the monolith).
-- This pass: normalized `drlee.io/ch1` → `drlee.io/ch01` in ch01-2/-3/-4/-10; applied the two
+- This pass: normalized `cognitioneconomy.net/ch1` → `cognitioneconomy.net/ch01-companion` in ch01-2/-3/-4/-10; applied the two
   "research shows" rewordings to ch01-10 (the prior agent had left them).
 - `ch01-6` and `ch01-9` are intentionally unchanged from originals (audit: leave alone; verified
   clean of perishables).

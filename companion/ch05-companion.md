@@ -1,4 +1,4 @@
-# drlee.io/ch05 — Companion Page: The Six Engineering Disciplines
+# cognitioneconomy.net/ch05-companion — Companion Page: The Six Engineering Disciplines
 
 **Last verified: Fall 2026**
 

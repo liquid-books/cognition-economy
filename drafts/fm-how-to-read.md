@@ -63,7 +63,7 @@ Four kinds of facts in any book about AI expire on contact with time:
 
 Every perishable fact in this book was accurate when the book went to press, and every one of them will change. That is not a flaw in the book; it is the nature of the subject — and it is exactly why the book is built on mental models rather than instructions.
 
-**The companion site is the living half of this book.** Each chapter has a page at `drlee.io/chNN` (Chapter 3 is `drlee.io/ch03`, and so on) carrying the current tool steps, links, model rosters, and setup instructions — date-stamped and updated as the tools change. When the text points you there, that is not an apology; it is the design. The edition stamp on the copyright page tells you when the tool references in this printing were last verified.
+**The companion site is the living half of this book.** Each chapter has a page at `cognitioneconomy.net/chNN-companion` (Chapter 3 is `cognitioneconomy.net/ch03-companion`, and so on) carrying the current tool steps, links, model rosters, and setup instructions — date-stamped and updated as the tools change. When the text points you there, that is not an apology; it is the design. The edition stamp on the copyright page tells you when the tool references in this printing were last verified.
 
 ---
 

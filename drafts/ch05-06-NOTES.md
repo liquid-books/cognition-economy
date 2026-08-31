@@ -10,7 +10,7 @@ Status: COMPLETE. A prior agent produced drafts/ch05.md, drafts/ch06.md, all sev
 - **Discipline Six:** added present-tense harness example (office add-ins sharing conversation context across documents) per audit's optional item.
 - **Meta-prompting section:** "Claude" → "your assistant"; "Creating a Gem" → "Configuring a reusable container (a Project, a Gem)."
 - **Case (Meridian Wealth Partners):** "early 2024" deleted (initiative now undated); "$4.2 billion … 1,800 relationships" → "roughly $4 billion … nearly two thousand"; "Claude enterprise subscription" → "enterprise AI subscription"; "library of Skills" → "library of reusable skills." Discussion prompt unchanged (evergreen).
-- **Exercise:** Tracks B/C collapsed to companion pointer (drlee.io/ch05); three-track admonition replaced with one paragraph naming the three surface types. Track A rewritten tool-agnostic.
+- **Exercise:** Tracks B/C collapsed to companion pointer (cognitioneconomy.net/ch05-companion); three-track admonition replaced with one paragraph naming the three surface types. Track A rewritten tool-agnostic.
   - **ChatGPT menu-label bug fixed:** "Go to your Claude system prompt (Settings → Custom Instructions)" → "Open your standing instructions — the system prompt you wrote in Chapter 2 (your tool will call this preferences, custom instructions, or a project brief)."
   - **Gem/Track bug fixed:** "Save that skill as a Gem" (in the Claude track) → "Save that skill in your tool's reusable container — a Project, a Gem, whatever your tool calls it."
 - **Verify box added** ("Is this still true?" admonition): (1) ask the AI what it knows about you — "whatever it says is the memory layer you currently do not control"; (2) find your standing instructions; companion pointer.
@@ -27,7 +27,7 @@ Evergreen (scaffold-only, no perishable content). Copied verbatim; verified byte
 - **Ultraplan → Deep Planning:** heading, figure label (fig-ch06-ultraplan → fig-ch06-deep-planning), alt, caption, body; added parenthetical "Some tools now offer a dedicated long-running planning mode for exactly this; the practice predates the feature." "a planning conversation in Claude Desktop" → "with your assistant."
 - **Multi-agent section:** "different Gems, different Claude Projects" → "separate configured containers (the reusable projects and personas you built in Chapters 2 and 4)."
 - **Case date-scrubs (Meridian Capital Advisors):** "In early 2024" → "Eighteen months into the firm's AI adoption"; "before the Q2 2024 reporting cycle" → "before the next quarterly reporting cycle"; "write the Q2 market commentary" → "write the quarterly market commentary"; "$4.8 billion" → "roughly $5 billion."
-- **Tracks B/C collapsed:** three-track admonition and Track B/C step lists removed; replaced with one surface-types paragraph + drlee.io/ch06 pointer (describes what each online variant teaches). Track A rewritten tool-agnostic ("Claude" → "the AI"/"your assistant").
+- **Tracks B/C collapsed:** three-track admonition and Track B/C step lists removed; replaced with one surface-types paragraph + cognitioneconomy.net/ch06-companion pointer (describes what each online variant teaches). Track A rewritten tool-agnostic ("Claude" → "the AI"/"your assistant").
 - **Verify box added:** pricing-page check ("If there are two or more models at different price points, the pattern applies"), per audit's verify-sidebar spec.
 - **Reflection:** "plan Artifact" → "formal plan artifact in an orchestration workspace"; "more than one track" → "more than one surface."
 

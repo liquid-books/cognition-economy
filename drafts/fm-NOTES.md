@@ -16,7 +16,7 @@ Scope: fm-foreword, fm-preface, fm-who-this-is-for, fm-how-to-read, fm-two-menta
 - Everything else preserved.
 
 ## fm-how-to-read.md
-- **"A Note on Model Names" rewritten as "A Note on Names, Numbers, and Buttons"** — the book-wide perishability policy per Move 6: names the four expiring fact classes (model versions; prices/plan names; capability numbers; menu paths/buttons/shortcuts); states everything was accurate at press time and will change; gives the single companion URL convention (`drlee.io/chNN`); references the copyright-page edition stamp. Dropped the named versions (Claude Opus 4.7, Gemini 3.1 Pro) from the note; replaced with the tier framing (flagship / mid-tier / fast-cheap).
+- **"A Note on Model Names" rewritten as "A Note on Names, Numbers, and Buttons"** — the book-wide perishability policy per Move 6: names the four expiring fact classes (model versions; prices/plan names; capability numbers; menu paths/buttons/shortcuts); states everything was accurate at press time and will change; gives the single companion URL convention (`cognitioneconomy.net/chNN-companion`); references the copyright-page edition stamp. Dropped the named versions (Claude Opus 4.7, Gemini 3.1 Pro) from the note; replaced with the tier framing (flagship / mid-tier / fast-cheap).
 - **Word-count bug fixed**: "roughly 3,000 words … about 20 minutes" → "Chapters vary in length — the foundational ones run long, the applied ones run short… Budget an hour a day." (Ch 1 is ~13,000 words, so no per-chapter word claim survives.)
 - **Added "A Note on the Case Studies"** — the composite-case disclaimer per Move 3: composites; dates place them in the early years of the transition.
 - "What This Book Is Not": "currently best-in-class" → "best-in-class for the role when the book went to press… the roles matter more than the vendors."
@@ -31,14 +31,14 @@ Scope: fm-foreword, fm-preface, fm-who-this-is-for, fm-how-to-read, fm-two-menta
 - Tool 1 now uses the audit's exact replacement text ("A paid consumer plan from Anthropic (about the price of a streaming subscription)…").
 - Tools retitled by role to match Ch 2's retitling: "Your Thinking Partner (today: Claude)" / "Your Ecosystem-Native Assistant (today: Gemini)" / **Tool 3 resolved from "Your Choice" to "Your Sandbox and API Key (today: Google AI Studio)"** — fixes the Setup-vs-Ch 2 contradiction flagged under "Already wrong today."
 - Gemini version number removed entirely ("Google's flagship model").
-- Plan names/prices/URLs pointed to setup sheet `drlee.io/setup` + Appendix F.
+- Plan names/prices/URLs pointed to setup sheet `cognitioneconomy.net/setup-companion` + Appendix F.
 - Account Costs admonition rewritten in orders of magnitude ("roughly the price of a streaming subscription"); "first four modules on free tiers" → "early modules" (module cutoff is itself perishable; setup sheet tracks it).
 - Preserved: three-tool-stack pattern, 20–30-minute framing, verify checklist format, Gmail/browser/text-editor requirements.
 
 ## Flags for Dr. Lee / downstream agents
 1. **Copyright page (not in my file set):** needs (a) the edition stamp "Tool references current as of Fall 2026" and (b) the course number ISM 6427C relocated from the preface. No copyright-page file exists in chapters/ that I was given — someone must create/update it.
 2. **Appendix F dependency:** drafts/fm-setup.md references Appendix F for plan names/prices/URLs. Confirm Appendix F exists or is planned; otherwise the pointer should be setup-sheet-only.
-3. **`drlee.io/setup` URL:** I used `drlee.io/setup` for the setup sheet (the audit specifies `drlee.io/chNN` for chapters but says only "the setup sheet at drlee.io" for setup). Standardize if a different slug is preferred (e.g., `drlee.io/fm` or `drlee.io/appendix-f`).
+3. **`cognitioneconomy.net/setup-companion` URL:** I used `cognitioneconomy.net/setup-companion` for the setup sheet (the audit specifies `cognitioneconomy.net/chNN-companion` for chapters but says only "the setup sheet at cognitioneconomy.net" for setup). Standardize if a different slug is preferred (e.g., `cognitioneconomy.net/fm` or `cognitioneconomy.net/appendix-f`).
 4. **Tool 3 wording** should be cross-checked against the final Ch 2 draft ("Tool Three: Your Sandbox and API Key (today: Google AI Studio)") so titles match exactly.
 5. **fm-how-to-read description frontmatter** still says "the two analogies that run through every module" — left as-is (accurate).
 6. **Verify checklist** says "all five are working" and lists five items — count still correct after edits.

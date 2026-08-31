@@ -7,7 +7,7 @@ label: fm-setup
 
 # Required Setup — The Five-Minute Prerequisites
 
-Before Chapter 1, you need a working environment. This section tells you *what* to get and *why*. The *where* — current plan names, prices, and download links — lives on the setup sheet at `drlee.io/setup` and in Appendix F, because those details change faster than a book can be reprinted.
+Before Chapter 1, you need a working environment. This section tells you *what* to get and *why*. The *where* — current plan names, prices, and download links — lives on the setup sheet at `cognitioneconomy.net/setup-companion` and in Appendix F, because those details change faster than a book can be reprinted.
 
 Plan for 20–30 minutes to complete this the first time.
 
@@ -21,7 +21,7 @@ This course runs on three tools. You will use all three, and you will come to un
 
 **What it is:** Your primary AI workspace — the tool used for most reasoning, writing, and agent tasks throughout this course.
 
-**What you need:** A paid consumer plan from Anthropic (about the price of a streaming subscription) and Anthropic's desktop application. The desktop app matters because later modules connect this tool to outside tools and files, and that connection lives in the desktop client rather than the browser tab. Current plan names, prices, and the download link are on the setup sheet at `drlee.io/setup`.
+**What you need:** A paid consumer plan from Anthropic (about the price of a streaming subscription) and Anthropic's desktop application. The desktop app matters because later modules connect this tool to outside tools and files, and that connection lives in the desktop client rather than the browser tab. Current plan names, prices, and the download link are on the setup sheet at `cognitioneconomy.net/setup-companion`.
 
 ### Tool 2 — Your Ecosystem-Native Assistant (today: Gemini)
 
@@ -62,5 +62,5 @@ If any of these fail, resolve them before moving on. The early exercises assume 
 ---
 
 :::{note} Account Costs
-Budget for one paid consumer AI plan — roughly the price of a streaming subscription per month. You can complete the early modules entirely on free tiers, and the setup sheet at `drlee.io/setup` tracks what currently requires a paid plan. If cost is a constraint, flag it — there are always workarounds.
+Budget for one paid consumer AI plan — roughly the price of a streaming subscription per month. You can complete the early modules entirely on free tiers, and the setup sheet at `cognitioneconomy.net/setup-companion` tracks what currently requires a paid plan. If cost is a constraint, flag it — there are always workarounds.
 :::

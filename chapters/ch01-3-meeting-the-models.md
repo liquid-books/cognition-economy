@@ -30,7 +30,7 @@ Before we go any further: any specific model version named in this chapter will 
 
 **The principles do not change. The versions do.**
 
-For the current model map — including which models are available today, what they cost, and which are recommended for which tasks — visit the companion page at **[drlee.io/ch01](https://drlee.io/ch01)**. That resource is maintained in real time.
+For the current model map — including which models are available today, what they cost, and which are recommended for which tasks — visit the companion page at **[cognitioneconomy.net/ch01-companion](https://cognitioneconomy.net/ch01-companion)**. That resource is maintained in real time.
 
 Read this chapter for the framework of how to think about model selection. Use the companion page for the current roster.
 
@@ -72,7 +72,7 @@ Every major family maps onto these roles:
 :::{admonition} Model Roster — Fall 2026 edition
 :class: note
 
-*This sidebar is the one place in this chapter where names, versions, and prices appear. It was accurate at press time and will drift. The live roster is at [drlee.io/ch01](https://drlee.io/ch01).*
+*This sidebar is the one place in this chapter where names, versions, and prices appear. It was accurate at press time and will drift. The live roster is at [cognitioneconomy.net/ch01-companion](https://cognitioneconomy.net/ch01-companion).*
 
 **Anthropic (Claude)** — Flagship: **Claude Opus 4.7**. Balanced: **Claude Sonnet 4.6**. Fast: **Claude Haiku 4.6**. Access at [claude.ai](https://claude.ai); free tier available; the paid consumer plan (about \$20/month at press time) unlocks the balanced and flagship tiers.
 
@@ -118,7 +118,7 @@ Open-weight models are most relevant for organizations with strict data privacy 
 
 The fastest way to develop model intuition is to run the same prompt through multiple models simultaneously.
 
-At press time, we use **[arena.ai](https://arena.ai)** for side-by-side comparison — run the same prompt through two or more models at once and compare outputs instantly, no setup required. (If the platform has changed by the time you read this, the companion page at **drlee.io/ch01** points to the current recommendation.)
+At press time, we use **[arena.ai](https://arena.ai)** for side-by-side comparison — run the same prompt through two or more models at once and compare outputs instantly, no setup required. (If the platform has changed by the time you read this, the companion page at **cognitioneconomy.net/ch01-companion** points to the current recommendation.)
 
 Use side-by-side comparison to:
 - See which model handles your specific task better
@@ -153,12 +153,12 @@ Use the **fast tier** when you need lightweight processing of many small tasks.
 1. Different models have different cognitive "temperaments" — understanding these helps you choose correctly.
 2. The smartphone tier analogy applies: flagship, balanced, and fast tiers serve different needs. Choose by role, not by name.
 3. Claude excels at nuanced reasoning and long-context tasks. Gemini is best when integrated with Google Workspace. GPT offers the largest third-party ecosystem.
-4. Version numbers will change; the principles of model selection will not. The roster sidebar is dated for a reason — check drlee.io/ch01 for current recommendations.
+4. Version numbers will change; the principles of model selection will not. The roster sidebar is dated for a reason — check cognitioneconomy.net/ch01-companion for current recommendations.
 5. Side-by-side comparison is the fastest way to develop personal intuition about model differences.
 :::
 
 ---
 
 :::{tip} Try This
-Run one real question through two different models at the same time (we use arena.ai; current instructions at **drlee.io/ch01**). Pick any question you'd actually care about the answer to. Spend 90 seconds comparing the tone and depth of the two responses — that instinct you build is worth more than any review article.
+Run one real question through two different models at the same time (we use arena.ai; current instructions at **cognitioneconomy.net/ch01-companion**). Pick any question you'd actually care about the answer to. Spend 90 seconds comparing the tone and depth of the two responses — that instinct you build is worth more than any review article.
 :::

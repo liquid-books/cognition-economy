@@ -1,6 +1,6 @@
 # Chapter 14 Companion — Build Your AI Security Posture
 
-**drlee.io/ch14 · Last verified: Fall 2026**
+**cognitioneconomy.net/ch14-companion · Last verified: Fall 2026**
 
 > This page is the perishable half of Chapter 14's exercise and its ZDR section. The printed book gives you the decisions — choose your surface, run the interview, pull the DPA, find the three phrases, verify ZDR in writing. This page gives you the buttons and the dated vendor comparison. When a vendor changes its terms, this page changes and the book does not.
 

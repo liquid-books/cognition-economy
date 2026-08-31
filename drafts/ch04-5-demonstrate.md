@@ -40,4 +40,4 @@ That last point is the one to hold onto. Both paths produce the same reviewable 
 
 There is also a deeper reason to care about demonstration, and it points ahead to Chapter 15. Every organization is full of expertise that exists only as performance — the senior person who "just knows" how to do the thing, and has never written it down because writing it down was never worth the time. Recording collapses the cost of capturing that expertise from days of documentation to one narrated run-through. When we talk in Chapter 15 about what happens to professional knowledge when the person holding it walks out the door, remember this section. The record button is how tacit expertise becomes an asset before it becomes a vacancy.
 
-Where the record button lives in your tool, which plans include it, and which platforms got it first are exactly the kind of facts this book refuses to print. They are on the companion page: drlee.io/ch04.
+Where the record button lives in your tool, which plans include it, and which platforms got it first are exactly the kind of facts this book refuses to print. They are on the companion page: cognitioneconomy.net/ch04-companion.

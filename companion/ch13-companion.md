@@ -1,6 +1,6 @@
 # Chapter 13 Companion — Design Your Daily Briefing Agent
 
-**drlee.io/ch13 · Last verified: Fall 2026**
+**cognitioneconomy.net/ch13-companion · Last verified: Fall 2026**
 
 > This page is the perishable half of Chapter 13's exercise. The printed book gives you the decisions — trigger, work, channel — and the plain-English delegations. This page gives you the buttons: current product names, click-paths, and configuration syntax. When a vendor renames something, this page changes and the book does not.
 

@@ -1,4 +1,4 @@
-# drlee.io/ch02 — Companion Page: Standing Up Your Cognitive Workshop
+# cognitioneconomy.net/ch02-companion — Companion Page: Standing Up Your Cognitive Workshop
 
 **Last verified: Fall 2026**
 

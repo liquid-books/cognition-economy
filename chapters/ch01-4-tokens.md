@@ -134,5 +134,5 @@ This is not an abstract exercise. Once you have seen how your own sentences toke
 ---
 
 :::{tip} Try This
-Open a tokenizer tool (OpenAI publishes a free one; the current link is at **drlee.io/ch01**) and paste in the last email you wrote. Watch how it breaks into tokens. Notice which words split into multiple pieces — that is your text as the model actually reads it.
+Open a tokenizer tool (OpenAI publishes a free one; the current link is at **cognitioneconomy.net/ch01-companion**) and paste in the last email you wrote. Watch how it breaks into tokens. Notice which words split into multiple pieces — that is your text as the model actually reads it.
 :::

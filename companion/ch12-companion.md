@@ -1,4 +1,4 @@
-# drlee.io/ch12 — Chapter 12 Companion: Self-Learning Systems
+# cognitioneconomy.net/ch12-companion — Chapter 12 Companion: Self-Learning Systems
 
 **Last verified: Fall 2026**
 

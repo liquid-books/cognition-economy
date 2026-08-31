@@ -246,13 +246,13 @@ Students gain a business perspective of artificial intelligence (AI) and other e
 His teaching focuses on what he calls *productive struggle* — the belief that real learning happens when authentic cognitive challenge meets the right tools.
 
 - **FAU Faculty Profile:** [business.fau.edu](https://business.fau.edu/faculty-research/faculty-profiles/profile/leee.php)
-- **Blog and writing:** [drleee.io](https://drleee.io)
-- **Company:** [drleee.ai](https://drleee.ai)
+- **Blog and writing:** [drlee.io](https://drlee.io)
+- **Company:** [drlee.ai](https://drlee.ai)
 
 ---
 
 :::{note} A Note on Model Versions
 Throughout this book you will see specific model names — **Claude Opus 4.7**, **Sonnet 4.6**, **Gemini 3.1 Pro**, and so on. These are the current frontier as of writing. Version numbers will change; the principles will not. When you encounter a model name, mentally substitute *"the current top-tier model in that family."* The IQ doesn't go down over time — it goes up.
 
-For the running list of current models, visit [drleee.io](https://drleee.io).
+For the running list of current models, visit [drlee.io](https://drlee.io).
 :::

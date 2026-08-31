@@ -1,4 +1,4 @@
-# drlee.io/ch06 — Companion Page: Plan Mode
+# cognitioneconomy.net/ch06-companion — Companion Page: Plan Mode
 
 **Last verified: Fall 2026**
 
@@ -16,7 +16,7 @@
 
 ## Architect-and-Builder — Current Tier Names
 
-As of this page's verification date, Anthropic's tiers are **Opus** (flagship / Architect) and **Sonnet** (balanced / Builder), with a faster **Haiku** tier below. Other vendors' current pairs are listed on the model-roster page (drlee.io/roster). The book's rule stands regardless of names: if the pricing page shows two or more models at different price points, plan on the expensive one, execute on the cheap one.
+As of this page's verification date, Anthropic's tiers are **Opus** (flagship / Architect) and **Sonnet** (balanced / Builder), with a faster **Haiku** tier below. Other vendors' current pairs are listed on the model-roster page (cognitioneconomy.net/model-roster). The book's rule stands regardless of names: if the pricing page shows two or more models at different price points, plan on the expensive one, execute on the cheap one.
 
 ## Dedicated Planning Modes — Current State
 

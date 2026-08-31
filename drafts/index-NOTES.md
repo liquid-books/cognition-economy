@@ -8,7 +8,7 @@ Files produced (originals untouched):
 
 ## Design decisions
 
-1. **Concepts own the entries.** Per the audit's index design, no product name has a locator of its own in the main alphabet. Products appear only as *see* cross-references pointing at the concept ("Antigravity, *see* agent-orchestration workspace") and in the single dated sub-index at the end, headed by the required line: "Names current as of this edition; the companion site (drlee.io) tracks changes." This keeps the main index evergreen — when a product renames, only the dated sub-index and the companion site change.
+1. **Concepts own the entries.** Per the audit's index design, no product name has a locator of its own in the main alphabet. Products appear only as *see* cross-references pointing at the concept ("Antigravity, *see* agent-orchestration workspace") and in the single dated sub-index at the end, headed by the required line: "Names current as of this edition; the companion site (cognitioneconomy.net) tracks changes." This keeps the main index evergreen — when a product renames, only the dated sub-index and the companion site change.
 
 2. **No page numbers.** This is a MyST/Jupyter Book build, so locators are chapter references ("ch 15", "fm", "appendix G") with "(case study)" appended where the locator is the chapter-ending case. First/primary locators for major frameworks are MyST links to the chapter labels that exist in the source (`#ch00`–`#ch16`, `#fm-two-mental-models`). I linked only the primary locator per entry to keep the index readable; secondary locators are plain text. Section-level labels exist for the split files (e.g. `ch15-1`) but those files are scaffolds — the real content lives in the chapter-level `chNN.md` files — so I anchored to chapter labels only. If the book is later split into per-section files, locators can be tightened without restructuring.
 
@@ -23,7 +23,7 @@ Files produced (originals untouched):
 
 5. **Numbers section.** "0.65 threshold" and "15-minute" get a small Numbers section at the top (standard index practice) cross-referencing the spelled-out entries.
 
-6. **Copyright page contents:** edition stamp exactly as specified ("Tool references current as of Fall 2026"), composite-case disclaimer (expanded slightly from the audit's one-liner to cover figures and dates, since the audit's Move 3 asks for exactly this in front matter), ISM 6427C (the audit says "Course number → copyright page" — this satisfies that front-matter fix), CC-BY-4.0 with the standard freedoms/obligations sentence, and the companion-site note with the drlee.io/chNN convention already used across the other drafts.
+6. **Copyright page contents:** edition stamp exactly as specified ("Tool references current as of Fall 2026"), composite-case disclaimer (expanded slightly from the audit's one-liner to cover figures and dates, since the audit's Move 3 asks for exactly this in front matter), ISM 6427C (the audit says "Course number → copyright page" — this satisfies that front-matter fix), CC-BY-4.0 with the standard freedoms/obligations sentence, and the companion-site note with the cognitioneconomy.net/chNN-companion convention already used across the other drafts.
 
 ## Entry count
 
@@ -60,4 +60,4 @@ Per the audit, the dedupe decision is Dr. Lee's; the index lists all Meridians *
 
 1. Should the index include the appendices (A–J) as locators? Currently only appendix G (two mental models) is referenced, because the other appendices are scaffolds with no content to index yet.
 2. Copyright page: I wrote "© 2026 Dr. Ernesto Lee" — confirm the rights-holder line and whether a publisher imprint should appear.
-3. The fm-NOTES draft flags the `drlee.io/setup` vs `drlee.io/chNN` slug question; the copyright page uses bare `drlee.io` as the umbrella, which sidesteps it.
+3. The fm-NOTES draft flags the `cognitioneconomy.net/setup-companion` vs `cognitioneconomy.net/chNN-companion` slug question; the copyright page uses bare `cognitioneconomy.net` as the umbrella, which sidesteps it.

@@ -1,4 +1,4 @@
-# drlee.io/ch11 — Chapter 11 Companion: The Agent SDK
+# cognitioneconomy.net/ch11-companion — Chapter 11 Companion: The Agent SDK
 
 **Last verified: Fall 2026**
 

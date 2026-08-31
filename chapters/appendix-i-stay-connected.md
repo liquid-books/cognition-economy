@@ -1,7 +1,7 @@
 ---
 title: "Appendix I — Stay Connected"
 short_title: "Appendix I — Stay Connected"
-description: "drleee.io for updates. drleee.ai for enterprise applications."
+description: "drlee.io for updates. drlee.ai for enterprise applications."
 label: appendix-i
 tags: [ai, business, cognition-economy]
 ---

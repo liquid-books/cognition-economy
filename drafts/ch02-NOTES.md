@@ -26,7 +26,7 @@ Scope: all `chapters/ch02*.md`. Originals untouched. Main content lives in `ch02
 ### NEW (Aug 2026): workshop presented through the agentic workspace (Claude Cowork)
 - Tool One section now teaches the agentic-workspace shape: connected folders, saved skills, sandboxed browsing, scheduled tasks, projects, deliverables behind approval gates. Product named **once** ("Anthropic's name for this workspace is Cowork; whatever it is called in your version, learn its shape"). No GA date, no plan-inclusion claim in body (per Move 4/6 — that's setup-sheet material). Ties explicitly to the chapter's "configured professional environment" language.
 
-### Click-paths → setup-sheet pointers (drlee.io/ch02)
+### Click-paths → setup-sheet pointers (cognitioneconomy.net/ch02-companion)
 - claude.ai/download, Gem Manager path, "Get API key → Create API key" path, "Settings → Custom Instructions" (×3) all replaced with one-line intents + pointer to the date-stamped setup sheet. Intent language kept in print (e.g., "Creating a Gem takes three moves: open the Gem manager, write instructions, name it and save").
 - AI Studio interface tour rewritten as "three things worth finding, whatever the current layout" (model selector, temperature, system instruction) — temperature concept kept, slider location dropped.
 - "$20/month" → "about as much as a streaming subscription" (Move 4). "costs nothing and takes two minutes" → "free to start and takes a couple of minutes."
@@ -37,7 +37,7 @@ Scope: all `chapters/ch02*.md`. Originals untouched. Main content lives in `ch02
 ### Antigravity quarantined
 - Track B and Track C **deleted entirely** from print. The "Choose Your Track" admonition replaced per Move 1 with one paragraph describing the three surface types (chat assistant / terminal agent in an IDE / agent-orchestration workspace) + companion pointer.
 - Exercise is now single-path (the former Track A, de-branded), so the old "Track A" heading structure became Parts 1–3 directly.
-- One-paragraph teaser added ("A Glimpse Ahead: The Orchestration Surface" admonition): names Antigravity once, no "2.0", no "free during preview", no CMD+E/Editor/Agent Manager/Artifact mechanics; points to drlee.io/ch02.
+- One-paragraph teaser added ("A Glimpse Ahead: The Orchestration Surface" admonition): names Antigravity once, no "2.0", no "free during preview", no CMD+E/Editor/Agent Manager/Artifact mechanics; points to cognitioneconomy.net/ch02-companion.
 - All Track B/C submission blocks, CLAUDE.md walkthrough, claude> prompt, Ctrl+backtick, code.claude.com URL, antigravity.google URLs removed from print (bug 13 for this chapter's doc URLs resolved by removal).
 
 ### "The antigravity concept" resolved (bug 3)
@@ -64,7 +64,7 @@ All still "coming soon" placeholders; only perishable frontmatter/titles touched
 - **ch02-1**: description "Claude as primary, Gemini as Google-native second brain, Antigravity as agent IDE" → role-based ("a thinking partner, an ecosystem-native assistant, and a sandbox — three roles, chosen by job, not by brand"). Body unchanged.
 - **ch02-2**: title reframed "Setting Up Your Google Side" → "Your Ecosystem-Native Assistant (today: Gemini) and Gems". Gem/pre-aimed-flashlight description kept.
 - **ch02-3**: title → "Your Thinking Partner (today: Claude) — the Desktop App as Agentic Workspace"; description now carries the Cowork-shaped framing (chat window / agentic workspace / doorway to later modules) without naming the product in frontmatter.
-- **ch02-4**: was "Setting Up Your Agent Side: Google Antigravity" — retitled to the surface type the book owns: **"The Orchestration Surface: Delegating to Background Agents"**; description points current tools to the companion page. When this section is written, Antigravity belongs on drlee.io/ch02, not in print.
+- **ch02-4**: was "Setting Up Your Agent Side: Google Antigravity" — retitled to the surface type the book owns: **"The Orchestration Surface: Delegating to Background Agents"**; description points current tools to the companion page. When this section is written, Antigravity belongs on cognitioneconomy.net/ch02-companion, not in print.
 - **ch02-5, ch02-6**: unchanged except verbatim copy to drafts/ (nothing perishable).
 - **ch02-7**: description "Claude.md, Gemini.md, Agent.md" → "One standing brief per tool — different names, same concept." (Filename triad was vendor-specific and doesn't match ch02.md's actual three configurations.)
 
@@ -88,4 +88,4 @@ All still "coming soon" placeholders; only perishable frontmatter/titles touched
 
 ## Retrofit pass (post-HANDS-ON-STRATEGY)
 
-The COLLAPSE decision above is superseded: Tracks B and C were **restored to ch02.md in print, DIAL-style** (de-branded, decision-named steps, click-paths → drlee.io/ch02), and the "A Glimpse Ahead" Antigravity teaser was removed as redundant. Companion-page draft created at companion/ch02-companion.md. Full details in drafts/retrofit-ch02-05-06-NOTES.md.
+The COLLAPSE decision above is superseded: Tracks B and C were **restored to ch02.md in print, DIAL-style** (de-branded, decision-named steps, click-paths → cognitioneconomy.net/ch02-companion), and the "A Glimpse Ahead" Antigravity teaser was removed as redundant. Companion-page draft created at companion/ch02-companion.md. Full details in drafts/retrofit-ch02-05-06-NOTES.md.
