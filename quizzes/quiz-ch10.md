@@ -88,7 +88,7 @@ In the chapter's opening hook, Priya Shankar faced a 4-hour deadline and four di
 
 - ⭐ A) ✅ The chapter describes the work as "three independent investigations and a synthesis" with "clean boundaries: competitor moves, customer themes, internal gaps" — the textbook definition of genuinely parallel work where a team beats a solo.
 - B) ❌ The chapter explicitly warns against this framing: "A team is not always better. A team is sometimes wasteful." Teams are not universally faster — they win only when the work is parallel, uncertain, and benefits from disagreement.
-- ⭐ C) ✅ The chapter describes the moment Casey's competitor findings reached Marc directly: "Marc — who had received Casey's interim findings via direct message at 10:31 — had restructured his analysis around them." This lateral, mid-flight information sharing is exactly what teams (not sub-agents) enable.
+- ⭐ C) ✅ The chapter describes the moment Casey's competitor findings reached Atlas directly: "Atlas — who had received Casey's interim findings via direct message at 10:31 — had restructured his analysis around them." This lateral, mid-flight information sharing is exactly what teams (not sub-agents) enable.
 - D) ❌ The chapter's claim is the opposite: a solo session would have been *slower* (twelve hours of work in four), not faster. The argument is about time-constrained parallelism, not quality vs. speed tradeoffs.
 - E) ❌ The chapter never mentions a company-policy requirement. The decision was a judgment call by Priya based on the structure of the work.
 

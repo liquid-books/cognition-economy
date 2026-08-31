@@ -52,7 +52,7 @@ The chapter describes four "moats" that professional knowledge workers have used
 
 ## Question 3
 
-The chapter opens with a partner at a major law firm and his son looking at a memo Claude drafted in 90 seconds that would have billed at $4,000. What is the chapter's interpretation of the silence between them?
+The chapter opens with a partner at a major law firm and his son looking at a memo the AI drafted in ninety seconds — work that would have billed thousands of dollars. What is the chapter's interpretation of the silence between them?
 
 - A) The father is upset that AI is producing low-quality legal work that his son will have to correct
 - B) Each is doing a different calculation on a different timeline — about the value of process work and the future of the associate development path
@@ -190,10 +190,10 @@ What is the illustrative Role Vulnerability Score threshold above which the chap
 
 ## Question 9
 
-How does the chapter describe what happened to investment-bank equity research departments between 1995 and 2024?
+How does the chapter describe what happened to investment-bank equity research departments over the past few decades?
 
 - A) The number of analysts roughly doubled as the volume of research increased
-- B) Departments shrank from roughly 200 analysts to roughly 40, because the pure information business is gone, and firms now bill primarily for synthesis, access, or proprietary process
+- B) Departments shrank to a small fraction of their former size, because the pure information business is gone, and firms now bill primarily for synthesis, access, or proprietary process
 - C) Departments stayed roughly the same size but became more specialized
 - D) Most research departments were spun out as independent firms in the 2010s
 - E) Research was entirely replaced by AI-only analyst services with no human staffing
@@ -202,10 +202,10 @@ How does the chapter describe what happened to investment-bank equity research d
 <summary>Show Answer & Explanations</summary>
 
 - A) ❌ The chapter describes the opposite — a roughly 80% reduction in headcount, not an increase.
-- ⭐ B) ✅ The chapter states: "In 1995, an investment bank had a research department of two hundred analysts... In 2024, those same banks have roughly forty analysts each... The firms that bill aggressively for 'research' today are billing for synthesis (Moat 4), access (Moat 3), or proprietary process (Moat 2). The pure information business is gone."
-- C) ❌ The chapter is explicit about a numerical contraction (~200 → ~40), not stable headcount with specialization.
+- ⭐ B) ✅ The chapter states: "Those same research departments today are a small fraction of their former size — and the analysts who left did not become worse at the job. They were the workforce on Moat 1, and Moat 1 is now infrastructure. The firms that bill aggressively for 'research' today are billing for synthesis (Moat 4), access (Moat 3), or proprietary process (Moat 2). The pure information business is gone." (The chapter's dated snapshot sidebar puts the shape at roughly 200 analysts down to roughly 40.)
+- C) ❌ The chapter is explicit about a contraction to a small fraction of former size, not stable headcount with specialization.
 - D) ❌ The chapter does not mention spin-outs as the mechanism of change.
-- E) ❌ The chapter cites ~40 remaining analysts per firm in 2024 — explicitly a reduced human staffing model, not zero.
+- E) ❌ The chapter describes a reduced human staffing model, not zero — the analysts who remain do different, higher-moat work.
 
 </details>
 

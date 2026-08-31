@@ -52,19 +52,19 @@ The chapter introduces the **Flashlight Theory** (credited to Matty Squarzoni). 
 
 ## Question 3
 
-The chapter contrasts two consultants, Carlos and Priya. What is the central lesson?
+The chapter contrasts two consultants, Carlos and Meera. What is the central lesson?
 
-- A) Carlos is using a less capable model than Priya
-- B) Priya brings a flashlight (a 20-minute context file with the client's situation, goals, and dynamics) while Carlos brings only queries — same model, dramatically different output quality
-- C) Senior consultants like Priya always outperform junior consultants
-- D) AI works better in the morning, when Priya does her best work
+- A) Carlos is using a less capable model than Meera
+- B) Meera brings a flashlight (a 20-minute context file with the client's situation, goals, and dynamics) while Carlos brings only queries — same model, dramatically different output quality
+- C) Senior consultants like Meera always outperform junior consultants
+- D) AI works better in the morning, when Meera does her best work
 - E) Carlos was using an older subscription tier of the same product
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
 - A) ❌ The chapter explicitly says the two use "the same model." Capability is not the variable.
-- ⭐ B) ✅ The chapter states: "Before every client engagement, she spends 20 minutes creating a context file: the client's situation, their stated goals, the three questions the engagement needs to answer, the political dynamics she has observed... Carlos brings a query. Priya brings a flashlight."
+- ⭐ B) ✅ The chapter states: "Before every client engagement, she spends 20 minutes creating a context file: the client's situation, their stated goals, the three questions the engagement needs to answer, the political dynamics she has observed... Carlos brings a query. Meera brings a flashlight."
 - C) ❌ The chapter does not specify seniority. The difference is structural input quality, not seniority.
 - D) ❌ Time of day is never mentioned in the example.
 - E) ❌ Subscription tiers are not the variable. Both use the same tool — what changes is the context.
@@ -227,7 +227,7 @@ The chapter argues voice input "changes everything." Which TWO statements correc
 - ⭐ A) ✅ The chapter states: "Studies on executive communication consistently show that dictated content is longer, contains more qualifications and nuance, and is more likely to include context that the writer would have omitted when typing. For AI, more nuanced context means better outputs."
 - ⭐ B) ✅ The chapter states: "Anthropomorphization of AI tools is often treated as a cognitive bias to be corrected. For the purpose of productive AI work, it is a feature. Speaking to the model as if it is a thinking partner produces more natural, more useful interactions."
 - C) ❌ Token counts of audio vs text are not the chapter's argument. Both ultimately become text; speed comes from naturalness, not compression.
-- D) ❌ The chapter is explicit that the voice tools (SuperWhisper, Wispr Flow) route text "wherever your cursor is" — they are for live prompting, not file transcription.
+- D) ❌ The chapter is explicit that dedicated dictation tools route text "wherever your cursor is" — they are for live prompting, not file transcription.
 - E) ❌ The chapter recommends voice input and highlights tools that deliver "high accuracy in near-real-time."
 
 </details>

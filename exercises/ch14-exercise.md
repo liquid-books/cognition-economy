@@ -7,64 +7,60 @@
 
 *Estimated time: 25–30 minutes. You'll produce a one-page security posture document — a list of approved tools, the four questions answered for each, and a draft of the fifteen-minute employee briefing — that you can hand to your team next week.*
 
-The goal of this exercise is not to design a perfect security program. The goal is to produce the artifact that closes the largest gap most businesses have today: a single page that any employee can read and understand. Both tracks below use AI to help you do the analysis. They differ in how the work feels.
+The goal of this exercise is not to design a perfect security program. The goal is to produce the artifact that closes the largest gap most businesses have today: a single page that any employee can read and understand.
 
-**Before starting either track**, if you have never used Claude Code before, work through the official quickstart at [https://code.claude.com/docs/en/quickstart](https://code.claude.com/docs/en/quickstart). It is the recommended starting point and will get you to a working session in about ten minutes.
-
-:::{admonition} Choose Your Track
+:::{admonition} One Exercise, Three Surfaces
 :class: tip
-You only need to complete **one track** for this chapter. Pick the tool you have installed or want to learn. All three tracks teach the same concept — they just use different surfaces.
-
-- **Track A — Claude Desktop:** The simplest starting point. Use claude.ai in your browser or download Claude Desktop at claude.ai/download.
-- **Track B — Claude Code:** For students using Claude Code. Reference the quickstart at code.claude.com/docs/en/quickstart.
-- **Track C — Antigravity 2.0 IDE:** For students using the Antigravity 2.0 IDE Agent Manager. Reference antigravity.google/docs/ide-overview.
+You only need to complete **one track** for this chapter. The three tracks teach the same concept on the three surface types this book uses throughout: a chat assistant (Track A), a terminal agent that lives inside a development environment (Track B), and an agent-orchestration workspace that runs the audit as a background task (Track C). All three tracks produce the same three artifacts: an approved-tools list with the four security questions answered for each tool, a ranked list of risk gaps, and the fifteen-minute team briefing. Product names, menu locations, and exact click-paths change too fast for print; the current versions of all three tracks live on the companion page at cognitioneconomy.net/ch14-companion. The companion page is date-stamped; this book is not.
 :::
 
-### Track A — Claude Desktop
+### Track A — Chat Assistant
 
-*Estimated time: under 10 minutes. A single conversation. No tools, no installs.*
+*Estimated time: under 20 minutes. A single conversation. No tools, no installs.*
 
-This is the business-friendly default. You will do the security audit and draft the team briefing as a plain conversation — the same artifacts Tracks A and B produce, just pulled out of a chat window instead of an agent run.
+1. Open your chat assistant.
 
-1. Open Claude Desktop (download from [claude.ai/download](https://claude.ai/download)) or use [claude.ai](https://claude.ai) in your browser.
+2. Describe your current AI usage honestly. Which tools does your team actually use — the major assistants, the coding tools, the niche vertical products, the free trials someone installed last month? What kinds of data get pasted in (client names, contracts, financials, code, HR data)? Which subscriptions are consumer tier and which are enterprise or business with a data-protection agreement? Do not sanitize the picture — the audit only works if the inputs are true.
 
-2. Describe your current AI usage honestly. Which tools does your team actually use (ChatGPT, Claude, Copilot, Gemini, Perplexity, niche vertical tools)? What kinds of data get pasted in (client names, contracts, financials, code, HR data)? Which subscriptions are consumer tier and which are enterprise or business with a data-protection agreement? Do not sanitize the picture — the audit only works if the inputs are true.
+3. Ask the AI to produce three artifacts from what you described: *"(1) a list of our current AI tools with the four security questions answered for each, (2) a ranked list of my top three security risk gaps with what to do about each, and (3) a draft of a fifteen-minute briefing I could give my team about responsible AI use, based on those risks."* Read each carefully. Push back if anything feels off.
 
-3. Ask Claude: *"Based on what I've described, what are my top three security risks and what should I do about each?"* Read the answer carefully. Push back if anything feels off.
+4. For the security questions you cannot answer for a given tool, take that as your action list — those are the vendors whose current Data Processing Addendum you need to pull this week.
 
-4. Ask a follow-up: *"Draft a 15-minute briefing I could give my team about responsible AI use, based on the risks you just identified."*
+5. Edit the fifteen-minute briefing for your firm's voice and your team's specific examples. The generic version will be eighty percent right; your edits make it land for your people. Save all three artifacts to a single document. That document IS the security posture and the cultural layer from this chapter. Send the briefing to your team this week.
 
-5. Save both outputs to a single doc. That document IS the security posture and the cultural layer from this chapter. Send the briefing to your team this week.
+**Your Submission:** Your submission is all three artifacts the AI produced from your security audit: the approved-tools list with the four security questions answered for each tool, the ranked risk gaps list, and the 15-minute team briefing. Copy all three into one document. Write two sentences: (1) which risk gap surprised you most and what will you do about it in the next two weeks, and (2) who on your team most needs to read the 15-minute briefing? Submit the three artifacts + two sentences.
 
-**Your Submission:** Your submission is all three artifacts Claude produced from your security audit: the approved-tools list with the four security questions answered for each tool, the 15-minute team briefing, and the ranked risk gaps list. Copy all three into one document. Write two sentences: (1) which risk gap surprised you most and what will you do about it in the next two weeks, and (2) who on your team most needs to read the 15-minute briefing? Submit the three artifacts + two sentences.
+### Track B — Terminal Agent
 
-### Track B — Claude Code
+The terminal agent's advantage for this exercise is that the audit ends as a *file you own* — a security-posture document living in your own working folder, not a transcript trapped in a chat history. The exact commands for your tool are on the companion page (cognitioneconomy.net/ch14-companion); what matters here is which decision each step sets.
 
-1. In your Claude Code session, paste the following structured prompt: *"I am the [your role] at a [size and industry] company. Help me audit our current AI usage. Ask me one question at a time about which AI tools my team uses, what kind of data each tool touches, and what tier (consumer or enterprise) we are on. After you have a complete picture, produce three artifacts for me: (1) a list of our current AI tools with the four security questions answered for each, (2) a draft of a fifteen-minute employee briefing in one page, and (3) a list of the highest-risk gaps in our current setup, ranked."*
+1. **Set the interview dial: one question at a time.** Open a session and paste this structured prompt: *"I am the [your role] at a [size and industry] company. Help me audit our current AI usage. Ask me one question at a time about which AI tools my team uses, what kind of data each tool touches, and what tier — consumer or enterprise — we are on. After you have a complete picture, produce three artifacts for me: (1) a list of our current AI tools with the four security questions answered for each, (2) a ranked list of the highest-risk gaps in our current setup, and (3) a draft of a fifteen-minute employee briefing in one page."* The one-question-at-a-time structure is the decision: an interview surfaces tools and data flows you would forget to volunteer in a single description.
 
-2. Answer Claude's questions honestly. The value of the exercise comes from the accuracy of your answers, not from looking good. If your team is using consumer tools, say so. If you do not know how a vendor handles data retention, say that too.
+2. **Answer honestly.** The value of the exercise comes from the accuracy of your answers, not from looking good. If your team is using consumer tools, say so. If you do not know how a vendor handles data retention, say that too — every "I don't know" is data.
 
-3. Review the three artifacts Claude produces. For the security questions you cannot answer for a given tool, take that as your action list — those are the vendors you need to contact for clarification this week.
+3. **Turn the unanswerables into the action list.** Review the three artifacts. For every security question the audit could not answer for a given tool, the move is the same one from this chapter's verify sidebar: pull that vendor's current Data Processing Addendum this week, find the three phrases, and — where the deployment warrants it — get ZDR in writing.
 
-4. For the fifteen-minute briefing draft, edit it for your firm's voice and your team's specific examples. The generic version will be eighty percent right; your edits make it land for your people.
+4. **Edit the briefing for your firm's voice.** The generic version will be eighty percent right; your edits — your team's real examples, your firm's real tools — make it land for your people.
 
-5. Save the final document to a file named `ai-security-posture.md`. Schedule the briefing for the next team meeting. The artifact is the deliverable; the briefing is the activation.
+5. **Save the artifact as a file.** Save the final document to a file named `ai-security-posture.md` in your working folder. Schedule the briefing for the next team meeting. The artifact is the deliverable; the briefing is the activation.
 
-**Your Submission:** Your submission is the same three artifacts Claude Code produced — approved-tools list, team briefing, and risk gaps — plus a personal action plan you write yourself: three specific changes you will make to your team's AI usage within 30 days, each with a deadline. Copy everything into one document. Submit the three artifacts + personal action plan.
+**Your Submission:** Your submission is the same three artifacts the agent produced — the approved-tools list with the four questions answered, the ranked risk gaps, and the team briefing — plus a personal action plan you write yourself: three specific changes you will make to your team's AI usage within 30 days, each with a deadline. Copy everything into one document. Submit the three artifacts + personal action plan.
 
-### Track C — Antigravity 2.0 IDE
+### Track C — Agent-Orchestration Workspace
 
-1. Open Antigravity 2.0 IDE. Press `CMD+E` (Mac) or `CTRL+E` (Windows) to switch to the Agent Manager surface — the no-code orchestration view that is the business-user entry point. Reference the IDE overview at [https://antigravity.google/docs/ide-overview](https://antigravity.google/docs/ide-overview) if you need orientation.
+The orchestration workspace adds something the other two surfaces cannot: before you run the audit, you audit the *workspace itself*. The current tool name and the toggle that opens the manager view are on the companion page (cognitioneconomy.net/ch14-companion).
 
-2. Before starting a new task, take a moment to review which Projects in the Agent Manager have which data access permissions. Antigravity organizes work at the project level, and each project can be scoped to specific data sources. This itself is a useful audit — note any project that has broader permissions than it actually needs for its current work.
+1. **Open the orchestration view.** Switch from the editing surface to the manager view — the overview where background tasks run side by side.
 
-3. Start a new task with the same structured prompt from Track A's step 1, adapted for the Antigravity surface: *"Audit my team's current AI usage and produce a one-page security posture document. Ask me one question at a time. When you are done, produce three artifacts: an approved-tools list, a fifteen-minute briefing, and a ranked list of the highest-risk gaps."* Scope the task to a project with appropriate data permissions for this kind of sensitive review.
+2. **Run the least-privilege audit first.** Before starting a new task, review which projects or workspaces have which data-access permissions. Orchestration surfaces organize work at the project level, and each project can be scoped to specific data sources. Note any project that has broader permissions than its current work actually needs — that is Practice One from this chapter, observed live in your own tooling. Keep the notes; they feed your risk-gaps list.
 
-4. Watch the agent work asynchronously. The Agent Manager will produce artifacts as the work progresses — markdown drafts, comparison tables, and the final one-page document. Review each artifact as it appears and provide feedback.
+3. **Start the audit task, scoped deliberately.** Start a new background task using the same structured interview prompt printed in Track B, step 1 — one question at a time, then three artifacts. Scope the task to a project with appropriate data permissions for this kind of sensitive review. Choosing the scope *is* the exercise: you are applying least privilege to the audit of your least-privilege posture.
 
-5. Save the final artifacts to the project. Note for yourself: which surface did you find easier to think alongside? Which produced the briefing document you actually want to hand to your team?
+4. **Review the deliverables as they appear.** The workspace will produce artifacts asynchronously — drafts, comparison tables, the final one-page document. Review each as it lands and provide feedback in the task, the same way you would redline a junior analyst's draft.
 
-**Your Submission:** Your submission is the three artifacts the Antigravity agent produced — approved-tools list, team briefing, and risk gaps list — plus one paragraph (100-150 words) you write describing your current security posture honestly, not aspirationally, and identifying your single highest-priority gap. Submit the three artifacts + one paragraph.
+5. **Save the artifacts to the project.** Note for yourself which surface you found easier to think alongside, and which produced the briefing document you would actually hand to your team.
+
+**Your Submission:** Your submission is the three artifacts the agent produced — approved-tools list, ranked risk gaps, and team briefing — plus one paragraph (100–150 words) you write describing your current security posture honestly, not aspirationally, and identifying your single highest-priority gap. Submit the three artifacts + one paragraph.
 
 ### Reflection
 

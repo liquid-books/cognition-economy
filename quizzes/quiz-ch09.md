@@ -219,7 +219,7 @@ In the Cascade Strategy Partners case study, the senior consultants disagree abo
 - B) Aisha Bello argued that competitor scraping was obviously a sub-agent task because it is high-volume, low-judgment, and repetitive
 - C) All five senior consultants agreed unanimously that every production task should become a sub-agent immediately
 - D) The disagreement was purely about software vendor choice, not about which tasks belong in which room
-- E) Marcus Holloway refused to involve consultants in the decision because the work was strictly an IT matter
+- E) Everett Holloway refused to involve consultants in the decision because the work was strictly an IT matter
 
 <details>
 <summary>Show Answer & Explanations</summary>
@@ -228,7 +228,7 @@ In the Cascade Strategy Partners case study, the senior consultants disagree abo
 - ⭐ B) ✅ The case study states: "Aisha Bello, took the opposite view: she saw competitor scraping as obviously a sub-agent task — high-volume, low-judgment, repetitive, and exactly the kind of work that should disappear into a specialist's room and come back as a brief."
 - C) ❌ The case study describes the working group as disagreeing "sharply" within an hour. Unanimous agreement is the opposite of what happened.
 - D) ❌ The case study makes no mention of vendor choice. The disagreement is about *which tasks belong as sub-agents and which stay in the consultant's main conversation* — a strategic question about work design.
-- E) ❌ Marcus convened the working group of senior consultants specifically *because* the decision was strategic, not technical: "It would shape what kind of consultants Cascade developed over the next decade."
+- E) ❌ Everett convened the working group of senior consultants specifically *because* the decision was strategic, not technical: "It would shape what kind of consultants Cascade developed over the next decade."
 
 </details>
 

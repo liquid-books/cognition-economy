@@ -190,7 +190,7 @@ The chapter describes a **universal pattern** for adding any MCP tool connection
 
 ## Question 9
 
-In the Meridian Health Partners case study, compliance officer Veronica Sánchez raises a HIPAA concern about expanding MCP access. What is the specific *architectural* reason she identifies that creates a new class of governance risk?
+In the Palmetto Health Partners case study, compliance officer Veronica Sánchez raises a HIPAA concern about expanding MCP access. What is the specific *architectural* reason she identifies that creates a new class of governance risk?
 
 - A) MCP requires uploading patient health records to a public website
 - B) MCP servers ship with backdoors that vendors can use to exfiltrate data
@@ -213,7 +213,7 @@ In the Meridian Health Partners case study, compliance officer Veronica Sánchez
 
 ## Question 10
 
-In the Meridian Health Partners case study, the CTO James Okafor proposes a *phased rollout* approach to address the governance tension. Which TWO statements correctly describe the elements of his phased approach?
+In the Palmetto Health Partners case study, the CTO James Okafor proposes a *phased rollout* approach to address the governance tension. Which TWO statements correctly describe the elements of his phased approach?
 
 - A) Start with read-only connections to non-sensitive calendaring and scheduling systems
 - B) Establish logging requirements before expanding access

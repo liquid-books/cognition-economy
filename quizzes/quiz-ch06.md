@@ -190,11 +190,11 @@ The chapter argues that *plans compound* over time. Which statement best capture
 
 ## Question 9
 
-In the Meridian Capital Advisors case study, the AI pilot produced 17 compliance issues across 8 draft reports. According to the case, what was the *root cause* the case identifies?
+In the Sagamore Capital Advisors case study, the AI pilot produced 17 compliance issues across 8 draft reports. According to the case, what was the *root cause* the case identifies?
 
 - A) The AI model was defective and needed to be replaced with a competitor's model
 - B) The workflow was designed to move directly from prompt to output, with no deliberate planning phase between them — analysts asked the AI to "write the Q2 market commentary section for Client X" without first establishing in explicit terms the benchmark, the risk posture, the regulatory disclosures, or the firm's approved attribution language; the AI filled those gaps the only way it could — with statistically plausible defaults from training data
-- C) The compliance officer Sandra Park misread the drafts
+- C) The compliance officer Grace Park misread the drafts
 - D) The analysts intentionally produced wrong content to embarrass leadership
 - E) The vendor secretly downgraded the AI to a less capable model mid-pilot
 

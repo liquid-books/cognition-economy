@@ -138,7 +138,7 @@ Carlos is a management consultant at a mid-size firm. He is smart, experienced, 
 
 He is getting value. He is not getting leverage.
 
-His colleague Priya uses the same model, but differently. Before every client engagement, she spends 20 minutes creating a context file: the client's situation, their stated goals, the three questions the engagement needs to answer, the political dynamics she has observed. She pastes that document into every conversation.
+His colleague Meera uses the same model, but differently. Before every client engagement, she spends 20 minutes creating a context file: the client's situation, their stated goals, the three questions the engagement needs to answer, the political dynamics she has observed. She pastes that document into every conversation.
 
 Then she does not ask the model for facts. She asks it to *think with her*.
 
@@ -148,7 +148,7 @@ Then she does not ask the model for facts. She asks it to *think with her*.
 
 *"What are we not asking that we should be?"*
 
-The difference in output quality between Carlos and Priya is not a function of the model. It is a function of what they each bring to the conversation. Carlos brings a query. Priya brings a flashlight.
+The difference in output quality between Carlos and Meera is not a function of the model. It is a function of what they each bring to the conversation. Carlos brings a query. Meera brings a flashlight.
 
 We will come back to the flashlight in the very next module. For now, just hold this: the model is not a search engine. It is a reasoning partner. And reasoning partners respond to *disciplined input* with dramatically better output.
 

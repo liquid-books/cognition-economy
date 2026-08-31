@@ -30,7 +30,7 @@ The proper, briefed version of this workflow — with a context brief, model cho
 
 ## Case Study Note
 
-The Meridian Health / CogniCare case describes an "early in the industry's adoption" enterprise contract. The pattern it teaches — platform adoption without workflow redesign — is not tied to any current vendor; no product lookup is required for the discussion questions.
+The Tidewater Health / CogniCare case describes an "early in the industry's adoption" enterprise contract. The pattern it teaches — platform adoption without workflow redesign — is not tied to any current vendor; no product lookup is required for the discussion questions.
 
 ---
 

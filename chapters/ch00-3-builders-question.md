@@ -26,13 +26,13 @@ tags: [strategy, redesign, ai-era, builders, operators, competitive-advantage]
 
 Meet two operations managers at competing logistics companies.
 
-**Operator A — Marcus** gets access to an AI assistant. Within a month, he is using it daily. He drafts emails faster. He summarizes long reports in minutes. He asks it for data analysis on request. His personal productivity is up maybe 30%. His team is impressed. His boss is pleased.
+**Operator A — Derek** gets access to an AI assistant. Within a month, he is using it daily. He drafts emails faster. He summarizes long reports in minutes. He asks it for data analysis on request. His personal productivity is up maybe 30%. His team is impressed. His boss is pleased.
 
 **Operator B — Yuki** gets the same tool the same week. She spends the first week not using it for her existing tasks — she spends it *mapping* her existing tasks. Which parts of her team's workflow are fundamentally about information processing? Where does cognitive work happen that isn't judgment? Where do her people spend time doing things that could be described as "reading then writing"?
 
 Within two months, Yuki has redesigned three core workflows. Her team's weekly report, which previously required eight person-hours of data gathering and drafting, now takes ninety minutes — with better output. Her customer escalation triage, which used to require a senior analyst, now runs through a structured AI review before the analyst ever sees it. Her competitive intelligence process, which was previously informal and spotty, now generates a structured brief every Monday morning automatically.
 
-By the end of the year, Marcus's team is 30% more productive per person. Yuki's team is handling twice the volume with 20% fewer headcount, while her people spend more of their time on the judgment calls that actually require human expertise.
+By the end of the year, Derek's team is 30% more productive per person. Yuki's team is handling twice the volume with 20% fewer headcount, while her people spend more of their time on the judgment calls that actually require human expertise.
 
 Same tool. Same access date. Two completely different questions asked.
 

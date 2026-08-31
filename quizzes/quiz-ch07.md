@@ -190,18 +190,18 @@ The chapter argues memory engineering produces a *compounding* effect over six m
 
 ## Question 9
 
-In the Meridian Strategy Group case study, what was the *root pattern* that Director of Knowledge Management Darius Okafor identified to explain why senior partners were the most dissatisfied users?
+In the Kestrel Strategy Group case study, what was the *root pattern* that Director of Knowledge Management Darius Okafor identified to explain why senior partners were the most dissatisfied users?
 
-- A) The firm had deployed a stateless AI tool into a relationship-intensive business, and no one had built a memory layer to bridge the gap — consultants were treating each AI session as a discrete event rather than a continuation of an ongoing working relationship, and the result was a failure to capture and leverage the institutional knowledge that was Meridian's core differentiator
+- A) The firm had deployed a stateless AI tool into a relationship-intensive business, and no one had built a memory layer to bridge the gap — consultants were treating each AI session as a discrete event rather than a continuation of an ongoing working relationship, and the result was a failure to capture and leverage the institutional knowledge that was Kestrel's core differentiator
 - B) The senior partners were too old to learn new technology
-- C) The Big Four had hacked Meridian's AI portal
-- D) The AI provider had specifically disabled features for Meridian's account
+- C) The Big Four had hacked Kestrel's AI portal
+- D) The AI provider had specifically disabled features for Kestrel's account
 - E) The senior partners were intentionally sabotaging the rollout
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- ⭐ A) ✅ The case states: "Okafor had a background in enterprise knowledge systems and immediately recognized the pattern: the firm had deployed a stateless AI tool into a relationship-intensive business, and no one had built a memory layer to bridge the gap. Consultants were treating each AI session as a discrete event rather than a continuation of an ongoing working relationship. The result was not just inefficiency — it was a failure to capture and leverage the institutional knowledge that was Meridian's core differentiator."
+- ⭐ A) ✅ The case states: "Okafor had a background in enterprise knowledge systems and immediately recognized the pattern: the firm had deployed a stateless AI tool into a relationship-intensive business, and no one had built a memory layer to bridge the gap. Consultants were treating each AI session as a discrete event rather than a continuation of an ongoing working relationship. The result was not just inefficiency — it was a failure to capture and leverage the institutional knowledge that was Kestrel's core differentiator."
 - B) ❌ The case never mentions age as a factor.
 - C) ❌ No hacking is mentioned.
 - D) ❌ No vendor disabling is mentioned.
@@ -213,7 +213,7 @@ In the Meridian Strategy Group case study, what was the *root pattern* that Dire
 
 ## Question 10
 
-In the Meridian case study, Okafor proposes a "Client Intelligence Brief" — a structured maintained document for each active client engagement. According to the case, what TWO objections did senior partners raise about the proposal?
+In the Kestrel case study, Okafor proposes a "Client Intelligence Brief" — a structured maintained document for each active client engagement. According to the case, what TWO objections did senior partners raise about the proposal?
 
 - A) A partner managing a sensitive financial restructuring engagement asked: "Are you asking me to put confidential client information into a document that runs through a third-party AI system?"
 - B) Another partner raised information governance: if the briefs accumulated over months of engagement, how would the firm manage what was remembered, what was updated, and what should be retired once an engagement closed?

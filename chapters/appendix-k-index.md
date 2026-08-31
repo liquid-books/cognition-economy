@@ -27,7 +27,7 @@ tags: [ai, business, cognition-economy]
 - adoption vs. redesign, [ch 0](#ch00)
   - two-hospitals case, ch 0 (case study)
   - Thomas and George, ch 0
-  - Marcus and Yuki, ch 0
+  - Derek and Yuki, ch 0
 - Agent SDK, *see* software development kit, agent; *and* Products and Tools sub-index
 - agent teams, [ch 10](#ch10)
   - vs. sub-agents ("flip one arrow"), ch 10
@@ -60,6 +60,8 @@ tags: [ai, business, cognition-economy]
 - Arkwright, Richard, [ch 0](#ch00)
 - artifact studio (surface type), [ch 2](#ch02)
   - deliverable is a polished visual artifact, not text, ch 2
+- Ashford Advisory Group (case firm), [ch 1](#ch01) (case study)
+  - Vance, Dr. Camille (managing partner); Elias, Jordan (Director of Knowledge and Innovation) — context rot in analyst workflows
 - Astoria CloudWorks (case firm), [ch 12](#ch12) (case study)
   - Iyer, Tessa (VP of Sales) — systematizing the top performers' loop without flattening it
   - velocity gap between reps, ch 12
@@ -75,7 +77,7 @@ tags: [ai, business, cognition-economy]
   - *see also* agent tissue; cognitive light cone
 - Bradford & Wynne LLP (case firm), [ch 13](#ch13) (case study)
   - Ostrowski, Renee (Director of Operations) — which intake steps are hooks, which are judgment
-  - Tellman, Marcus (Chief Compliance Officer), ch 13
+  - Tellman, Victor (Chief Compliance Officer), ch 13
 - brain metaphor, limits of, [ch 16](#ch16)
   - four failure modes of brain-style AI, ch 16
   - *see also* hierarchy assumption
@@ -93,7 +95,7 @@ tags: [ai, business, cognition-economy]
   - Vance, Marcus (CEO) — augmented hierarchy vs. tissue restructure
   - reef council, ch 16
 - Cascade Strategy Partners (case firm), [ch 9](#ch09) (case study)
-  - Raman, Priya (Director of Practice Operations); Holloway, Marcus (Chief Innovation Officer) — what becomes a sub-agent, what stays main work
+  - Raman, Anika (Director of Practice Operations); Holloway, Everett (Chief Innovation Officer) — what becomes a sub-agent, what stays main work
   - Whittaker, Tomás; Bello, Aisha (partners, opposing views), ch 9
 - channels (delivery), [ch 13](#ch13)
   - "the right channel is the one that gets read," ch 13
@@ -158,7 +160,7 @@ tags: [ai, business, cognition-economy]
   - pruning ("if I deleted this, would outputs get worse?"), ch 12
 - Cypress Coastal Insurance (case firm), [ch 11](#ch11) (case study)
   - Vasquez, Helena (COO) — vendor vs. SDK build vs. no-code for claims intake
-  - Liang, Marcus (senior engineer); Doshi, Priya (CCO); Reyes, Daniel (claims operations), ch 11
+  - Liang, Kevin (senior engineer); Doshi, Kavita (CCO); Reyes, Andres (claims operations), ch 11
   - ClaimsLogic AI; RelayWorks (fictional vendors), ch 11
 
 ## D
@@ -270,7 +272,7 @@ tags: [ai, business, cognition-economy]
 - lost in the middle, *see* context rot
 - Lumenax Health (case firm), [ch 10](#ch10) (case study)
   - Shankar, Priya (VP of Product) — peers-with-a-lead vs. sub-agents under deadline
-  - Casey, Devi, Marc (named AI teammates), ch 10
+  - Casey, Devi, Atlas (named AI teammates), ch 10
 
 ## M
 
@@ -291,16 +293,8 @@ tags: [ai, business, cognition-economy]
   - five-section template, ch 7
   - owned, portable format, ch 7
 - memory tiers, *see* three memory tiers
-- Meridian (fictional firms) — *the manuscript contains multiple unrelated case firms named Meridian in chapters 0–8; they are indexed separately below as written. See the publisher's note on composite cases.*
-  - Meridian Advisory Group, [ch 1](#ch01) (case study) — Vance, Dr. Camille (managing partner); Elias, Jordan (Director of Knowledge and Innovation) — context rot in analyst workflows
-  - Meridian Capital Advisors, [ch 6](#ch06) (case study) — Whitfield, Dana (COO); Reyes, Marcus (Director of Strategic Initiatives); Park, Sandra (CCO) — plan-as-contract after compliance findings
-  - Meridian Capital Group, [ch 8](#ch08) (case study) — Forsythe, Diana (COO); Mendez, Rafael (IT architect); Park, Sylvia (CCO) — integration crossroads under SEC audit obligations
-  - Meridian Capital Partners, [ch 4](#ch04) (case study) — Osei, Rachel (MD, Portfolio Operations); Marcus and Priya (associates) — recipe book vs. improv kitchen
-  - Meridian Health Partners, [ch 3](#ch03) (case study) — Ruiz, Diana (COO); Okafor, James (CTO); Sánchez, Veronica (compliance) — MCP governance and HIPAA
-  - Meridian Health System, [ch 0](#ch00) (case study) — Okafor, Dr. Sandra (CMIO) — adoption without redesign
-  - Meridian Strategy Group (boutique, 34 employees), [ch 2](#ch02) (case study) — Okafor, Diane (managing partner); Trent, Marcus (senior consultant) — the cognitive workshop pilot
-  - Meridian Strategy Group (mid-sized, ~340 consultants), [ch 7](#ch07) (case study) — Voss, Renata (COO); Okafor, Darius (Director of Knowledge Management) — memory debt
-  - Meridian Wealth Partners, [ch 5](#ch05) (case study) — Reyes, Sandra (COO); Webb, Marcus (Head of Advisor Technology) — six-floor audit
+- Meridian Capital Partners (case firm), [ch 4](#ch04) (case study)
+  - Osei, Rachel (MD, Portfolio Operations); Marcus and Priya (associates) — recipe book vs. improv kitchen
 - meta-prompting, [ch 5](#ch05)
   - interview prompt, ch 2
   - in skill building, ch 4

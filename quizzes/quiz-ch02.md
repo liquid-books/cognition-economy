@@ -190,7 +190,7 @@ According to the chapter, what is the appropriate use of the sandbox tool in the
 
 ## Question 9
 
-In the Meridian Strategy Group case study, two senior partners argued *against* using a configured system prompt — they believed an AI constrained by a system prompt was "by definition less useful than an unconstrained one." According to the chapter, what is the consultant Marcus Trent's *counter-argument*, drawing on the concept of the pre-briefed professional?
+In the Northgate Strategy Group case study, two senior partners argued *against* using a configured system prompt — they believed an AI constrained by a system prompt was "by definition less useful than an unconstrained one." According to the chapter, what is the consultant Elliot Trent's *counter-argument*, drawing on the concept of the pre-briefed professional?
 
 - A) Senior partners are usually right about strategic decisions and the firm should defer
 - B) A well-configured AI removes friction rather than adding it — it functions like a colleague who already understands the context rather than a stranger who must be re-briefed every time; without persistent configuration, AI degrades into a novelty rather than a professional instrument
@@ -213,10 +213,10 @@ In the Meridian Strategy Group case study, two senior partners argued *against* 
 
 ## Question 10
 
-The Meridian Strategy Group case study identifies a *consistent pattern* in why the firm's first AI initiative produced disappointing results. Which TWO statements describe that pattern?
+The Northgate Strategy Group case study identifies a *consistent pattern* in why the firm's first AI initiative produced disappointing results. Which TWO statements describe that pattern?
 
 - A) Consultants treated AI as an on-demand query tool rather than a configured professional environment — opening a browser tab, describing the task minimally, getting generic output, editing heavily, and closing the tab
-- B) The AI did not know who Meridian was, did not know what "our voice" meant, and did not know that Diane expected bullet points followed by a single recommendation sentence — because nothing was persisted between sessions
+- B) The AI did not know who Northgate was, did not know what "our voice" meant, and did not know that Diane expected bullet points followed by a single recommendation sentence — because nothing was persisted between sessions
 - C) The firm tried to use too many different AI models simultaneously, causing them to interfere with each other
 - D) Consultants refused to use AI at all and continued writing everything by hand
 - E) The AI replaced 80% of the consultants in the first month, causing morale to collapse
@@ -225,7 +225,7 @@ The Meridian Strategy Group case study identifies a *consistent pattern* in why 
 <summary>Show Answer & Explanations</summary>
 
 - ⭐ A) ✅ The case states: "nearly every consultant was treating AI as an on-demand query tool rather than a configured professional environment. They opened a browser tab, described their task with minimal context, received a generic response, edited it heavily, and closed the tab. The next time they needed AI assistance, they started over — same tool, zero memory, no standing instructions, no persistent configuration."
-- ⭐ B) ✅ The case states: "The AI did not know who Meridian was. It did not know what 'our voice' meant. It did not know that Diane expected bullet points followed by a single recommendation sentence, not three pages of hedged analysis."
+- ⭐ B) ✅ The case states: "The AI did not know who Northgate was. It did not know what 'our voice' meant. It did not know that Diane expected bullet points followed by a single recommendation sentence, not three pages of hedged analysis."
 - C) ❌ The case never says the firm used multiple models that interfered with each other.
 - D) ❌ The case is explicit that consultants *did* use AI — just inefficiently.
 - E) ❌ The case never mentions AI replacing consultants. The issue was usage quality, not headcount.

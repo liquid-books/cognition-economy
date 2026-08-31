@@ -213,7 +213,7 @@ The chapter gives a vivid example of **harness engineering** in action: an email
 
 ## Question 10
 
-In the Meridian Wealth Partners case study, the consultant offered an unexpected framing of the firm's adoption failure. Which TWO statements correctly describe the diagnosis and the proposed phased solution?
+In the Castellan Wealth Partners case study, the consultant offered an unexpected framing of the firm's adoption failure. Which TWO statements correctly describe the diagnosis and the proposed phased solution?
 
 - A) The firm's problem was not that advisors were bad at prompting — it was that the firm had stopped at Floor 1 in a six-floor building, and the value they were looking for was on Floors 3 through 6
 - B) Phase 3 introduced meta prompting — rather than improvising new prompts from scratch for each recurring task, advisors would work with the AI to design and refine a library of Skills for the firm's highest-frequency use cases (client meeting prep, portfolio commentary, prospecting outreach, regulatory disclosure summaries)

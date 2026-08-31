@@ -213,11 +213,11 @@ The chapter describes a four-step process for *building your own custom connecti
 
 ## Question 10
 
-In the Meridian Capital Group case study, Mendez's team identified three integration paths. Which TWO statements correctly describe the path the case calls "hybrid" — and the organizational tension Forsythe and Mendez face?
+In the Brightline Capital Group case study, Mendez's team identified three integration paths. Which TWO statements correctly describe the path the case calls "hybrid" — and the organizational tension Forsythe and Mendez face?
 
 - A) Hybrid: install plugins for low-sensitivity workflows (web search, general research); build self-configured connections for anything touching deal or client data; and use skills to codify the analytical processes the deal team ran repeatedly, so AI behavior is consistent and auditable regardless of the data source
 - B) The tension was organizational: deal analysts wanted *speed* (they had been promised reduced 90-minute daily overhead); the compliance team wanted *control*; the IT team wanted a solution they could maintain; and Forsythe wanted a decision the firm could grow into rather than undo in 18 months — each path optimized for a different stakeholder's priorities, and no single path satisfied all of them simultaneously
-- C) The hybrid path required Meridian to publish all client deal data publicly on the internet
+- C) The hybrid path required Brightline to publish all client deal data publicly on the internet
 - D) The hybrid path meant abandoning the firm's primary AI assistant entirely
 - E) The hybrid path was secretly a fourth path that no one supported
 

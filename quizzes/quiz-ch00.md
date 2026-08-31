@@ -121,11 +121,11 @@ The chapter lists several specific cognitive tasks that have already become dram
 
 ## Question 6
 
-The chapter contrasts two consultants, Carlos and Priya. What is the lesson the chapter draws from their different approaches?
+The chapter contrasts two consultants, Carlos and Meera. What is the lesson the chapter draws from their different approaches?
 
 - A) Carlos gets better results because he sticks to factual queries
 - B) The model is not a search engine — it is a reasoning partner, and reasoning partners respond to *disciplined input* with dramatically better output
-- C) Priya is using a more advanced model than Carlos, which explains her better results
+- C) Meera is using a more advanced model than Carlos, which explains her better results
 - D) Senior consultants always outperform junior consultants regardless of tools
 - E) The lesson is that consultants should never bring their own context to AI conversations
 
@@ -133,10 +133,10 @@ The chapter contrasts two consultants, Carlos and Priya. What is the lesson the 
 <summary>Show Answer & Explanations</summary>
 
 - A) ❌ The chapter says Carlos is "getting value. He is not getting leverage." Factual queries are exactly the low-leverage use the chapter critiques.
-- ⭐ B) ✅ The chapter states: "The difference in output quality between Carlos and Priya is not a function of the model. It is a function of what they each bring to the conversation. Carlos brings a query. Priya brings a flashlight... the model is not a search engine. It is a reasoning partner. And reasoning partners respond to *disciplined input* with dramatically better output."
+- ⭐ B) ✅ The chapter states: "The difference in output quality between Carlos and Meera is not a function of the model. It is a function of what they each bring to the conversation. Carlos brings a query. Meera brings a flashlight... the model is not a search engine. It is a reasoning partner. And reasoning partners respond to *disciplined input* with dramatically better output."
 - C) ❌ The chapter explicitly says they use "the same model." Model choice is not the variable.
 - D) ❌ The chapter does not specify seniority. The variable is the structure of input, not years of experience.
-- E) ❌ The chapter argues the *opposite* — Priya's superior results come precisely from spending 20 minutes creating a context file before every engagement.
+- E) ❌ The chapter argues the *opposite* — Meera's superior results come precisely from spending 20 minutes creating a context file before every engagement.
 
 </details>
 
@@ -156,10 +156,10 @@ The chapter argues that "We use AI" is already a losing strategy. Which historic
 <summary>Show Answer & Explanations</summary>
 
 - A) ❌ The chapter does not use the telephone analogy and does not argue most companies will avoid AI.
-- ⭐ B) ✅ The chapter states: "'We use AI' is the 2025 version of 'we have electricity.' In 1895, saying 'we have electricity' was a competitive differentiator... But by 1910, every serious competitor had electric motors. Electricity had become infrastructure — a table stake, not an edge. The same arc is happening with AI, but compressed from decades into years."
+- ⭐ B) ✅ The chapter states: "'We use AI' is this era's version of 'we have electricity.' In 1895, saying 'we have electricity' was a competitive differentiator... But by 1910, every serious competitor had electric motors. Electricity had become infrastructure — a table stake, not an edge." The same arc is happening with AI, compressed from decades into years.
 - C) ❌ The chapter never mentions websites as the analogy. The argument is that AI is becoming infrastructure, not a permanent edge.
 - D) ❌ The email analogy does not appear in the chapter, and the underlying claim here misrepresents the chapter's framing.
-- E) ❌ The chapter actually invokes spreadsheets in the *opposite* direction: by 2028, "we use AI" will sound the way "we use spreadsheets" does today — assumed, not impressive.
+- E) ❌ The chapter actually invokes spreadsheets in the *opposite* direction: within a few years, "we use AI" will sound the way "we use spreadsheets" sounds today — assumed, not impressive.
 
 </details>
 
@@ -190,12 +190,12 @@ The chapter describes a five-step recipe for "redesigning work" around AI. Which
 
 ## Question 9
 
-In the Meridian Health System vs. Coastal Regional Medical Center case study, what was the *structural* difference between how the two hospitals deployed the identical CogniCare platform?
+In the Tidewater Health System vs. Coastal Regional Medical Center case study, what was the *structural* difference between how the two hospitals deployed the identical CogniCare platform?
 
-- A) Meridian used a free trial while Coastal paid full price for the platform
-- B) Meridian applied the AI to the existing documentation burden and treated rollout as success once admin hours dropped 18%; Coastal first mapped every workflow, discovered the bottleneck was *upstream re-summarization at handoffs*, and redesigned the clinical-to-billing flow around the AI
-- C) Coastal hired more nurses than Meridian to use the new system
-- D) Meridian focused on patient-facing chatbots while Coastal focused on radiology imaging
+- A) Tidewater used a free trial while Coastal paid full price for the platform
+- B) Tidewater applied the AI to the existing documentation burden and treated rollout as success once admin hours dropped 18%; Coastal first mapped every workflow, discovered the bottleneck was *upstream re-summarization at handoffs*, and redesigned the clinical-to-billing flow around the AI
+- C) Coastal hired more nurses than Tidewater to use the new system
+- D) Tidewater focused on patient-facing chatbots while Coastal focused on radiology imaging
 - E) The two hospitals used different versions of the CogniCare software
 
 <details>

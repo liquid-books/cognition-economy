@@ -29,10 +29,10 @@ According to Chapter 13, what is the fundamental difference between reactive AI 
 
 ## Question 2
 
-The chapter uses the analogy of a 1980 factory floor versus a 2024 automated assembly line to make a point about AI. Which TWO statements correctly describe the analogy's lesson?
+The chapter uses the analogy of a factory floor forty years ago versus the same factory today to make a point about AI. Which TWO statements correctly describe the analogy's lesson?
 
-- A) The 1980 factory represents reactive AI, where every step requires a human standing at a station watching it
-- B) The 2024 automated factory represents proactive AI, where humans focus on judgment calls instead of watching parts move
+- A) The old factory represents reactive AI, where every step requires a human standing at a station watching it
+- B) The modern automated factory represents proactive AI, where humans focus on judgment calls instead of watching parts move
 - C) The analogy argues that the goal of AI is to eliminate all human involvement from work
 - D) The analogy proves that AI cannot match the quality of human-supervised work
 - E) The analogy is meant to show that AI is a passing trend like prior factory automation
@@ -40,7 +40,7 @@ The chapter uses the analogy of a 1980 factory floor versus a 2024 automated ass
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- ⭐ A) ✅ The chapter states: "Imagine a factory floor in 1980. Every step requires a human operator standing at a station, watching, adjusting, deciding when to move the part to the next station... That is the difference between reactive AI and proactive AI."
+- ⭐ A) ✅ The chapter states: "Imagine a factory floor forty years ago. Every step requires a human operator standing at a station, watching, adjusting, deciding when to move the part to the next station..." — this is the reactive mode, where the human is the bottleneck.
 - ⭐ B) ✅ The chapter states: "The humans are still there — but they are at the control room, watching dashboards, making the judgment calls that actually need judgment. Not watching parts move." This is explicitly mapped to proactive AI.
 - C) ❌ The chapter explicitly preserves the human role — "you review the output and make the calls that actually require you." The point is *not* eliminating humans, but moving them from watching to judging.
 - D) ❌ The chapter never argues AI is lower quality than human-supervised work. Quality is not the dimension being discussed.

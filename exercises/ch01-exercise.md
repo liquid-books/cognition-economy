@@ -11,13 +11,12 @@
 
 ### Step 1 — Compare Three Models Side by Side (5 minutes)
 
-1. Go to **[arena.ai](https://arena.ai)** in your browser. No account required.
-2. Click **Battle Mode** in the top navigation (the head-to-head comparison interface).
-3. Select three models from the dropdowns — use **Claude**, **GPT-5.5**, and **Gemini 3.1 Pro** if available.
-4. In the shared prompt box, type exactly:
+Run the same prompt through three different models simultaneously — one from each major family — using a side-by-side comparison platform. (We use arena.ai; current instructions and the click-path are at **cognitioneconomy.net/ch01-companion**.)
+
+The prompt to run:
    > *"I'm a business professional with no AI background. In three bullet points, what would you need to know about me to give genuinely useful advice — not generic advice — about my work?"*
-5. Click **Send** to run the same prompt through all three simultaneously.
-6. Read the responses. Note which model asked the sharpest, most specific questions. That model's instinct about what context matters is directly relevant to Step 3.
+
+Read the responses. Note which model asked the sharpest, most specific questions. That model's instinct about what context matters is directly relevant to Step 3.
 
 
 
@@ -74,32 +73,27 @@ Write this as if briefing a highly capable new colleague on their first day.
 
 ### Step 5 — Tokenize Your Brief (5 minutes)
 
-1. Go to **[platform.openai.com/tokenizer](https://platform.openai.com/tokenizer)** in your browser. The tool loads directly — no login required.
+1. Open a tokenizer tool in your browser (OpenAI publishes a free one; current link at **cognitioneconomy.net/ch01-companion**).
 2. Paste your context brief into the text field. The token count updates live as you type.
 3. Note the number. This is the "entry cost" — in tokens — every time you start a conversation with this brief.
-4. Now open **[claude.ai/pricing](https://claude.ai/pricing)** in a new tab. The current Pro plan is **\$20/month** (billed monthly) or **\$17/month** (billed annually). A free tier is also available.
-5. Mental math: at current API pricing for Claude Sonnet (roughly \$3 per million input tokens as of this writing — verify current rates at **[anthropic.com/pricing](https://www.anthropic.com/pricing)**), a 200-token context brief costs approximately \$0.0006 per conversation. You can start 1,600 contextualized conversations for \$1.
+4. Now look up the current per-million *input* token price for your vendor's balanced-tier model on its pricing page.
+5. Mental math: multiply your brief's token count by that rate. Whatever the current digits, you will find that a thousand-plus fully briefed conversations cost about a dollar. Briefing your AI is effectively free — there is no economic excuse for a dark room.
 
 
 
 ### Step 6 — Set Up Voice Input (5 minutes)
 
-Choose one tool based on your device:
+Choose a dictation tool for your device (SuperWhisper and Wispr Flow were two strong options at press time; the current recommendations and download links are at **cognitioneconomy.net/ch01-companion**). Whatever tool you pick, the setup is the same shape:
 
-**If you are on macOS or Windows:**
-1. Go to **[superwhisper.com](https://superwhisper.com)** and download the free version.
-2. Install and open it. Grant microphone access when prompted.
-3. In the app, note your activation shortcut (default is typically `⌘ + Shift + Space` on Mac).
-4. Open Claude in your browser. Click in the chat input field.
-5. Hold your activation shortcut, speak one sentence about your work, release the shortcut. Your words appear in the field.
-6. That is the full loop. Push to talk → speak → release → text appears.
+1. Download and install it. Grant microphone access when prompted.
+2. Note your activation shortcut in the tool's settings.
+3. Open your AI assistant in your browser. Click in the chat input field.
+4. Hold your activation shortcut, speak one sentence about your work, release. Your words appear in the field.
+5. That is the full loop. Push to talk → speak → release → text appears.
 
-**If you prefer cross-platform (Mac/Windows/iOS/Android):**
-1. Go to **[wisprflow.ai](https://wisprflow.ai)** and download Wispr Flow.
-2. Follow the same setup: install, grant microphone access, set your activation shortcut.
-3. Wispr Flow automatically removes filler words and cleans up false starts — the output is polished text, not raw transcript.
+Some tools also clean up filler words and false starts automatically, producing polished text rather than a raw transcript — a feature worth looking for.
 
-**Test it:** Dictate the following prompt into Claude using your voice tool (do not type it):
+**Test it:** Dictate the following prompt into your AI using your voice tool (do not type it):
 > *"Based on my context brief, what's the single highest-leverage thing I could start doing differently with AI this week?"*
 
 Notice the length and naturalness of what you spoke versus what you would have typed.
