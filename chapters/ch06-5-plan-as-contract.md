@@ -1,7 +1,7 @@
 ---
 title: "The Plan as a Contract"
 short_title: "The Plan as a Contract"
-description: "Plans persist in ~/.claude/plans/. Ctrl+G to edit. Read every line."
+description: "The approved plan fixes scope, sequence, and assumptions. Plans persist as files you can reopen and edit. Read every line before you sign."
 label: ch06-5
 tags: [ai, business, cognition-economy]
 ---

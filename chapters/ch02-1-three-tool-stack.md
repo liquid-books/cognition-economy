@@ -1,7 +1,7 @@
 ---
 title: "The Three-Tool Stack (and Why One Tool Isn't Enough)"
 short_title: "The Three-Tool Stack (and Why One Tool Isn't Enough)"
-description: "Claude as primary, Gemini as Google-native second brain, Antigravity as agent IDE."
+description: "A thinking partner, an ecosystem-native assistant, and a sandbox — three roles, chosen by job, not by brand."
 label: ch02-1
 tags: [ai, business, cognition-economy]
 ---

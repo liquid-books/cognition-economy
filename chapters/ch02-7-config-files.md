@@ -1,7 +1,7 @@
 ---
 title: "The Three Configuration Files That Run Your Workshop"
 short_title: "The Three Configuration Files That Run Your Workshop"
-description: "Claude.md, Gemini.md, Agent.md. Write once, apply forever."
+description: "One standing brief per tool — different names, same concept. Write once, apply forever."
 label: ch02-7
 tags: [ai, business, cognition-economy]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Activating and Exiting Plan Mode"
 short_title: "Activating and Exiting Plan Mode"
-description: "Shift+Tab twice. The footer indicator. The /plan slash command."
+description: "Entering and leaving the read-only planning state. Exact shortcuts and commands vary by tool and release — current paths on the companion page."
 label: ch06-3
 tags: [ai, business, cognition-economy]
 ---

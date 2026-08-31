@@ -83,3 +83,9 @@ All still "coming soon" placeholders; only perishable frontmatter/titles touched
 - **ch02-three-config-files.png** — art says "No connection between them"; same softening as above.
 - **ch02-claude-desktop-setup.png** — brand-specific title art; consider role-based relabel or keep as "example at press time" (alt text updated in draft).
 - **ch02-1 … ch02-7 infographics** — not yet generated; generate against the revised (role-based) titles, especially ch02-4 (no Antigravity branding in the art).
+
+---
+
+## Retrofit pass (post-HANDS-ON-STRATEGY)
+
+The COLLAPSE decision above is superseded: Tracks B and C were **restored to ch02.md in print, DIAL-style** (de-branded, decision-named steps, click-paths → drlee.io/ch02), and the "A Glimpse Ahead" Antigravity teaser was removed as redundant. Companion-page draft created at companion/ch02-companion.md. Full details in drafts/retrofit-ch02-05-06-NOTES.md.

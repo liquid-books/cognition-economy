@@ -1,7 +1,7 @@
 ---
 title: "Plans That Compound"
 short_title: "Plans That Compound"
-description: "When a plan exposes a wrong assumption, capture it in Claude.md."
+description: "When a plan exposes a wrong assumption, capture it in your context file."
 label: ch06-9
 tags: [ai, business, cognition-economy]
 ---

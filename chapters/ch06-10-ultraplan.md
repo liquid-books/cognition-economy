@@ -1,20 +1,20 @@
 ---
-title: "Ultraplan: Planning in the Cloud"
-short_title: "Ultraplan: Planning in the Cloud"
-description: "Richer review surface. Section-level commenting. Approve and teleport."
+title: "Deep Planning: The Extended Plan"
+short_title: "Deep Planning: The Extended Plan"
+description: "The planning phase as its own project — a longer window, multiple rounds of review. Some tools ship a dedicated long-running planning mode; the practice predates the feature."
 label: ch06-10
 tags: [ai, business, cognition-economy]
 ---
 
-# Ultraplan: Planning in the Cloud
+# Deep Planning: The Extended Plan
 
 :::{figure} ../images/ch06-10-infographic.png
 :label: fig-ch06-10-infographic
-:alt: Illustrated explainer infographic for Ultraplan: Planning in the Cloud
+:alt: Illustrated explainer infographic for Deep Planning: The Extended Plan
 :width: 80%
 :align: center
 
-*Ultraplan: Planning in the Cloud* — Chapter overview infographic. *(Coming soon.)*
+*Deep Planning: The Extended Plan* — Chapter overview infographic. *(Coming soon.)*
 :::
 
 > *This chapter is scaffolded and ready for writing. Full content will be added in a subsequent session.*

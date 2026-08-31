@@ -62,3 +62,9 @@ All stubs are scaffolds ("Chapter coming soon") — only frontmatter titles/desc
 
 - Downstream files still using old names (NOT in scope, not modified): `case-studies/ch06-case-study.md`, `quizzes/quiz-ch06.md`, `canvas-pages/canvas-ch06.md` all reference Opus-Plus-Sonnet and/or Ultraplan and will need the same renames in their own pass.
 - ch05.md case retains the specific "22% adoption" figure (used three times; the discussion prompt leans on it) — treated as illustrative, kept.
+
+---
+
+## Retrofit pass (post-HANDS-ON-STRATEGY)
+
+The "Tracks B/C collapsed" items above are superseded for both chapters: Tracks B and C were **restored in print, DIAL-style** (de-branded, decision-named steps, click-paths → companion pages), ch06 Track A gained the run-twice control experiment as Step 6 (submission now five parts), and ch05 Track B is titled "The Six Floors as Files." Companion-page drafts created at companion/ch05-companion.md and companion/ch06-companion.md. All other audit fixes noted above (renames, date scrubs, verify boxes, ChatGPT-label bug, Gem/Track bug) are preserved unchanged. Full details in drafts/retrofit-ch02-05-06-NOTES.md.
