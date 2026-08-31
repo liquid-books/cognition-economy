@@ -8,6 +8,8 @@ tags: [ai, business, cognition-economy]
 
 # Context Engineering
 
+*Related: context engineering at full stretch — briefing a 30-minute autonomous run — is covered in "The Disciplines at Full Stretch: Deep Research Modes" in Chapter 5.*
+
 :::{figure} ../images/ch05-5-infographic.png
 :label: fig-ch05-5-infographic
 :alt: Illustrated explainer infographic for Context Engineering

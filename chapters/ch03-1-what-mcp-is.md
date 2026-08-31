@@ -8,6 +8,8 @@ tags: [ai, business, cognition-economy]
 
 # What MCP Servers Actually Are
 
+*Governance note: MCP is now stewarded by the Agentic AI Foundation under the Linux Foundation, with an official public registry — see "Who Owns the Standard? MCP Grows Up" in Chapter 3.*
+
 :::{figure} ../images/ch03-1-infographic.png
 :label: fig-ch03-1-infographic
 :alt: Illustrated explainer infographic for What MCP Servers Actually Are

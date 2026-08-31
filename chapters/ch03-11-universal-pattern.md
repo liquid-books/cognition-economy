@@ -8,6 +8,8 @@ tags: [ai, business, cognition-economy]
 
 # A Universal Pattern for Adding Any Tool
 
+*Discovery tip: the authoritative catalog of MCP servers is now the official registry at registry.modelcontextprotocol.io — see "Who Owns the Standard? MCP Grows Up" in Chapter 3.*
+
 :::{figure} ../images/ch03-11-infographic.png
 :label: fig-ch03-11-infographic
 :alt: Illustrated explainer infographic for A Universal Pattern for Adding Any Tool

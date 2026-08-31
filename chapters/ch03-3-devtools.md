@@ -8,6 +8,8 @@ tags: [ai, business, cognition-economy]
 
 # Chrome DevTools
 
+*Related: for the AI-drives-the-browser category (Claude in Chrome, agentic browsing, computer use), see "When the AI Drives the Browser" and "Computer Use" in Chapter 3.*
+
 :::{figure} ../images/ch03-3-infographic.png
 :label: fig-ch03-3-infographic
 :alt: Illustrated explainer infographic for Chrome DevTools
