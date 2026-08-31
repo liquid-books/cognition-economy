@@ -20,3 +20,5 @@ tags: [ai, business, cognition-economy]
 > *This chapter is scaffolded and ready for writing. Full content will be added in a subsequent session.*
 
 *(Chapter coming soon.)*
+
+*See also: the Claude Cowork, mobile/Dispatch, and Claude Projects sections in [Chapter 2](#ch02) for the agentic side of Claude Desktop.*

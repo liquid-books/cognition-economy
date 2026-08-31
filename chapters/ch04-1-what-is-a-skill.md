@@ -20,3 +20,5 @@ tags: [ai, business, cognition-economy]
 > *This chapter is scaffolded and ready for writing. Full content will be added in a subsequent session.*
 
 *(Chapter coming soon.)*
+
+*See also: "The Second Way to Build a Skill: Record Yourself Doing It" in [Chapter 4](#ch04) — building skills by demonstration instead of description.*

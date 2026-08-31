@@ -20,3 +20,5 @@ tags: [ai, business, cognition-economy]
 > *This chapter is scaffolded and ready for writing. Full content will be added in a subsequent session.*
 
 *(Chapter coming soon.)*
+
+*See also: "Your Skills Are Files You Own: The Agent Skills Open Standard" in [Chapter 4](#ch04) — the SKILL.md format underneath every skill's anatomy.*
