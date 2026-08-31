@@ -1,8 +1,3 @@
-# Case Study — Chapter 7: Memory — How Your AI Learns You
-*Florida Atlantic University — Graduate Course*
-
----
-
 ## Case Study: The Memory Debt at Meridian Strategy Group
 
 ### Background

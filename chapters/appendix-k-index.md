@@ -58,6 +58,8 @@ tags: [ai, business, cognition-economy]
   - tiered model lineups and, ch 1, ch 6
 - arena.ai, *see* model comparison, head-to-head; *and* Products and Tools sub-index
 - Arkwright, Richard, [ch 0](#ch00)
+- artifact studio (surface type), [ch 2](#ch02)
+  - deliverable is a polished visual artifact, not text, ch 2
 - Astoria CloudWorks (case firm), [ch 12](#ch12) (case study)
   - Iyer, Tessa (VP of Sales) — systematizing the top performers' loop without flattening it
   - velocity gap between reps, ch 12
@@ -98,7 +100,7 @@ tags: [ai, business, cognition-economy]
   - team channels, ch 13
 - chat assistant (surface type), *see* three surfaces
 - ChatGPT, *see* thinking partner; Products and Tools sub-index
-- Claude (incl. Cowork, Code, in Chrome, Desktop), *see* thinking partner; agentic workspace; terminal agent; agentic browsing; Products and Tools sub-index
+- Claude (incl. Cowork, Code, Design, Dispatch, in Chrome, Desktop), *see* thinking partner; agentic workspace; artifact studio; remote delegation; terminal agent; agentic browsing; Products and Tools sub-index
 - Coastal Regional Medical Center (case firm), [ch 0](#ch00) (case study)
   - Reyes, James (COO) — redesign before deployment
 - CogniCare (fictional vendor), ch 0 (case study)
@@ -273,6 +275,7 @@ tags: [ai, business, cognition-economy]
 ## M
 
 - Managed Agents, *see* build-vs-buy decision; Products and Tools sub-index
+- Manus, *see* build-vs-buy decision (hosted option); Products and Tools sub-index
 - MCP (Model Context Protocol), *see* connectors; open standards; Products and Tools sub-index
 - memory, [ch 7](#ch07)
   - vs. context, ch 7
@@ -352,6 +355,9 @@ tags: [ai, business, cognition-economy]
 
 - Record a Skill, *see* skills, by demonstration; Products and Tools sub-index
 - reef council, ch 16 (case study)
+- remote delegation, [ch 13](#ch13)
+  - phone-to-desktop channel, single-threaded, ch 13
+  - third trigger (events / schedules / you), ch 13
 - reflection pattern, [ch 12](#ch12)
   - two-question habit, ch 12
   - "reflection is programming the future," ch 12
@@ -496,13 +502,16 @@ tags: [ai, business, cognition-economy]
 - Claude, *see* thinking partner; model tiers, ch 1, ch 2
   - Claude Code, *see* terminal agent (surface type); software development kit, agent, ch 11
   - Claude Cowork, *see* agentic workspace; cognitive workshop, ch 2
+  - Claude Design, *see* artifact studio, ch 2
   - Claude Desktop, *see* thinking partner; connectors, ch 2, ch 3
+  - Claude Dispatch, *see* remote delegation, ch 13
   - Claude in Chrome, *see* agentic browsing; connection ladder, ch 3
 - Firecrawl, *see* web reading, structured at scale, ch 3
 - Gemini, *see* ecosystem-native assistant, ch 2
   - Gems, *see* skills, container names vary, ch 2, ch 4
 - Google AI Studio, *see* sandbox (tool role), ch 2
 - Managed Agents, *see* build-vs-buy decision (hosted option), ch 11
+- Manus, *see* build-vs-buy decision (hosted option), ch 11
 - MCP (Model Context Protocol), *see* connectors; open standards, ch 3
 - Record a Skill, *see* skills, by demonstration; programming by demonstration, ch 4
 - Supabase, *see* persistent store (tool role), ch 3

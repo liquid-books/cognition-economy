@@ -29,20 +29,20 @@ According to Chapter 8, what is the central distinction between a "powerful tool
 
 ## Question 2
 
-The chapter draws a clear distinction between MCP connections and plugins. Which TWO statements correctly capture the differences according to the chapter?
+The chapter frames every AI integration as sitting on a spectrum. Which TWO statements correctly capture that framing according to the chapter?
 
-- A) MCP requires configuration, talks to your local machine, takes ~15 minutes to set up, and gives you maximum flexibility and control; plugins install with a single click, are cloud-based integrations maintained by tool providers, take ~30 seconds, and give you maximum convenience
-- B) The tradeoff between them is control (MCP) vs. convenience (plugins) — both have a place in your workshop
-- C) MCP and plugins are identical concepts with different marketing names
+- A) At one end is the pre-built connection: someone else wrote it, someone else maintains it, you install it in seconds and accept whatever permissions it comes with; at the other end is the connection you configure yourself: slower, but you own every setting and can see exactly what it touches
+- B) Vendors keep renaming both ends of the spectrum, but the trade — control versus convenience — does not change; both ends have a place in your workshop
+- C) Pre-built and self-configured connections are identical concepts with different marketing names
 - D) Plugins must be approved by the U.S. government before installation
-- E) MCP only works with Microsoft products; plugins only work with Apple products
+- E) Self-configured connections only work with Microsoft products; plugins only work with Apple products
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- ⭐ A) ✅ The chapter states: "Where MCP connections require configuration, plugins install with a single click. Where MCP servers talk to your local machine, plugins are cloud-based integrations maintained by the tool providers themselves. Where building a custom MCP connection takes fifteen minutes and some patience, installing a plugin takes thirty seconds."
-- ⭐ B) ✅ The chapter states: "The tradeoff is control. MCP gives you maximum flexibility... Plugins give you maximum convenience... Both have a place in your workshop."
-- C) ❌ The chapter is explicit they are different concepts.
+- ⭐ A) ✅ The chapter states: "Every AI integration sits on a spectrum. At one end is the pre-built connection: someone else wrote it, someone else maintains it, you install it in seconds and accept whatever permissions it comes with. At the other end is the connection you configure yourself: slower, but you own every setting and can see exactly what it touches."
+- ⭐ B) ✅ The chapter states: "Vendors keep renaming both ends. The trade does not change." And: "Both have a place in your workshop."
+- C) ❌ The chapter is explicit they are different positions on the spectrum with a real trade-off between them.
 - D) ❌ Government approval is not part of the chapter.
 - E) ❌ Vendor lock-in by operating system is not the chapter's distinction.
 
@@ -170,7 +170,7 @@ The chapter advises checking what *permissions* a plugin requests during authent
 The chapter argues that plugins *break* over time. Which TWO statements correctly describe what the chapter recommends about plugin maintenance?
 
 - A) Tool providers update their APIs, change authentication methods, or deprecate features — a plugin that worked perfectly last month may behave unexpectedly today; build the habit of periodically testing your most important plugins, especially before relying on them for something consequential
-- B) When a plugin breaks, the fix is almost always straightforward: disconnect and reconnect, re-authenticate, or update to the latest version — and if all else fails, ask Claude to help you troubleshoot (paste the error message and ask what to do)
+- B) When a plugin breaks, the fix is almost always straightforward: disconnect and reconnect, re-authenticate, or update to the latest version — and if all else fails, ask your assistant to help you troubleshoot (paste the error message and ask what to do)
 - C) Plugins never break under any circumstances
 - D) If a plugin breaks, you must throw out your laptop and buy a new one
 - E) Plugin failures are punishable by federal law
@@ -179,7 +179,7 @@ The chapter argues that plugins *break* over time. Which TWO statements correctl
 <summary>Show Answer & Explanations</summary>
 
 - ⭐ A) ✅ The chapter states: "plugins break. Tool providers update their APIs, change their authentication methods, or deprecate features. A plugin that worked perfectly last month may behave unexpectedly today. Build the habit of periodically testing your most important plugins — especially before you rely on them for something consequential. A two-minute test before a big client presentation is better than discovering mid-conversation that your CRM plugin stopped working."
-- ⭐ B) ✅ The chapter states: "When a plugin breaks, the fix is almost always straightforward: disconnect and reconnect, re-authenticate, or update to the latest version. The plugin providers maintain documentation for common issues. And if all else fails — ask Claude to help you troubleshoot. Paste the error message and ask what to do. It will almost always know."
+- ⭐ B) ✅ The chapter states: "When a plugin breaks, the fix is almost always straightforward: disconnect and reconnect, re-authenticate, or update to the latest version. The plugin providers maintain documentation for common issues. And if all else fails — ask your assistant to help you troubleshoot. Paste the error message and ask what to do. It will almost always know."
 - C) ❌ Plugins do break per the chapter.
 - D) ❌ Hardware replacement is not the chapter's remedy.
 - E) ❌ Federal law is not invoked in the chapter.
@@ -190,19 +190,19 @@ The chapter argues that plugins *break* over time. Which TWO statements correctl
 
 ## Question 9
 
-The chapter describes a four-step process for *building your own plugin* when nothing in the marketplace fits. Which option correctly captures the steps?
+The chapter describes a four-step process for *building your own custom connection* when nothing in the marketplace fits. Which option correctly captures the steps?
 
-- A) Step 1: Define the capability (what does the plugin do, what tool/data source, what input, what output — in plain English). Step 2: Let Claude write it (paste the documentation and ask Claude to produce the plugin specification). Step 3: Test with three real inputs from your actual work — not hypotheticals. Step 4: Save, name, and document it (one sentence describing what it does and when to use it)
+- A) Step 1: Define the capability (what does the connection do, what tool/data source, what you would ask and expect back — in plain English). Step 2: Find the tool's API documentation and copy the relevant sections. Step 3: Hand the docs to your AI and ask it to generate the connection configuration and walk you through installing it. Step 4: Test with at least three real questions only the live connection can answer, then name and document it
 - B) Buy a server, hire a developer, raise venture capital, ship to App Store
 - C) Reverse-engineer the AI vendor's encryption, then submit a PR
-- D) Wait 18 months for the marketplace to ship the plugin you need
+- D) Wait 18 months for the marketplace to ship the connection you need
 - E) Ask the AI vendor's CEO directly via Twitter
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- ⭐ A) ✅ The chapter states: "Step 1: Define the capability... Step 2: Let Claude write it... Step 3: Test with real inputs. Before declaring the plugin finished, run it against at least three real examples from your actual work... Step 4: Save, name, and document."
-- B) ❌ The chapter is explicit that no developer/VC route is required.
+- ⭐ A) ✅ The chapter states: "**Step 1: Define the capability**... Write these three things down in plain English before you touch anything technical. **Step 2: Find the tool's API documentation**... **Step 3: Hand the docs to your AI and ask for the configuration**... **Step 4: Test with live data, then document.** Before declaring the connection finished, ask at least three real questions that only the live connection can answer."
+- B) ❌ The chapter is explicit that no developer/VC route is required — "your AI does most of the work."
 - C) ❌ Reverse-engineering is not the process.
 - D) ❌ Passive waiting is the opposite of the chapter's recommendation.
 - E) ❌ Twitter outreach is not the process.
@@ -215,19 +215,19 @@ The chapter describes a four-step process for *building your own plugin* when no
 
 In the Meridian Capital Group case study, Mendez's team identified three integration paths. Which TWO statements correctly describe the path the case calls "hybrid" — and the organizational tension Forsythe and Mendez face?
 
-- A) Hybrid: install plugins for low-sensitivity workflows (web search, general research); build MCP connections for anything touching deal or client data; and use skills to codify the analytical processes the deal team ran repeatedly, so AI behavior is consistent and auditable regardless of the data source
+- A) Hybrid: install plugins for low-sensitivity workflows (web search, general research); build self-configured connections for anything touching deal or client data; and use skills to codify the analytical processes the deal team ran repeatedly, so AI behavior is consistent and auditable regardless of the data source
 - B) The tension was organizational: deal analysts wanted *speed* (they had been promised reduced 90-minute daily overhead); the compliance team wanted *control*; the IT team wanted a solution they could maintain; and Forsythe wanted a decision the firm could grow into rather than undo in 18 months — each path optimized for a different stakeholder's priorities, and no single path satisfied all of them simultaneously
 - C) The hybrid path required Meridian to publish all client deal data publicly on the internet
-- D) The hybrid path meant abandoning Claude Desktop entirely
+- D) The hybrid path meant abandoning the firm's primary AI assistant entirely
 - E) The hybrid path was secretly a fourth path that no one supported
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- ⭐ A) ✅ The case states: "The third path was hybrid: install plugins for low-sensitivity workflows (web search, general research), build MCP connections for anything touching deal or client data, and use skills to codify the analytical processes the deal team ran repeatedly, so that AI behavior was consistent and auditable regardless of which data source it drew from."
+- ⭐ A) ✅ The case states: "The third path was hybrid: install plugins for low-sensitivity workflows (web search, general research), build controlled connections for anything touching deal or client data, and use skills to codify the analytical processes the deal team ran repeatedly, so that AI behavior was consistent and auditable regardless of which data source it drew from."
 - ⭐ B) ✅ The case states: "The deal analysts wanted speed — they had been promised a tool that would reduce their 90-minute daily overhead... The compliance team wanted control. The IT team wanted a solution they could maintain. And Forsythe wanted a decision that the firm could grow into rather than one it would have to undo in eighteen months. The three paths each optimized for a different stakeholder's priorities, and no path satisfied all of them simultaneously."
 - C) ❌ Public publication of client data is the opposite of what the case describes.
-- D) ❌ The case does not describe abandoning Claude Desktop.
+- D) ❌ The case does not describe abandoning the firm's primary assistant.
 - E) ❌ The hybrid is the third explicitly-named path, not a fourth one.
 
 </details>

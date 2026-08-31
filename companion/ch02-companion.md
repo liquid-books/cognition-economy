@@ -15,8 +15,12 @@
 | Sandbox + API key | Google AI Studio | aistudio.google.com |
 | Terminal agent (Track B) | Claude Code, running in the integrated terminal of the **Antigravity IDE** (Google) | antigravity.google (IDE) · Claude Code quickstart: see the current link below |
 | Agent-orchestration workspace (Track C) | Antigravity IDE — **Agent Manager** view | antigravity.google |
+| Artifact studio | **Claude Design** (Anthropic Labs) — the **Design** tab inside Claude | claude.ai → Design tab |
+| Remote delegation channel | **Claude Dispatch** — part of Cowork; pair your phone from Cowork's settings | see Chapter 13 companion |
 
 **Plans and prices (verify before quoting):** Claude Pro ≈ $20/month. Gemini paid tiers are sold under Google's current AI plan names — check the plan page; names changed within the last year. Antigravity: check current pricing; the free-preview period has ended.
+
+**Artifact studio specifics (Fall 2026):** Claude Design launched from Anthropic Labs in April 2026 and lives as a **Design tab** inside Claude on paid plans. It is powered by the flagship model's vision tier (Opus 4.7 at launch) and produces polished visual work — designs, prototypes, slides, one-pagers — through the same describe-propose-refine conversation as the rest of the workspace. Notably, it can read a connected codebase and derive a design system from it, which pairs with Chapter 4's skills-as-reusable-assets argument.
 
 ---
 
@@ -63,5 +67,6 @@ Printed step → current buttons:
 
 ## Changelog
 
+- **Fall 2026** — Added artifact studio row and specifics (Claude Design, Anthropic Labs, launched April 2026 — Design tab, Opus 4.7 vision, codebase-to-design-system) and remote delegation row (Claude Dispatch, part of Cowork), matching the print edition's new artifact-studio paragraph and phone-driven-workspace clause.
 - **Fall 2026** — Page created from the Fall 2026 print edition. Antigravity "2.0" version label and "free during preview" removed (preview period over). Claude Code docs URL replaced with a search instruction pending a stable link.
 - *(next entry goes here — date + what moved)*

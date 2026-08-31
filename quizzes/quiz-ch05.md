@@ -100,7 +100,7 @@ The chapter explains what makes a *system prompt* different from a regular promp
 
 According to the chapter, what is **meta prompting**, and what is the recommended rule of thumb for when to use it?
 
-- A) Meta prompting is using AI to write the instructions that AI will use — and the rule of thumb is: if you are about to write instructions that will be used more than once, do not write them yourself; let Claude write them
+- A) Meta prompting is using AI to write the instructions that AI will use — and the rule of thumb is: if you are about to write instructions that will be used more than once, do not write them yourself; let the AI write them
 - B) Meta prompting is asking the AI questions about itself
 - C) Meta prompting is writing prompts in Greek so models pay closer attention
 - D) Meta prompting is illegal under most AI vendors' terms of service
@@ -109,7 +109,7 @@ According to the chapter, what is **meta prompting**, and what is the recommende
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- ⭐ A) ✅ The chapter states: "Meta prompting is the practice of using AI to write the instructions that AI will use. You are not writing the prompt. You are asking AI to write the prompt — and then using that prompt to do the actual work." And: "The rule of thumb: if you are about to write instructions that will be used more than once, do not write them yourself. Let Claude write them."
+- ⭐ A) ✅ The chapter states: "Meta prompting is the practice of using AI to write the instructions that AI will use. You are not writing the prompt. You are asking AI to write the prompt — and then using that prompt to do the actual work." And: "The rule of thumb: if you are about to write instructions that will be used more than once, do not write them yourself. Let the AI write them."
 - B) ❌ Asking the AI about itself is introspection, not meta-prompting.
 - C) ❌ Language is not the variable in meta-prompting.
 - D) ❌ The chapter never describes meta-prompting as forbidden — it is a recommended practice.

@@ -54,11 +54,11 @@ The chapter introduces the **compounding error problem** with a vivid example. W
 
 The chapter defines Plan Mode as something specific. Which statement correctly describes what Plan Mode actually is?
 
-- A) A premium subscription feature only available on the Claude Enterprise plan
+- A) A premium subscription feature only available on an enterprise plan
 - B) A practice — a deliberate separation of the thinking phase from the doing phase, in which you first ask the AI to think through the task out loud, show you its plan, and wait for your approval before it acts
-- C) A button labeled "Plan" in the Claude Desktop UI
-- D) A separate AI model that competes with Claude
-- E) A government regulation imposed on AI providers in 2024
+- C) A button labeled "Plan" in one specific vendor's desktop UI
+- D) A separate AI model that competes with the frontier models
+- E) A government regulation imposed on AI providers
 
 <details>
 <summary>Show Answer & Explanations</summary>
@@ -144,22 +144,22 @@ The chapter argues Plan Mode is *not* for every task. According to the chapter, 
 
 ## Question 7
 
-The chapter describes the **Opus-Plus-Sonnet pattern** for high-quality work. Which statement correctly captures the workflow?
+The chapter describes the **Architect-and-Builder pattern** for high-quality work. Which statement correctly captures the workflow?
 
-- A) Use a more powerful model (Claude Opus 4.7) for the planning phase and a faster, more efficient model for the execution phase — work through planning in the powerful model until you have a confident plan, then take that plan to a new conversation with the execution model and tell it to build
-- B) Always use Opus for everything, including the most trivial tasks
-- C) Always use Sonnet for everything, including the most demanding tasks
+- A) Use your most powerful model (the flagship reasoning tier) for the planning phase and a faster, more efficient model for the execution phase — work through planning in the powerful model until you have a confident plan, then take that plan to a new conversation with the execution model and tell it to build
+- B) Always use the flagship model for everything, including the most trivial tasks
+- C) Always use the fast model for everything, including the most demanding tasks
 - D) Open two conversations simultaneously in two browsers and ask the same question to both, then average the outputs
-- E) Pay your AI provider extra to run Opus and Sonnet at the same time on the same query
+- E) Pay your AI provider extra to run both tiers at the same time on the same query
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- ⭐ A) ✅ The chapter states: "Use a more powerful model for the planning phase. Use a faster, more efficient model for the execution phase... Claude Opus 4.7, for instance, thinks more carefully, considers more angles, and catches more problems than a lighter model. Execution, once the plan is solid, requires mostly consistent, reliable output... The workflow is: open a conversation with your most powerful available model. Work through the planning phase... Then take that plan... and open a new conversation with your execution model. Give it the plan and tell it to build."
-- B) ❌ The chapter is explicit that Opus is overkill for execution.
-- C) ❌ The chapter is explicit that Sonnet may not catch enough problems during deep planning.
+- ⭐ A) ✅ The chapter states: "Use a more powerful model for the planning phase. Use a faster, more efficient model for the execution phase... Every major vendor now ships a tiered lineup: a flagship reasoning model that thinks slowly and carefully, and a lighter sibling that is faster and cheaper. The flagship catches more problems in the plan; the lighter one applies the plan reliably... The workflow is: open a conversation with your most powerful available model. Work through the planning phase... Then take that plan... and open a new conversation with your execution model. Give it the plan and tell it to build."
+- B) ❌ The chapter is explicit that the flagship is overkill for execution — "the judgment of the architect and the throughput of the builder. Each at the appropriate cost."
+- C) ❌ The chapter is explicit that the lighter tier may not catch enough problems during deep planning.
 - D) ❌ The chapter does not recommend averaging outputs from two models.
-- E) ❌ Concurrent paid Opus+Sonnet is not the pattern.
+- E) ❌ Running both tiers concurrently on the same query is not the pattern.
 
 </details>
 

@@ -5,6 +5,7 @@
 > This page is the perishable half of Chapter 13's exercise. The printed book gives you the decisions — trigger, work, channel — and the plain-English delegations. This page gives you the buttons: current product names, click-paths, and configuration syntax. When a vendor renames something, this page changes and the book does not.
 
 **Changelog**
+- *Fall 2026:* Added remote delegation section (Claude Dispatch — part of Cowork, launched March 2026, phone-to-desktop single-threaded channel), matching the print edition's new remote-delegation paragraph.
 - *Fall 2026:* Initial version, verified against the tools below at press time.
 - *(future entries go here — three lines max, dated)*
 
@@ -18,6 +19,13 @@
 | Track B — terminal agent | Claude Code | Quickstart: code.claude.com/docs/en/quickstart (~10 minutes to a working session) |
 | Track C — agent-orchestration workspace | Antigravity IDE, Agent Manager view | Overview: antigravity.google/docs/ide-overview |
 | Consumer-grade scheduled tasks | Claude Cowork (agentic workspace, included in Pro) | Scheduled tasks are native — plain-English schedule + work, no terminal (see Chapter 2 companion) |
+| Remote delegation | Claude Dispatch (part of Cowork) | Phone-to-desktop task channel — see below |
+
+---
+
+## Remote delegation (Fall 2026): Claude Dispatch
+
+The book's remote-delegation paragraph currently maps to **Claude Dispatch**, a Cowork feature launched in March 2026. It is a persistent phone-to-desktop channel: you send a task from your phone, the desktop agent executes it while you are away — with access to your actual files and connected tools — and mobile and desktop share one single-threaded conversation, so nothing forks or gets lost between surfaces. Pairing is one-time, from Cowork's settings; after that, the channel simply stays open. As with every trigger in this chapter, keep the approval gate on anything client-facing: delegating from a cab does not suspend the accountability rule.
 
 ---
 

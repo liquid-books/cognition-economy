@@ -6,22 +6,22 @@
 
 ## Question 1
 
-According to Chapter 2, what is the relationship between the three tools introduced — Claude Desktop, Gemini, and Google AI Studio?
+According to Chapter 2, what is the relationship between the three tools introduced — your thinking partner, your ecosystem-native assistant, and your sandbox?
 
 - A) They are tightly integrated into a single connected system that shares memory across tools
-- B) They are three independent products from three different companies — they do not share data, do not talk to each other, and are chosen between based on what you are trying to do
-- C) Gemini and AI Studio are the same product accessed through different interfaces
-- D) Claude Desktop is the master tool, and the other two are plug-ins for it
-- E) All three are made by Google and run on the same underlying model
+- B) Out of the box they are independent of each other — they do not share data or talk to each other by default, and you choose between them based on what you are trying to do
+- C) The ecosystem-native assistant and the sandbox are the same product accessed through different interfaces
+- D) The thinking partner is the master tool, and the other two are plug-ins for it
+- E) All three come from the same company and run on the same underlying model
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The chapter is explicit: "they do not share data. They do not talk to each other."
-- ⭐ B) ✅ The chapter states: "these three tools are completely independent of each other. They do not share data. They do not talk to each other. They are three separate products from three different companies — and you choose between them based on what you are trying to do, not use them as a connected system."
-- C) ❌ The chapter is explicit that Gemini (consumer product) and AI Studio (developer/sandbox) are "entirely different product[s]."
-- D) ❌ Claude Desktop is described as "a standalone thinking partner" — not a master tool.
-- E) ❌ Claude is made by Anthropic. Only Gemini and AI Studio are Google products.
+- A) ❌ The chapter is explicit: "They do not share data or talk to each other by default."
+- ⭐ B) ✅ The chapter states: "out of the box, these three tools are independent of each other. They do not share data or talk to each other by default. Two of them come from the same company, but even those are separate products with separate jobs — and you choose between them based on what you are trying to do, not use them as a connected system."
+- C) ❌ The chapter is explicit that the consumer assistant and the sandbox are "entirely different product[s]" — "Same account, same company, completely different tool."
+- D) ❌ The thinking partner is described as "a standalone thinking partner" — not a master tool.
+- E) ❌ Two of the three tools come from the same company; the thinking partner comes from a different vendor. The point of the chapter is that tools are defined by their role, not their logo.
 
 </details>
 
@@ -29,22 +29,22 @@ According to Chapter 2, what is the relationship between the three tools introdu
 
 ## Question 2
 
-According to the chapter, the *primary* reason to prefer Claude Desktop over the Claude browser version is:
+According to the chapter, why does it recommend installing your thinking partner as a *desktop application* rather than using it in a browser tab? Which reason does the chapter actually give?
 
-- A) Claude Desktop runs a more powerful model than the browser
-- B) Persistence — the desktop app lets you set a system prompt that loads automatically before every conversation; the browser version does not preserve this across sessions
-- C) Claude Desktop is free while the browser version is paid
-- D) Claude Desktop has direct access to your Gmail and Drive
-- E) Claude Desktop integrates directly with Gemini and AI Studio
+- A) The desktop app runs a more powerful model than the browser
+- B) The desktop app is where later modules connect the assistant to outside tools, files, and systems — and where it becomes an agentic workspace rather than just a chat window
+- C) The desktop app is free while the browser version is paid
+- D) The desktop app has direct access to your Gmail and Drive out of the box
+- E) The desktop app integrates directly with your other two tools
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The chapter never claims the desktop runs a more powerful model. Both connect to Claude.
-- ⭐ B) ✅ The chapter states: "The reason to prefer the desktop application over the browser version is persistence. The desktop app lets you set a system prompt — a standing set of instructions — that loads before every conversation automatically... The browser version does not preserve this across sessions."
-- C) ❌ Cost is not framed as the differentiator; the chapter mentions Claude Pro ($20/month) as the recommended tier.
-- D) ❌ The chapter says the opposite: Claude does not connect to your Gmail or Drive — Gemini does.
-- E) ❌ The chapter is explicit that the three tools do not connect to each other.
+- A) ❌ The chapter never claims the desktop runs a more powerful model. Both connect to the same assistant.
+- ⭐ B) ✅ The chapter gives two reasons, "both about what comes later in this book": "the desktop app is where your assistant connects to the rest of your working life" (Module 3 tool connections live in the desktop client), and "the desktop app is where the assistant stops being just a chat window and becomes an **agentic workspace** — a workshop bench rather than a search box."
+- C) ❌ Cost is not framed as the differentiator; current plan names and prices live on the setup sheet, not in the chapter.
+- D) ❌ The chapter says the opposite: out of the box the thinking partner is isolated — the ecosystem-native assistant is the one with native awareness of your Google data.
+- E) ❌ The chapter is explicit that the three tools are independent by default.
 
 </details>
 
@@ -52,22 +52,22 @@ According to the chapter, the *primary* reason to prefer Claude Desktop over the
 
 ## Question 3
 
-The chapter explains *why* you would use Gemini rather than Claude. Which TWO statements correctly describe Gemini's role in the workshop?
+The chapter explains *why* you would use your ecosystem-native assistant rather than your thinking partner. Which TWO statements correctly describe the ecosystem-native assistant's role in the workshop?
 
-- A) Gemini is preferred when your task touches Google data — Gmail, Drive, Docs, Calendar — because it has native awareness of your Google ecosystem when you ask
-- B) Gemini's **Gems** feature lets you save a configuration with its own instructions that load automatically every time you open that Gem — eliminating the need to re-explain context for repeated tasks
-- C) Gemini is preferred over Claude for deep reasoning and nuanced writing tasks
-- D) Gemini is the master tool that orchestrates Claude and AI Studio
-- E) Gemini is faster than Claude because it runs locally on your machine
+- A) It is preferred when your task touches your ecosystem's data — Gmail, Drive, Docs, Calendar — because it has native awareness of that ecosystem when you explicitly ask it to use it
+- B) Its **Gems** feature lets you save a configuration with its own instructions that load automatically every time you open that Gem — eliminating the need to re-explain context for repeated tasks
+- C) It is preferred over your thinking partner for deep reasoning and nuanced writing tasks
+- D) It is the master tool that orchestrates the other two tools
+- E) It is faster than your thinking partner because it runs locally on your machine
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- ⭐ A) ✅ The chapter states: "The reason to use Gemini is... it is native to Google's ecosystem... Gemini has awareness of your Gmail, Drive, Docs, and Calendar when you explicitly ask it to use them... Claude cannot."
-- ⭐ B) ✅ The chapter states: "A Gem is a saved AI configuration that lives inside Gemini. You give it instructions — a system prompt — and every time you open that Gem, it loads those instructions automatically... You do not explain yourself from scratch every session."
-- C) ❌ The chapter explicitly says "Gemini is not a substitute for Claude when you need deep reasoning or nuanced writing." Claude is preferred for that work.
-- D) ❌ The chapter never describes Gemini as a master tool; the three are independent.
-- E) ❌ Gemini does not run locally — it runs on Google's cloud at gemini.google.com.
+- ⭐ A) ✅ The chapter states: "The reason to use an ecosystem-native assistant is not that it is better or worse than your thinking partner — it is that it is *native*... it has awareness of your Gmail, Drive, Docs, and Calendar when you explicitly ask it to use them... Your thinking partner, out of the box, cannot — though in Module 3 you will teach it to."
+- ⭐ B) ✅ The chapter states: "A Gem is a saved AI configuration... You give it instructions — a system prompt — and every time you open that Gem, it loads those instructions automatically... You do not explain yourself from scratch every session."
+- C) ❌ The chapter explicitly says it "is not a substitute for your thinking partner when you need deep reasoning or nuanced writing."
+- D) ❌ The chapter never describes it as a master tool; the three are independent by default.
+- E) ❌ It does not run locally — it runs in the browser, in the vendor's cloud.
 
 </details>
 
@@ -75,22 +75,22 @@ The chapter explains *why* you would use Gemini rather than Claude. Which TWO st
 
 ## Question 4
 
-Google AI Studio is introduced as a third, distinct tool. According to the chapter, what is the primary thing you must obtain from AI Studio that the rest of the book will rely on?
+The sandbox is introduced as a third, distinct tool. According to the chapter, what is the primary thing you must obtain from the sandbox that the rest of the book will rely on?
 
 - A) A monthly subscription receipt
-- B) An API key — a unique code that identifies your account and lets other tools connect to Google's AI models on your behalf
+- B) An API key — a unique code that identifies your account and lets other tools connect to AI models on your behalf
 - C) A printed certificate of authentication
-- D) A new Google account separate from your personal one
-- E) Antigravity IDE access
+- D) A new account separate from your personal one
+- E) A dedicated IDE license
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ A subscription receipt is not mentioned anywhere in the AI Studio setup.
-- ⭐ B) ✅ The chapter states: "AI Studio is where you get your access key — a unique code that identifies your account and lets other tools connect to Google's AI models on your behalf. Getting one costs nothing and takes two minutes."
+- A) ❌ A subscription receipt is not mentioned anywhere in the sandbox setup.
+- ⭐ B) ✅ The chapter states: "the sandbox is where you get your **API key** — a unique code that identifies your account and lets other tools connect to AI models on your behalf. Getting one is free to start and takes a couple of minutes."
 - C) ❌ No certificate is involved; the API key is a copyable text string stored in a password manager.
-- D) ❌ The chapter explicitly says "Same Google account" — you do not need a new one.
-- E) ❌ Antigravity is referenced only in Tracks B and C of the applied exercise, not as the AI Studio output.
+- D) ❌ The chapter explicitly says the sandbox uses the same account as your ecosystem-native assistant — you do not need a new one.
+- E) ❌ No IDE license is required; the sandbox is a browser-based developer tool.
 
 </details>
 
@@ -167,22 +167,22 @@ The chapter argues professionals *should* give their AI a persona. According to 
 
 ## Question 8
 
-According to the chapter, what is the appropriate use of Google AI Studio in the daily workshop?
+According to the chapter, what is the appropriate use of the sandbox tool in the daily workshop?
 
 - A) As your daily driver for all writing and analysis work
-- B) As a sandbox — for experimenting with new capabilities, testing parameters Gemini does not expose (like temperature), and accessing models before they reach the consumer product
-- C) As a real-time backup that mirrors every Claude conversation
+- B) As a sandbox — for experimenting with new capabilities, testing parameters the consumer product does not expose (like temperature), and accessing models before they reach the consumer product
+- C) As a real-time backup that mirrors every thinking-partner conversation
 - D) As the primary place to draft client deliverables
 - E) As a calendar and scheduling tool
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The chapter is explicit: "AI Studio is not your daily driver for most tasks. It is a sandbox."
-- ⭐ B) ✅ The chapter states: "Use AI Studio when you are experimenting with something new, testing a capability before using it in real work, or accessing model parameters that Gemini does not expose... AI Studio is not your daily driver for most tasks. It is a sandbox."
-- C) ❌ The chapter is explicit that the tools do not share data, so this mirroring is impossible.
-- D) ❌ The chapter says daily writing work belongs in Claude or Gemini, not in the sandbox.
-- E) ❌ AI Studio is not a calendar tool.
+- A) ❌ The chapter is explicit: "It is not your daily driver for most tasks. It is a sandbox."
+- ⭐ B) ✅ The chapter states the sandbox is for "experimenting with something new, testing a capability before using it in real work," configuring "parameters the consumer product does not expose," and getting "direct access to the most powerful models — often including experimental versions that are not in the consumer product yet."
+- C) ❌ The chapter is explicit that the tools do not share data by default, so this mirroring is impossible.
+- D) ❌ The chapter says daily writing work belongs in your thinking partner or ecosystem-native assistant, not in the sandbox: "You would not do your actual writing or analysis work in a sandbox."
+- E) ❌ The sandbox is not a calendar tool.
 
 </details>
 
@@ -190,19 +190,19 @@ According to the chapter, what is the appropriate use of Google AI Studio in the
 
 ## Question 9
 
-In the Meridian Strategy Group case study, two senior partners argued *against* using a configured system prompt — they believed an AI constrained by a system prompt was "by definition less useful than an unconstrained one." According to the chapter, what is the consultant Marcus Trent's *counter-argument*, drawing on the antigravity concept?
+In the Meridian Strategy Group case study, two senior partners argued *against* using a configured system prompt — they believed an AI constrained by a system prompt was "by definition less useful than an unconstrained one." According to the chapter, what is the consultant Marcus Trent's *counter-argument*, drawing on the concept of the pre-briefed professional?
 
 - A) Senior partners are usually right about strategic decisions and the firm should defer
-- B) A well-configured AI removes friction rather than adding it — it functions like a professional who already understands the context rather than a stranger who must be re-briefed every time; without persistent configuration, AI degrades into a novelty rather than a professional instrument
+- B) A well-configured AI removes friction rather than adding it — it functions like a colleague who already understands the context rather than a stranger who must be re-briefed every time; without persistent configuration, AI degrades into a novelty rather than a professional instrument
 - C) System prompts make AI run faster on the firm's hardware
-- D) System prompts are required by Anthropic's terms of service
+- D) System prompts are required by the vendor's terms of service
 - E) Trent agreed with the partners and abandoned the workshop project
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
 - A) ❌ The case study explicitly describes Trent disagreeing with the partners — and being right.
-- ⭐ B) ✅ The case states: "Trent, drawing on the antigravity concept he had studied — the idea that a well-configured AI *removes friction* rather than adding it, functioning like a professional who already understands the context rather than a stranger who must be re-briefed — argued the opposite: that without persistent configuration, AI degrades into a novelty rather than a professional instrument."
+- ⭐ B) ✅ The case states: "Trent, drawing on the concept of the pre-briefed professional — the idea that a well-configured AI *removes friction* rather than adding it, functioning like a colleague who already understands the context rather than a stranger who must be re-briefed — argued the opposite: that without persistent configuration, AI degrades into a novelty rather than a professional instrument."
 - C) ❌ Hardware speed is not part of the argument.
 - D) ❌ No vendor terms-of-service argument is made.
 - E) ❌ The case describes Trent's plan being funded for a 30-day pilot, not abandoned.

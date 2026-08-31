@@ -1,8 +1,3 @@
-# Case Study — Chapter 4: Skills — Teaching Your AI New Tricks
-*Florida Atlantic University — Graduate Course*
-
----
-
 ## Case Study: The Recipe Book and the Improv Kitchen — Meridian Capital Partners Builds a Skill Library
 
 ### Background

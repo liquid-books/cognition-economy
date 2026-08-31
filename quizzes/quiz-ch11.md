@@ -40,8 +40,8 @@ The chapter uses the "McDonald's Move" as its central analogy for the Agent SDK.
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- ⭐ A) ✅ The chapter states: "Claude Code is the *kitchen* that produces Claude Code. It is the engine." (And explicitly: "Claude Code is what you *use*. The Agent SDK is what you *deploy*.") The hamburger/kitchen mapping is the central image.
-- ⭐ B) ✅ The chapter states: "Anthropic, in 2024, made the McDonald's move with AI" — describing how the SDK packages the same system Anthropic built for itself so any company can build their own products on top of it.
+- ⭐ A) ✅ The chapter states: "The Agent SDK is the *kitchen* that produces Claude Code. It is the engine." (And explicitly: "Claude Code is what you *use*. The Agent SDK is what you *deploy*.") The hamburger/kitchen mapping is the central image.
+- ⭐ B) ✅ The chapter states: "Anthropic made the McDonald's move with AI. The headline product was Claude Code — an AI coding assistant engineers loved. That was the meal. Then Anthropic packaged the engine underneath it as the Claude Agent SDK" — and notes "Every major lab has since made, or will make, the same move: the assistant is the demo; the SDK is the business."
 - C) ❌ The chapter does not describe the SDK as a "licensed AI model" — it explicitly describes it as "the engine — the agent loop, the tool orchestration, the context management, the permission system."
 - D) ❌ The analogy is offered as a positive strategic insight, not a warning. The chapter explicitly endorses the McDonald's move as the right framing.
 - E) ❌ The chapter applies the analogy broadly across consumer and enterprise deployments — no such restriction is made.
@@ -144,13 +144,13 @@ The chapter lists several "red flags" to watch for in early engineering conversa
 
 ## Question 7
 
-The chapter argues that no-code platforms (Zapier, Make, Lindy, Relevance AI) deserve serious consideration alongside vendor solutions and custom SDK builds. Which TWO statements correctly capture the chapter's argument?
+The chapter argues that no-code platforms — established automation platforms with agent steps, and newer agent-native platforms — deserve serious consideration alongside vendor solutions and custom SDK builds. Which TWO statements correctly capture the chapter's argument?
 
 - A) No-code platforms wrap the same fundamental SDK capabilities (agent loop, built-in tools, context, permissions) in a visual interface
 - B) No-code platforms can deliver 80% of what a custom SDK build does, at a fraction of the cost and timeline
 - C) No-code platforms are only suitable for personal productivity tasks, not business workflows
 - D) No-code platforms always require an engineering team to deploy, defeating their purpose
-- E) No-code platforms exist only on the Anthropic ecosystem and cannot integrate with other AI providers
+- E) No-code platforms exist only on one vendor's ecosystem and cannot integrate with other AI providers
 
 <details>
 <summary>Show Answer & Explanations</summary>
@@ -159,7 +159,7 @@ The chapter argues that no-code platforms (Zapier, Make, Lindy, Relevance AI) de
 - ⭐ B) ✅ The chapter states: "A no-code platform might let you build 80% of what a custom SDK build could do" and recommends "Track 1 — No-code first" as the default starting point.
 - C) ❌ The chapter explicitly recommends no-code for business workflows: "claims pre-screening, lead enrichment, support ticket triage, vendor invoice review."
 - D) ❌ The whole point of no-code is that it does not require engineering — the chapter says someone in operations can build with "two hours of training instead of four months of engineering."
-- E) ❌ The chapter cites multiple no-code platforms across different ecosystems (Zapier, Make, Lindy, Relevance AI) — they are not tied to any single AI provider.
+- E) ❌ The chapter describes two groups of platforms — established automation platforms with agent steps and newer agent-native platforms — across different ecosystems; they are not tied to any single AI provider.
 
 </details>
 

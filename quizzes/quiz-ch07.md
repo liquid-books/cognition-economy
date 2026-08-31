@@ -6,22 +6,22 @@
 
 ## Question 1
 
-According to Chapter 7, why does AI have no persistent memory between sessions — and is this a flaw?
+According to Chapter 7, how does AI memory actually work at the model level — and why does the chapter say whatever memory a product offers is not enough?
 
-- A) It's a temporary bug that will be fixed in the next model release
-- B) Large language models are designed as *stateless* systems — each conversation is a self-contained context window that is cleared when the session ends; the model itself is unchanged, but the conversation is gone. This is actually a feature, not a failure, because persistent memory across all users would raise serious privacy concerns
+- A) Models remember everything permanently; the chapter's concern is purely about cost
+- B) The model core is *stateless* — each conversation is a self-contained context window that is cleared when the session ends; whatever memory a product offers on top of that core is a vendor feature — bolted on, vendor-specific, subject to change — that you did not choose, cannot always inspect, and cannot carry with you when you switch tools
 - C) The model intentionally erases memory to charge you more next time
-- D) Memory is disabled by default but can be turned on in settings
-- E) AI does remember everything — the chapter is wrong on this point
+- D) Memory is a simple settings toggle, and turning it on solves the problem completely
+- E) AI remembers nothing under any circumstances — no product offers any memory feature
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
-- A) ❌ The chapter does not describe statelessness as a bug awaiting a fix.
-- ⭐ B) ✅ The chapter states: "Large language models do not store information between conversations because they are designed as stateless systems. Each conversation is a self-contained context window — a finite space that holds everything the AI knows about the current exchange. When the conversation ends, that context window is cleared. The model itself — the weights, the parameters, the intelligence — is unchanged. But the specific content of that conversation is gone. This is actually a feature, not a failure. Persistent memory across all conversations would raise serious privacy concerns."
+- A) ❌ The chapter is explicit that the model core does not store information between conversations.
+- ⭐ B) ✅ The chapter states: "Large language models do not store information between conversations — they are designed as stateless systems... At that level, statelessness is a feature, not a failure." And: "whatever memory a product offers on top of the stateless model is a vendor feature — bolted on, vendor-specific, subject to change. You did not decide what it kept. You cannot always see what it kept. And you cannot take what it kept with you when you switch tools."
 - C) ❌ Statelessness is not described as a billing mechanism.
-- D) ❌ The chapter does not present memory as a togglable setting.
-- E) ❌ The chapter is explicit that AI does not remember between sessions.
+- D) ❌ The chapter argues built-in memory — however configured — is never your system of record; the professional's solution is a memory layer you own.
+- E) ❌ The chapter acknowledges some products "quietly save fragments of past conversations and surface them later" — the problem is that you don't control it.
 
 </details>
 
@@ -80,7 +80,7 @@ The chapter argues a common mistake is confusing memory with context. According 
 - A) Memory and context are identical — the words are interchangeable
 - B) **Context** is what you provide in a specific conversation (documents attached, info shared, the question asked) and exists within the session targeted to the task at hand; **memory** is what persists between sessions (a standing brief about who you are and what you are working on) — broader and less task-specific, giving the AI a foundation to work from rather than a set of instructions for a specific task
 - C) Memory is paid; context is free
-- D) Context only works in Gemini; memory only works in Claude
+- D) Context only works in one vendor's tool; memory only works in another's
 - E) Memory is what the AI provides; context is what the user provides
 
 <details>

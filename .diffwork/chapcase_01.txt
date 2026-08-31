@@ -1,8 +1,3 @@
-# Case Study — Chapter 1: AI Basics — The Foundation Everyone Skips
-*Florida Atlantic University — Graduate Course*
-
----
-
 ## Case Study: The Analyst Who Knew Everything — Except What Mattered
 
 ### Background

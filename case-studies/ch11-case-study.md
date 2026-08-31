@@ -3,11 +3,11 @@
 
 ---
 
-## Case Study: Cypress Coastal Insurance — The Three Proposals
+## Case Study: The Three Proposals at Cypress Coastal Insurance
 
 ### Background
 
-Cypress Coastal Insurance is a regional property and casualty carrier headquartered in Tampa, Florida, with approximately 480 employees and roughly $720 million in annual written premium. The firm serves Florida homeowners and small commercial property clients across Florida, Georgia, and Alabama, with a particular concentration in hurricane-exposed coastal counties. In late 2025, Chief Operating Officer Helena Vasquez initiated a strategic review of the firm's first-notice-of-loss (FNOL) process — the front-end claims workflow where every incoming claim gets reviewed, classified, and routed to an adjuster.
+Cypress Coastal Insurance is a regional property and casualty carrier headquartered in Tampa, Florida, with about five hundred employees and roughly $700 million in annual written premium. The firm serves Florida homeowners and small commercial property clients across Florida, Georgia, and Alabama, with a particular concentration in hurricane-exposed coastal counties. Chief Operating Officer Helena Vasquez initiated a strategic review of the firm's first-notice-of-loss (FNOL) process — the front-end claims workflow where every incoming claim gets reviewed, classified, and routed to an adjuster.
 
 The numbers driving the review were straightforward. The firm receives roughly 9,000 FNOLs per year. Three claims analysts, working from a centralized intake queue, spend an average of two hours on each report before routing it. The work is heavy on document review — policy verification, coverage matching, anomaly flagging, and the writing of a one-page summary that goes to the assigned adjuster. The total annual labor allocation is approximately 18,000 hours, and Vasquez's analysis suggests that 60–70% of that work follows a pattern repetitive enough to be automated.
 
@@ -45,3 +45,4 @@ Apply the four-question build-vs-buy framework from this chapter to Helena Vasqu
 - Maintain a professional and respectful academic tone
 
 ---
+

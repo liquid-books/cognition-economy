@@ -10,7 +10,7 @@ According to Chapter 4, what is the *fundamental* distinction between a prompt a
 
 - A) A prompt is written in English; a skill is written in code
 - B) A prompt is a set of instructions you give an AI for a specific task in a specific conversation — it ends when the conversation ends; a skill is a packaged, named, reusable capability with a consistent trigger that lives permanently in your AI setup
-- C) A prompt only works in Claude; a skill only works in Gemini
+- C) A prompt only works in one vendor's tool; a skill only works in another's
 - D) A prompt is paid; a skill is free
 - E) A prompt is for individuals; a skill is for enterprise customers
 
@@ -19,7 +19,7 @@ According to Chapter 4, what is the *fundamental* distinction between a prompt a
 
 - A) ❌ Both are written in natural language in the chapter — code is never the differentiator.
 - ⭐ B) ✅ The chapter states: "A **prompt** is a set of instructions you give an AI for a specific task, in a specific conversation. It gets the job done in the moment. When the conversation ends, the prompt ends with it... A **skill** is a packaged, named, reusable capability. It has a consistent trigger... It lives in your AI setup permanently."
-- C) ❌ Skills work across multiple platforms (Gems, Projects, etc.) per the chapter.
+- C) ❌ Skills work across vendors — the chapter is explicit that the concept is the same inside every container (a Project, a Gem, a custom GPT, an agent).
 - D) ❌ Cost is never the distinction.
 - E) ❌ The chapter targets individual professionals, not enterprise tiers.
 
@@ -101,7 +101,7 @@ The chapter describes a "Pre-Call Intelligence" skill as one concrete example. W
 According to the chapter, what is the recommended four-step process for building a skill?
 
 - A) Buy expensive software, hire a consultant, deploy in production, audit annually
-- B) Identify a repeating task → describe the ideal output (find your best-ever example) → write the skill instructions using Claude (meta-prompting from your example) → test and refine on three real examples
+- B) Identify a repeating task → describe the ideal output (find your best-ever example) → have your AI write the skill instructions (meta-prompting from your example) → test and refine on three real examples
 - C) Memorize the entire user manual, configure firewall settings, write unit tests, then deploy
 - D) Wait for IT to provision an enterprise instance, then file a ticket
 - E) Apply for an API key, submit a budget request, host a kickoff meeting, attend training
@@ -110,7 +110,7 @@ According to the chapter, what is the recommended four-step process for building
 <summary>Show Answer & Explanations</summary>
 
 - A) ❌ This bureaucratic path is the opposite of the chapter's lightweight approach.
-- ⭐ B) ✅ The chapter states the four steps: "Step 1: Identify a repeating task... Step 2: Describe the ideal output... find the best example of this task you have ever produced... Step 3: Write the skill instructions using Claude... Step 4: Test and refine. Run the skill on three real examples from your work."
+- ⭐ B) ✅ The chapter states the four steps: "Step 1: Identify a repeating task... Step 2: Describe the ideal output... find the best example of this task you have ever produced... Step 3: Have your AI write the skill instructions... Step 4: Test and refine. Run the skill on three real examples from your work."
 - C) ❌ This technical path is not what the chapter describes.
 - D) ❌ IT provisioning is not part of the chapter's process — the chapter is explicitly for non-developer business users.
 - E) ❌ Budget requests and kickoff meetings are not part of the four-step process.
@@ -124,16 +124,16 @@ According to the chapter, what is the recommended four-step process for building
 The chapter explains how to "turn any API into a skill." Which TWO statements correctly describe the chapter's approach?
 
 - A) You find a tool's developer documentation, understand the *capability* (what it does, what it takes in, what it gives back) — you do not need to read the technical parts to use it
-- B) You paste the documentation into Claude and ask Claude to write the skill instructions, including what the AI needs to send to the API and how to present the results
+- B) You paste the documentation into your assistant and ask it to write the skill instructions, including what the AI needs to send to the API and how to present the results
 - C) You must complete a four-year computer science degree before using any API
-- D) You must rewrite the API in Python yourself before Claude can use it
+- D) You must rewrite the API in Python yourself before your AI can use it
 - E) APIs only work with paid enterprise AI tiers
 
 <details>
 <summary>Show Answer & Explanations</summary>
 
 - ⭐ A) ✅ The chapter states: "You go to a tool's website and look for their documentation... You do not need to read the technical parts. You just need to understand the *capability*: what can this thing do, what do you give it, and what does it give back?"
-- ⭐ B) ✅ The chapter states: "Then you open Claude Desktop and say: 'Here is the documentation for [tool name]. I want to build a skill that uses this API to [describe what you want it to do]. Write me the instructions for this skill, including what the AI needs to send to the API and how to present the results.' Claude reads the documentation. Claude writes the skill."
+- ⭐ B) ✅ The chapter states: "Then you open your assistant and say: 'Here is the documentation for [tool name]. I want to build a skill that uses this API to [describe what you want it to do]. Write me the instructions for this skill, including what the AI needs to send to the API and how to present the results.'" The AI reads the documentation. The AI writes the skill.
 - C) ❌ The chapter explicitly says no engineering prerequisites are needed.
 - D) ❌ Rewriting the API yourself is not part of the chapter's process.
 - E) ❌ The chapter is explicit that this works on standard tiers — and many APIs are free or extremely cheap.
@@ -171,7 +171,7 @@ In the Meridian Capital Partners case study, Rachel Osei discovers that two equa
 
 - A) Marcus spent three weekends building a "recipe book" — a library of fifteen named AI skills covering every repeating task, each with clear names, specific standing instructions, defined context about Meridian's evaluation criteria, and locked output formats
 - B) Priya was rewriting her prompts from scratch every session — good prompts, thoughtful prompts, but one-time prompts that vanished the moment she closed the chat window
-- C) Marcus was using a more expensive Claude tier than Priya
+- C) Marcus was using a more expensive subscription tier than Priya
 - D) Priya was working fewer hours than Marcus
 - E) Marcus had a side deal with an AI vendor that gave him a private model
 

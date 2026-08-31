@@ -6,6 +6,7 @@
 
 ## Changelog
 
+- *Fall 2026* — Added Manus (manus.im) as the independent fully-hosted example alongside Managed Agents, matching the print edition's extended hosted-harness paragraph.
 - *Fall 2026* — Initial page. Verified against the tools listed below.
 - *(future entries go here — what changed since the printed edition, three lines, dated)*
 
@@ -45,7 +46,8 @@
 - **No-code platform list (current):**
   - *Established automation platforms with agent steps:* Zapier (zapier.com), Make (make.com)
   - *Agent-native platforms (names churn fastest — re-check each term):* Lindy (lindy.ai), Relevance AI (relevanceai.com)
-- **Hosted option:** Anthropic Managed Agents — in beta as of Fall 2026; not ZDR/HIPAA-eligible at launch. Re-verify compliance status before recommending (see Chapter 14).
+- **Hosted option (vendor-managed):** Anthropic Managed Agents — in beta as of Fall 2026; not ZDR/HIPAA-eligible at launch. Re-verify compliance status before recommending (see Chapter 14).
+- **Hosted option (independent platform):** Manus (manus.im) — a hosted autonomous agent platform: you hand it a goal and it works it end to end in the cloud, handling multi-step research, analysis, and content tasks on the platform's own infrastructure. The fully-hosted end of the chapter's spectrum, from an independent vendor rather than the model lab. Same convenience-vs-compliance caveat as Managed Agents: pull the platform's current data-handling and residency terms before recommending it for anything regulated.
 
 ## Instructor Refresh Checklist (each term)
 

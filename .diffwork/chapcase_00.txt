@@ -1,8 +1,3 @@
-# Case Study — Chapter 0: From Renting Muscle to Renting Cognition
-*Florida Atlantic University — Graduate Course*
-
----
-
 ## Case Study: Two Hospitals, One AI Vendor, Two Very Different Futures
 
 ### Background
