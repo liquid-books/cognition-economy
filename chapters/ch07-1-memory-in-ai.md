@@ -20,3 +20,5 @@ tags: [ai, business, cognition-economy]
 > *This chapter is scaffolded and ready for writing. Full content will be added in a subsequent session.*
 
 *(Chapter coming soon.)*
+
+*See also: the "Retrieval and RAG: The Design Pattern Behind Every Memory System" section in [Chapter 7](#ch07) for how knowledge actually reaches the model — paste-in, project-knowledge RAG, or live connector.*

@@ -20,3 +20,5 @@ tags: [ai, business, cognition-economy]
 > *This chapter is scaffolded and ready for writing. Full content will be added in a subsequent session.*
 
 *(Chapter coming soon.)*
+
+*See also: the "Try It" install walkthroughs for the Claude for Excel add-in and the Claude app for Slack in [Chapter 8](#ch08).*
