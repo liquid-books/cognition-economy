@@ -96,7 +96,7 @@ Here is a before-and-after that demonstrates the three rules in action.
 :::
 :::{card} ✅ After (Context-Engineered)
 *"Goal: I need clear Q4 strategic priorities for my SaaS HR tech company.*  
-*Context: 85 employees, 7-year-old company, difficult 2024 due to market contraction.*  
+*Context: 85 employees, 7-year-old company, difficult past year due to market contraction.*  
 *Constraints: Output should be three priorities max, written for the executive team, with one-sentence rationale for each.*  
 *Below is the relevant section of our current strategy doc:*  
 [Excerpt: the 300 most relevant words, not the full 2,000]*  

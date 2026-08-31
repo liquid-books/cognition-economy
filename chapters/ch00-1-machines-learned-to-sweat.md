@@ -144,7 +144,7 @@ The Industrial Revolution made muscular effort rentable.
 
 The AI Revolution is making **cognitive effort** rentable.
 
-Right now, for roughly \$20 per month, you have access to reasoning capability that, by any conventional measure, exceeds what the finest-trained human analyst could bring to a task at a comparable cost. Summarization. Classification. Drafting. Extraction. Pattern recognition. Hypothesis generation. Synthesis.
+Right now, for less than the price of a business lunch each month, you have access to reasoning capability that, by any conventional measure, exceeds what the finest-trained human analyst could bring to a task at a comparable cost. Summarization. Classification. Drafting. Extraction. Pattern recognition. Hypothesis generation. Synthesis.
 
 These are no longer scarce. They are commodities. Rentable. Accessible.
 

@@ -97,7 +97,7 @@ This reframes how you think about your prompts. A prompt is not just a question 
   - 10,000
 ```
 
-None of these figures should alarm you — at current pricing, even 10,000 tokens costs less than a dollar. But the *pattern* matters as your usage scales, and understanding the unit helps you make informed decisions about prompt length, document inclusion, and conversation management.
+None of these figures should alarm you — even a 15-page contract's worth of tokens costs a small fraction of a dollar to process. But the *pattern* matters as your usage scales, and understanding the unit helps you make informed decisions about prompt length, document inclusion, and conversation management.
 
 ---
 
@@ -134,5 +134,5 @@ This is not an abstract exercise. Once you have seen how your own sentences toke
 ---
 
 :::{tip} Try This
-Go to **[https://platform.openai.com/tokenizer](https://platform.openai.com/tokenizer)** and paste in the last email you wrote. Watch how it breaks into tokens. Notice which words split into multiple pieces — that is your text as the model actually reads it.
+Open a tokenizer tool (OpenAI publishes a free one; the current link is at **drlee.io/ch01**) and paste in the last email you wrote. Watch how it breaks into tokens. Notice which words split into multiple pieces — that is your text as the model actually reads it.
 :::

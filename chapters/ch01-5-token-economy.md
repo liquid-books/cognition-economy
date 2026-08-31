@@ -33,12 +33,12 @@ Why? Generating text is computationally more intensive than reading it. When the
 :::{admonition} The Pricing Asymmetry
 :class: note
 
-As a rough rule (check current pricing at **[anthropic.com/pricing](https://www.anthropic.com/pricing)**):
+The exact prices change constantly, but the *shape* of the pricing does not:
 
-- **Input tokens** are typically priced at roughly **\$3–\$15 per million tokens** depending on the model tier
-- **Output tokens** are typically **2–5× more expensive** than input tokens at the same tier
+- **Output tokens usually cost 3–5× what input tokens cost** at the same tier
+- **Higher tiers cost more per token** than faster, lighter tiers — often by an order of magnitude
 
-For a frontier model like Claude Sonnet, this means that a long, detailed prompt costs noticeably less than a long, detailed response.
+The practical consequence: a long, detailed prompt costs noticeably less than a long, detailed response. Check your vendor's current pricing page for today's digits; the ratio is what to remember.
 :::
 
 This asymmetry is your cost lever. If you want to reduce AI costs at scale:
@@ -123,16 +123,16 @@ The professional discipline is knowing which situation you are in before you sta
 
 ## Practical Cost Awareness
 
-At current pricing for frontier models (\~\$15 per million output tokens), here is what various tasks actually cost:
+At press-time rates, drafting a 500-word email cost about a cent; a complex multi-document research task, a dollar or two. Prices have been falling roughly an order of magnitude every couple of years — the direction matters more than the digits. The relative shape of the costs is what to internalize:
 
-- Drafting a 500-word email: **less than \$0.01**
-- Analyzing a 10-page report and generating a summary: **\$0.05–\$0.15**
-- Processing 100 customer emails with response drafts: **\$1–\$3**
-- Running a complex multi-document research task: **\$0.50–\$2.00**
+- Drafting a short email: **effectively free**
+- Analyzing a 10-page report and generating a summary: **pocket change**
+- Processing 100 customer emails with response drafts: **a coffee**
+- Running a complex multi-document research task: **somewhere between the two**
 
 For individual professional use, AI costs are almost negligible compared to the productivity gains. The economics only become materially significant at scale — thousands of automated tasks, large document corpora, or high-frequency batch processing.
 
-Knowing this helps you calibrate: don't be so obsessed with token efficiency that you hobble your prompts. At \$20/month for a pro subscription, you have substantial capacity before usage caps become a concern.
+Knowing this helps you calibrate: don't be so obsessed with token efficiency that you hobble your prompts. On a consumer subscription, you have substantial capacity before usage caps become a concern.
 
 ---
 
@@ -142,7 +142,7 @@ Knowing this helps you calibrate: don't be so obsessed with token efficiency tha
 :class: tip
 
 1. AI pricing works like a taxi meter: you pay per token, not per question.
-2. Output tokens cost more than input tokens — typically 2–5× as much. This is your primary cost lever at scale.
+2. Output tokens cost more than input tokens — usually 3–5× as much. This is your primary cost lever at scale.
 3. Every message in a conversation re-sends the entire history. Long conversations compound input costs.
 4. Three cost levers: prompt efficiency, output constraints, and conversation management.
 5. For individual professional use, costs are small. Cost awareness matters most when automating at scale.
@@ -151,5 +151,5 @@ Knowing this helps you calibrate: don't be so obsessed with token efficiency tha
 ---
 
 :::{tip} Try This
-Open **[anthropic.com/pricing](https://www.anthropic.com/pricing)** and find the current input and output token price for Claude Sonnet. Then mentally estimate the token cost of your last full AI conversation — how many messages, roughly how long each one was. The number will probably surprise you with how low it is.
+Open your AI vendor's current pricing page and find the input and output token price for its balanced-tier model. Then mentally estimate the token cost of your last full AI conversation — how many messages, roughly how long each one was. The number will probably surprise you with how low it is.
 :::

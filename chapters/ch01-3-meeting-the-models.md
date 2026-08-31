@@ -2,7 +2,7 @@
 title: "Meeting the Models: A Tour of the Family"
 subtitle: "Not All Intelligence Is the Same Shape"
 short_title: "Meeting the Models"
-description: "A practical guide to the major AI model families, their strengths, and when to use each one."
+description: "A practical framework for choosing among AI model tiers and families — and a dated roster for the current lineup."
 label: ch01-3
 tags: [ai, business, cognition-economy, chapter-1]
 ---
@@ -26,13 +26,13 @@ Choosing the right model for a task is not a technical decision. It is a practic
 
 ## A Note on Version Numbers
 
-Before we go any further: the specific model versions named in this chapter will be outdated within months. AI providers release new versions constantly, and the version numbers you see here — Opus 4.7, Gemini 3.1, and others — will have successors by the time you read this.
+Before we go any further: any specific model version named in this chapter will be outdated within months. AI providers release new versions constantly, and whatever names appear in the roster sidebar below will have successors by the time you read this.
 
 **The principles do not change. The versions do.**
 
-For the current model map — including which models are available today, what they cost, and which are recommended for which tasks — visit **[drleee.io](https://drleee.io)**. That resource is maintained in real time.
+For the current model map — including which models are available today, what they cost, and which are recommended for which tasks — visit the companion page at **[drlee.io/ch01](https://drlee.io/ch01)**. That resource is maintained in real time.
 
-Read this chapter for the framework of how to think about model selection. Use drleee.io for the current roster.
+Read this chapter for the framework of how to think about model selection. Use the companion page for the current roster.
 
 ---
 
@@ -44,69 +44,44 @@ AI models work the same way. Every major provider offers a tiered lineup:
 
 | Tier | Analogy | Use Case |
 |------|---------|----------|
-| **Frontier / Max** | iPhone Pro Max | Complex reasoning, nuanced writing, deep analysis |
-| **Balanced / Pro** | iPhone Pro | Daily professional work, most business tasks |
-| **Fast / Standard** | iPhone Standard | High volume, quick lookups, speed-sensitive tasks |
+| **Flagship / Frontier** | iPhone Pro Max | Complex reasoning, nuanced writing, deep analysis |
+| **Balanced / Daily Driver** | iPhone Pro | Daily professional work, most business tasks |
+| **Fast / Cheap** | iPhone Standard | High volume, quick lookups, speed-sensitive tasks |
+
+Two additions to this picture have become standard across the industry. First, vendors now also ship *gated frontier tiers above the flagship* — experimental, higher-priced models available to a subset of customers before wide release. Second, the flagship you talk to increasingly *routes* your request among sub-models behind the scenes, choosing how much reasoning effort to spend. Neither changes the framework: you still choose by role, not by name.
 
 ---
 
-## The Claude Family (Anthropic)
+## The Three Roles, By Family
 
-Claude is built by Anthropic with a strong emphasis on careful reasoning, nuanced instruction-following, and long-context performance. It is widely regarded as the best model for complex writing, structured analysis, and tasks requiring sustained coherence across long documents.
+In running text throughout this book, we will refer to models by role rather than by version number:
 
-:::{admonition} Claude Lineup
+**The flagship tier** — the deepest reasoner in each family. Reach for it when the problem is genuinely complex: multi-variable business decisions, nuanced legal or strategic analysis, tasks where you need the model to think carefully before responding.
+
+**The balanced tier** — the daily driver. An excellent balance of capability, speed, and cost. Most professionals find the balanced tier handles 90% of their work at a fraction of the flagship cost.
+
+**The fast tier** — built for speed and volume. Use it when you need fast, lightweight responses: summarizing short documents, answering quick questions, processing large batches of content.
+
+Every major family maps onto these roles:
+
+- **Claude (Anthropic)** — built with a strong emphasis on careful reasoning, nuanced instruction-following, and long-context performance. Widely regarded as a top choice for complex writing, structured analysis, and tasks requiring sustained coherence across long documents.
+- **Gemini (Google)** — deeply integrated with Google Workspace. If you live in Google Docs, Sheets, Gmail, or Drive, Gemini has native access to that ecosystem in ways other models do not. If you already pay for Google Workspace at the business level, some Gemini access may be included — check your organization's plan before subscribing separately.
+- **GPT (OpenAI)** — the lineage that launched the current AI wave, with the largest ecosystem of third-party tools and integrations of any platform. Strong across writing, reasoning, coding, and multimodal tasks.
+- **Grok (xAI)** — xAI's model, trained with a distinctive voice — direct, sometimes irreverent, with real-time access to X (formerly Twitter) data. Uniquely suited for tasks involving social media trends and current events on X.
+
+:::{admonition} Model Roster — Fall 2026 edition
 :class: note
 
-**Claude Opus 4.7** — The deepest reasoner in the family. Reaches for this when the problem is genuinely complex: multi-variable business decisions, nuanced legal or strategic analysis, tasks where you need the model to think carefully before responding.
+*This sidebar is the one place in this chapter where names, versions, and prices appear. It was accurate at press time and will drift. The live roster is at [drlee.io/ch01](https://drlee.io/ch01).*
 
-**Claude Sonnet 4.6** — The daily driver. Excellent balance of capability, speed, and cost. Most professionals find that Sonnet handles 90% of their work at a fraction of the Opus cost.
+**Anthropic (Claude)** — Flagship: **Claude Opus 4.7**. Balanced: **Claude Sonnet 4.6**. Fast: **Claude Haiku 4.6**. Access at [claude.ai](https://claude.ai); free tier available; the paid consumer plan (about \$20/month at press time) unlocks the balanced and flagship tiers.
 
-**Claude Haiku 4.6** — Built for speed and volume. Use when you need fast, lightweight responses: summarizing short documents, answering quick questions, processing large batches of content.
+**Google (Gemini)** — Flagship: **Gemini 3.1 Pro**. Fast: **Gemini Flash**. Access at [gemini.google.com](https://gemini.google.com); free tier available; paid consumer plan comparably priced.
+
+**OpenAI (GPT)** — Flagship: **GPT-5.5** (with a parallel-reasoning Pro variant for complex scientific, legal, or strategic problems). Access at [chatgpt.com](https://chatgpt.com); free tier available; paid consumer plan comparably priced.
+
+**xAI (Grok)** — Access at [x.ai/grok](https://x.ai/grok) or within the X platform.
 :::
-
-**Access:** [claude.ai](https://claude.ai) — Free tier available; Pro plan (\$20/month) unlocks Sonnet and Opus.
-
----
-
-## The Gemini Family (Google)
-
-Gemini is Google's flagship model family, deeply integrated with Google Workspace. If you live in Google Docs, Sheets, Gmail, or Drive, Gemini has native access to that ecosystem in ways that other models currently do not.
-
-:::{admonition} Gemini Lineup
-:class: note
-
-**Gemini 3.1 Pro** — Google's frontier model. Competes at the top tier for reasoning and writing. Particularly strong for tasks that involve Google products or require real-time Google Search integration.
-
-**Gemini Flash** — Google's speed-optimized model. Excellent for high-volume applications and lightweight tasks. Extremely cost-efficient for developers and businesses running at scale.
-:::
-
-**Access:** [gemini.google.com](https://gemini.google.com) — Free tier available; Gemini Advanced (\$20/month) in Google One.
-
-**Differentiator:** If you already pay for Google Workspace Business, Gemini may be included. Check your organization's plan before subscribing separately.
-
----
-
-## The GPT Family (OpenAI)
-
-OpenAI's GPT series is the lineage that launched the current AI wave. GPT-4o is the current flagship — multimodal (text, images, audio), fast, and deeply capable. OpenAI also operates the world's largest ecosystem of third-party plugins and integrations.
-
-:::{admonition} Key GPT Models
-:class: note
-
-**GPT-4o** — OpenAI's primary frontier model. Strong across writing, reasoning, coding, and image analysis. The largest third-party tool ecosystem of any platform.
-
-**o3 / o4-mini** — OpenAI's "reasoning" models, designed for slow, deliberate step-by-step problem solving. Best for mathematical, scientific, or highly structured logical problems.
-:::
-
-**Access:** [chatgpt.com](https://chatgpt.com) — Free tier (GPT-4o limited); Plus plan (\$20/month).
-
----
-
-## Grok (xAI)
-
-Grok is Elon Musk's xAI model, trained with a distinctive voice — direct, sometimes irreverent, with real-time access to X (formerly Twitter) data. This makes it uniquely suited for tasks involving social media trends, current events on X, or contexts where a more candid, unfiltered tone is appropriate.
-
-**Access:** [x.ai/grok](https://x.ai/grok) or within the X platform.
 
 ---
 
@@ -143,9 +118,9 @@ Open-weight models are most relevant for organizations with strict data privacy 
 
 The fastest way to develop model intuition is to run the same prompt through multiple models simultaneously.
 
-**[arena.ai](https://arena.ai)** — The best current platform for side-by-side model comparison. Run the same prompt through two or more models at once and compare outputs instantly. No setup required; free to use.
+At press time, we use **[arena.ai](https://arena.ai)** for side-by-side comparison — run the same prompt through two or more models at once and compare outputs instantly, no setup required. (If the platform has changed by the time you read this, the companion page at **drlee.io/ch01** points to the current recommendation.)
 
-Use Arena to:
+Use side-by-side comparison to:
 - See which model handles your specific task better
 - Develop personal intuition about tone and reasoning style differences
 - Quickly benchmark a new model you haven't used before
@@ -158,13 +133,13 @@ For most business professionals, the decision is simpler than it looks:
 
 ::::{grid} 1 2 2 3
 :::{card} 🧠 Deep Analysis
-Use **Claude Sonnet or Opus** for anything requiring nuanced reasoning, long-document work, or careful writing.
+Use the **balanced or flagship tier** for anything requiring nuanced reasoning, long-document work, or careful writing.
 :::
 :::{card} 📊 Google-First
 Use **Gemini** when your work lives in Google Docs, Sheets, or Gmail — native integration is the differentiator.
 :::
 :::{card} ⚡ Speed & Volume
-Use **Haiku or Flash** when you need fast, lightweight processing of many small tasks.
+Use the **fast tier** when you need lightweight processing of many small tasks.
 :::
 ::::
 
@@ -176,14 +151,14 @@ Use **Haiku or Flash** when you need fast, lightweight processing of many small 
 :class: tip
 
 1. Different models have different cognitive "temperaments" — understanding these helps you choose correctly.
-2. The smartphone tier analogy applies: Frontier/Max, Balanced/Pro, and Fast/Standard serve different needs.
-3. Claude excels at nuanced reasoning and long-context tasks. Gemini is best when integrated with Google Workspace. GPT-4o offers the largest third-party ecosystem.
-4. Version numbers will change; the principles of model selection will not. Check drleee.io for current recommendations.
-5. arena.ai is the fastest way to develop personal intuition about model differences.
+2. The smartphone tier analogy applies: flagship, balanced, and fast tiers serve different needs. Choose by role, not by name.
+3. Claude excels at nuanced reasoning and long-context tasks. Gemini is best when integrated with Google Workspace. GPT offers the largest third-party ecosystem.
+4. Version numbers will change; the principles of model selection will not. The roster sidebar is dated for a reason — check drlee.io/ch01 for current recommendations.
+5. Side-by-side comparison is the fastest way to develop personal intuition about model differences.
 :::
 
 ---
 
 :::{tip} Try This
-Go to **[arena.ai](https://arena.ai)** and run one real question through two different models at the same time. Pick any question you'd actually care about the answer to. Spend 90 seconds comparing the tone and depth of the two responses — that instinct you build is worth more than any review article.
+Run one real question through two different models at the same time (we use arena.ai; current instructions at **drlee.io/ch01**). Pick any question you'd actually care about the answer to. Spend 90 seconds comparing the tone and depth of the two responses — that instinct you build is worth more than any review article.
 :::

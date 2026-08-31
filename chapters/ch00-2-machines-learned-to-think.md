@@ -24,13 +24,13 @@ tags: [ai-revolution, cognition, strategy, business-model, knowledge-work]
 
 ## The Analyst, the Dataset, and the Deadline
 
-It's 2019. A strategy analyst named Maya is sitting at her desk at 11 PM. She has a 9 AM presentation to the executive team on competitive positioning, and she is four hours into trying to manually read 200 pages of earnings transcripts, press releases, and market reports.
+A few years ago, a strategy analyst named Maya is sitting at her desk at 11 PM. She has a 9 AM presentation to the executive team on competitive positioning, and she is four hours into trying to manually read 200 pages of earnings transcripts, press releases, and market reports.
 
 She is smart. She is thorough. She works hard. And she is about to miss something important in the 143rd document because she is tired and the words are blurring together.
 
-Now replay the same scene in 2025.
+Now replay the same scene with today's tools.
 
-Maya uploads all 200 documents to her AI in under two minutes. She types: *"Identify the three most significant strategic shifts among our top five competitors over the last 18 months, with direct quotes."* Forty seconds later, she has a structured brief — with citations — that would have taken the 2019 version of her four more hours to produce. And she is not tired. She is thinking.
+Maya uploads all 200 documents to her AI in under two minutes. She types: *"Identify the three most significant strategic shifts among our top five competitors over the last 18 months, with direct quotes."* Forty seconds later, she has a structured brief — with citations — that would have taken the earlier version of her four more hours to produce. And she is not tired. She is thinking.
 
 The task did not disappear. The expensive part of the task did.
 
@@ -116,15 +116,15 @@ In the muscle era, the advantage was having more power. In the cognition era, th
 
 ## Why "We Use AI" Is Already a Losing Strategy
 
-Let's say it plainly: *"We use AI"* is the 2025 version of *"we have electricity."*
+Let's say it plainly: *"We use AI"* is this era's version of *"we have electricity."*
 
 In 1895, saying "we have electricity" was a competitive differentiator. A factory with electric motors outperformed a factory with steam engines. But by 1910, every serious competitor had electric motors. Electricity had become infrastructure — a table stake, not an edge.
 
 The same arc is happening with AI, but compressed from decades into years.
 
-Right now, in 2025, "we use AI" still sounds like a strategy to some organizations. Within three years, it will sound the way "we use spreadsheets" sounds today — not impressive, just assumed.
+As this book goes to press, "we use AI" still sounds like a strategy to some organizations. Within a few years of your reading it, it will sound the way "we use spreadsheets" sounds today — not impressive, just assumed.
 
-The organizations that will be standing in a different place by 2028 are the ones that are not asking *"how do we adopt AI?"* but *"how do we reorganize our work around AI?"*
+The organizations that will be standing in a different place by then are the ones that are not asking *"how do we adopt AI?"* but *"how do we reorganize our work around AI?"*
 
 Adoption is a tool question. Reorganization is a strategy question.
 

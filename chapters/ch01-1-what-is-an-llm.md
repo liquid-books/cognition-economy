@@ -20,7 +20,7 @@ tags: [ai, business, cognition-economy, chapter-1]
 
 Imagine hiring the most brilliant research analyst who ever lived. Their IQ is 180 — higher than Einstein's estimated 160. They have read virtually everything ever published: every business book, every legal brief, every medical journal, every line of code on the open internet. They can reason across disciplines, draft compelling arguments, debug logic flaws, and synthesize complexity into clarity in seconds.
 
-Now imagine that this analyst walks into your office on their first day and knows absolutely nothing about your company, your customers, your competitors, or what you need from them today. That is a large language model. For roughly \$20 per month, you have just retained the most powerful reasoning partner in human history — but like any new hire, they need to be briefed before they can help.
+Now imagine that this analyst walks into your office on their first day and knows absolutely nothing about your company, your customers, your competitors, or what you need from them today. That is a large language model. For the price of a lunch each month, you have just retained the most powerful reasoning partner in human history — but like any new hire, they need to be briefed before they can help.
 
 ---
 
@@ -117,7 +117,7 @@ This pattern — intelligence applied to supplied knowledge — is the engine be
 
 Different models from the same provider are trained differently and optimized for different tasks. Think of them the way you think of smartphone tiers: Pro Max, Pro, and Standard. Each runs the same underlying architecture but with different levels of capability, speed, and cost.
 
-The strongest "frontier" models (Claude Opus, GPT-4o, Gemini Pro) are your heavyweight reasoners — best for complex analysis, nuanced writing, and multi-step problem solving. Faster, lighter models (Claude Haiku, Gemini Flash) are optimized for speed and volume. Chapter 1.3 gives you the full tour.
+The flagship "frontier" tier from each vendor holds your heavyweight reasoners — best for complex analysis, nuanced writing, and multi-step problem solving. The fast, light tier is optimized for speed and volume. Chapter 1.3 gives you the full tour.
 
 For now, understand that even the most capable model is limited not by its intelligence ceiling but by the quality of what you give it to work with.
 
@@ -132,7 +132,7 @@ For now, understand that even the most capable model is limited not by its intel
 2. The intelligence vs. knowledge distinction explains every AI failure and most AI successes.
 3. "Autocomplete" is technically accurate but practically misleading — treat these systems as genuine reasoning partners.
 4. Vague inputs produce vague outputs. Specific, context-rich inputs produce expert-level outputs.
-5. For roughly \$20/month, you have access to reasoning capability that exceeds most professional consultants on general tasks — but only when you brief it properly.
+5. For the price of a lunch each month, you have access to reasoning capability that exceeds most professional consultants on general tasks — but only when you brief it properly.
 :::
 
 ---

@@ -24,15 +24,15 @@ tags: [strategy, redesign, ai-era, builders, operators, competitive-advantage]
 
 ## Two Operators, One Tool, Two Futures
 
-Meet two operations managers at competing logistics companies, 2025.
+Meet two operations managers at competing logistics companies.
 
-**Operator A — Marcus** gets access to an AI assistant in March. By April, he is using it daily. He drafts emails faster. He summarizes long reports in minutes. He asks it for data analysis on request. His personal productivity is up maybe 30%. His team is impressed. His boss is pleased.
+**Operator A — Marcus** gets access to an AI assistant. Within a month, he is using it daily. He drafts emails faster. He summarizes long reports in minutes. He asks it for data analysis on request. His personal productivity is up maybe 30%. His team is impressed. His boss is pleased.
 
 **Operator B — Yuki** gets the same tool the same week. She spends the first week not using it for her existing tasks — she spends it *mapping* her existing tasks. Which parts of her team's workflow are fundamentally about information processing? Where does cognitive work happen that isn't judgment? Where do her people spend time doing things that could be described as "reading then writing"?
 
-By May, Yuki has redesigned three core workflows. Her team's weekly report, which previously required eight person-hours of data gathering and drafting, now takes ninety minutes — with better output. Her customer escalation triage, which used to require a senior analyst, now runs through a structured AI review before the analyst ever sees it. Her competitive intelligence process, which was previously informal and spotty, now generates a structured brief every Monday morning automatically.
+Within two months, Yuki has redesigned three core workflows. Her team's weekly report, which previously required eight person-hours of data gathering and drafting, now takes ninety minutes — with better output. Her customer escalation triage, which used to require a senior analyst, now runs through a structured AI review before the analyst ever sees it. Her competitive intelligence process, which was previously informal and spotty, now generates a structured brief every Monday morning automatically.
 
-By December, Marcus's team is 30% more productive per person. Yuki's team is handling twice the volume with 20% fewer headcount, while her people spend more of their time on the judgment calls that actually require human expertise.
+By the end of the year, Marcus's team is 30% more productive per person. Yuki's team is handling twice the volume with 20% fewer headcount, while her people spend more of their time on the judgment calls that actually require human expertise.
 
 Same tool. Same access date. Two completely different questions asked.
 
@@ -48,7 +48,7 @@ This is a reasonable question. The answer is almost always yes. And stopping the
 
 But it is the Thomas-the-mill-owner question. Add the machine, get a lift, move on. You are now 30% better at something your competitors will also be 30% better at within twelve months.
 
-The window of advantage from mere *adoption* is closing. Not because AI is slowing down — it is accelerating — but because the **availability** of the tools is nearly universal. Anyone who wants access to a world-class AI reasoning partner can have one for \$20 per month. The tool itself is no longer the moat.
+The window of advantage from mere *adoption* is closing. Not because AI is slowing down — it is accelerating — but because the **availability** of the tools is nearly universal. Anyone who wants access to a world-class AI reasoning partner can have one for less than the price of a business lunch each month. The tool itself is no longer the moat.
 
 ---
 
@@ -120,11 +120,11 @@ Here is the arc:
 
 **Modules 1–2** give you the foundation. The vocabulary of AI (Module 1) and the workshop setup (Module 2) are the prerequisites for everything else. You cannot redesign work around a tool you do not understand, and you cannot build consistently from a workshop that is not set up.
 
-**Modules 3–5** give you the leverage points. MCP tools (Module 3) extend your AI's reach into your real-world systems. Skills (Module 4) turn ad-hoc interactions into repeatable workflows. The six engineering disciplines (Module 5) give you precise control over AI output quality.
+**Modules 3–5** give you the leverage points. Connected tools (Module 3 — today, the connection standard is called MCP) extend your AI's reach into your real-world systems. Reusable procedures (Module 4 — today: Skills) turn ad-hoc interactions into repeatable workflows. The six engineering disciplines (Module 5) give you precise control over AI output quality.
 
-**Modules 6–8** give you the advanced techniques. Plan mode (Module 6) teaches AI to think before it acts. Memory (Module 7) makes AI compounds value across sessions. Plugins (Module 8) add capabilities without building.
+**Modules 6–8** give you the advanced techniques. Planning before acting (Module 6) teaches AI to think before it builds. Memory (Module 7) makes AI compound value across sessions. Pre-built extensions (Module 8) add capabilities without building.
 
-**Modules 9–13** give you the team. Sub-agents (Module 9), agent teams (Module 10), and the SDK (Module 11) take you from AI as a tool to AI as a workforce. Self-learning systems (Module 12) and automations (Module 13) make the workforce proactive.
+**Modules 9–13** give you the team. Sub-agents (Module 9), agent teams (Module 10), and the agent toolkit vendors ship for builders (Module 11) take you from AI as a tool to AI as a workforce. Self-learning systems (Module 12) and automations (Module 13) make the workforce proactive.
 
 **Modules 14–16** give you the frame. Security (Module 14), the strategic landscape (Module 15), and the architectural future (Module 16) complete the picture — not just how to build, but why it matters and what it will become.
 

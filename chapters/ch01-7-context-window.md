@@ -28,30 +28,30 @@ The context window is the AI's desk. It is the maximum amount of information the
 
 Every model has a maximum context size — a hard ceiling on how many tokens can exist in a single conversation before the model can no longer process the entire history. When that ceiling is hit, one of two things happens: either the model begins silently dropping the oldest content (a rolling window), or the system returns an error.
 
-Current frontier models have dramatically larger context windows than even two years ago:
+Context windows have been growing steadily and dramatically. Rather than memorize per-model numbers that will be stale by the time you read this, think in two tiers:
 
-```{list-table} Context Window Sizes — Representative Current Models
+```{list-table} Context Window Sizes — Think in Tiers, Not Models
 :header-rows: 1
-:widths: 35 35 30
+:widths: 30 35 35
 
-* - Model
-  - Context Window
+* - Tier
+  - Rough Capacity
   - Real-World Equivalent
-* - Claude (extended context)
-  - Up to 1,000,000 tokens
-  - Roughly the entire Lord of the Rings trilogy
-* - Gemini 1.5 Pro / 2.x
-  - Up to 2,000,000 tokens
-  - Multiple full-length novels simultaneously
-* - GPT-4o
-  - 128,000 tokens
-  - ~96,000 words — a full business book
-* - Claude Haiku / Sonnet (standard)
-  - 200,000 tokens
-  - ~150,000 words — a long novel
+* - **Standard**
+  - A few hundred thousand tokens
+  - A long novel — more than enough for almost any single business document
+* - **Extended**
+  - A million tokens or more
+  - An entire trilogy — several full-length books held simultaneously
 ```
 
 These numbers represent extraordinary progress. For almost any individual business task, you will never approach the ceiling. But "the ceiling is high" does not mean "more is always better."
+
+:::{admonition} How to Verify
+:class: tip
+
+Context window sizes are one of the fastest-moving numbers in AI. To check what your model actually offers today: open your vendor's model documentation or pricing page and look for "context window" or "context length," stated in tokens. Divide by roughly 1,300 to get a page estimate. If your tool has both a standard and an extended-context option, note which one your plan includes — the extended tier is sometimes gated behind higher plans or API access.
+:::
 
 ---
 
@@ -64,7 +64,7 @@ This phenomenon is sometimes called the **"lost in the middle" problem**. If you
 :::{admonition} The Lost-in-the-Middle Problem
 :class: warning
 
-Research has shown that language models perform significantly worse on tasks that require retrieving information placed in the middle of long contexts, compared to information at the beginning or end.
+Research has shown that language models perform significantly worse on tasks that require retrieving information placed in the middle of long contexts, compared to information at the beginning or end (Liu et al., 2023, "Lost in the Middle: How Language Models Use Long Contexts").
 
 **Practical implication:** If there is a specific section of a long document that is critical to your task, excerpt it and place it explicitly at or near the top of your prompt. Don't rely on the model to surface it from deep within a large document.
 :::
@@ -109,7 +109,7 @@ There are genuine tasks where large context windows provide enormous value:
 - **Multi-document synthesis** — comparing several long documents simultaneously
 - **Long project continuity** — keeping a detailed project brief active across a long working session
 
-For these use cases, Claude's extended context is a genuine differentiator. Being able to paste an entire 200-page report and reason across the whole thing — without chunking, summarizing, or losing continuity — is a significant capability advantage over approaches that require breaking documents into pieces.
+For these use cases, an extended-context model is a genuine differentiator. Being able to paste an entire 200-page report and reason across the whole thing — without chunking, summarizing, or losing continuity — is a significant capability advantage over approaches that require breaking documents into pieces.
 
 ---
 
@@ -119,7 +119,7 @@ For these use cases, Claude's extended context is a genuine differentiator. Bein
 :class: tip
 
 1. The context window is the model's desk — a finite surface area for working memory, measured in tokens.
-2. Current frontier models have very large windows (up to 1–2 million tokens), but that does not mean bigger is always better.
+2. Think in two tiers: standard (a few hundred thousand tokens — a long novel) and extended (a million or more — a trilogy). Big windows do not mean bigger is always better.
 3. The "lost in the middle" problem means models attend less to content in the center of long contexts.
 4. Place critical instructions and key document sections near the top or the end of your prompt — not buried in the middle.
 5. When the window fills or gets crowded, quality degrades in predictable ways. That is the signal to restructure or start fresh.
@@ -128,5 +128,5 @@ For these use cases, Claude's extended context is a genuine differentiator. Bein
 ---
 
 :::{tip} Try This
-Paste a long document into Claude and ask a question about something near the beginning — then ask the same question about something buried in the middle of the document. Compare the quality and confidence of the two answers. You may be able to detect the lost-in-the-middle effect firsthand.
+Paste a long document into your AI and ask a question about something near the beginning — then ask the same question about something buried in the middle of the document. Compare the quality and confidence of the two answers. You may be able to detect the lost-in-the-middle effect firsthand.
 :::
