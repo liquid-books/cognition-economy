@@ -1,0 +1,59 @@
+# Chapters 15 & 16 — Draft Notes (AUDIT-2026-08)
+
+Drafts: `drafts/ch15.md`, `drafts/ch16.md`, plus the 22 numbered subfiles (`ch15-1` … `ch15-12`, `ch16-1` … `ch16-10`) copied to `drafts/`. Originals in `chapters/` untouched.
+
+**Scope adjustment honored (Dr. Lee, mid-task):** per HANDS-ON-STRATEGY.md, the exercise tracks were NOT collapsed. Both chapters use the **DIAL pattern** (ch09/ch10 style): all three tracks stay in print, de-branded, with steps named for the evergreen decision each one sets and literal click-paths deferred to drlee.io/ch15 and drlee.io/ch16. Ch 16 Track C — the capstone peer-agent build — survives in print in plain-English form, as required.
+
+## Subfiles
+
+All 22 numbered subfiles are empty scaffolds ("Chapter coming soon") with evergreen titles/descriptions — no model names, dates, prices, or product UI anywhere in their frontmatter. Copied to `drafts/` verbatim; nothing to scrub.
+
+## Chapter 15 (`drafts/ch15.md`)
+
+- **Opening vignette** — kept the $4,000-memo / two-and-a-half-days shock. Dropped the scene-dating numbers ($4M comp, $380/hr, $185,000 salary, "in 2018"); scene set explicitly with "A few years into the transition" and "only a few years earlier." "Claude wrote it" → "The AI wrote it."
+- **Big Four study → dated Snapshot sidebar** — "Snapshot: One Big Four Firm's Revenue by Moat (2023)" carries the 14/19/67% and 30–40% figures, labeled "reported to the author in private conversation" (no citation exists). Body now depends on the shape, using the audit's replacement text ("When large professional-services firms decompose their own revenue by moat… typically around two-thirds — sitting on process").
+- **200→40 analysts → second Snapshot sidebar** — "Snapshot: The Research Desk, Then and Now," same private-conversation label. Body rewritten around the shape ("hundreds of analysts… a small fraction of their former size").
+- **Projections → conditional** — the "Incremental Is Not the Conservative View" admonition now reads "Plan for the world in which Moats 2 and 4 are largely commoditized — not whether but when — and work backward from that date. Pick a year that feels five years too early. You will probably still be late." Both "commoditized by 2030" instances gone; "no equivalent job for 'person of taste' in 2030" → "on the other side of this transition."
+- **"until about 2022"** → "until the current wave of AI arrived." **"may take five years to take Moat 2"** (figure caption) → "on a timeline measured in years, not decades"; caption alt-text de-dated (see FIGURES-TODO).
+- **LegalZoom** → "A generation later, online form services collapsed that fee by an order of magnitude." **Expedia/E*TRADE/Craigslist** → "online booking sites / online brokerages / online classifieds." **"not slower than Claude"** → "than the model."
+- **Partner A/B** — all three "spends 2024" constructions → "Over a single year… By the end of the year." "AI tax tools are not ready" → "the AI tools are not ready" (de-branded quote).
+- **Halverson Strathmore** — all five calendar mentions converted: "Founded 2002" → "a little over two decades ago"; "By 2024, annual revenue" → "By the time the AI transition arrived in earnest"; "early 2024" → "About a year into the industry's AI transition"; "October 2024" → "convened a strategy offsite"; CFO projections "2025/2028" → "year one / year four" (three sentences); discussion prompt "in 2028" → "in year four." $87M and engagement economics kept (audit leaves the three-position structure alone).
+- **Record-a-Skill cross-ref added** — new paragraph after the training-ground-paradox passage: recording a task while narrating it captures a senior professional's tacit process before it walks out the door; ties to Ch 4's demonstrate-it path.
+- **Exercise: DIAL, not collapse** — three-surface admonition (standard ch09 wording) + drlee.io/ch15. Track A de-branded ("chat assistant"), and per HANDS-ON-STRATEGY 3.3 the longitudinal thread was added in manual form (recurring 30-day "re-score my role" calendar event, paste previous score, ask what moved). Track B de-branded ("terminal agent"); code.claude.com URL → companion pointer; file saved to working folder framed as owned artifact. Track C de-branded ("agent-orchestration workspace") with dial-named steps (charter / context / schedule dials); CMD+E, antigravity.google URLs, "Artifact" → companion. All three submission blocks intact.
+- **New "Is this still true?" verification lab** (active form per HANDS-ON-STRATEGY 3.2): time the AI on a document your industry bills days for; log against current billing; the dated log is the collapse curve drawn by the student.
+- **Leave-alone preserved** — knowledge-tax concept, asymmetry-not-effort admonition, four moats + collapse order, Britannica → Wikipedia (dated, real, kept), move-up-or-out, two traditions, three new premiums, training-ground paradox, Builder's Paradox, scorecard mechanics + 0.65 + three calibration profiles + "illustrative," Chicago taste-compression example ("In the past year" already relative), Halverson three-position structure, discussion guidelines.
+
+## Chapter 16 (`drafts/ch16.md`)
+
+- **$180M future-tense prediction killed** — replaced with the audit's present-tense archetype text verbatim ("The archetypal failure of this era is the large professional-services firm that spends nine figures…"). Regional-competitor paragraph shifted to present tense to match.
+- **GitHub/Stripe/Bloomberg** → "in developer tooling, in payments, in financial data, and in a half-dozen quietly excellent operations teams across mid-market finance."
+- **"60 to 75 percent of AI compute"** → "the majority of their AI spend — often well over half."
+- **Insurance case** — "in 2025" → "Early in the transition"; "31 percent higher… latency was a quarter" → "materially more accurate, and several times faster."
+- **Labs-walked-away claim** → "This is why deep orchestration trees keep getting abandoned in practice — the teams that build them discover the architecture anti-scales."
+- **"Now jump to 2026"** → "Now jump seventy years forward" (Sloan 1956 anchor preserved).
+- **"roughly 2023 through 2025" / "2025 enterprise AI deployments"** → "in the first years of the transition" / "the early enterprise AI deployments."
+- **Evolvability** → "not the ones who picked the best model available the day they started… absorb the next three generations without a re-platforming event."
+- **Calder → sequence** — "In late 2025" → "Eighteen months ago"; "what the operating model needs to look like in 2030" → "five years out"; "By February of 2026" → "Sixty days in"; "March 4, 2026" → "at the end of his first quarter"; "between 2026 and 2030" → "over the next five years." **1994 McKinsey anchor kept** inside the fiction per audit.
+- **Levin citation added** — (Levin, 2019) at basal cognition and at the cognitive light cone, with full APA reference in a new "Chapter Reference" block after the signature. Flag: if the book has a central bibliography, the reference block can move there.
+- **Track A/C mislabel fixed** — "the most important Track C exercise in the book" under Track A → "This track is conceptual, not technical — the thinking is the deliverable." (The capstone-build framing now correctly lives on Track C.)
+- **Two-tool Reflection fixed** — rewritten single-track-safe ("in the track you ran… If you worked conversationally… If you ran the capstone build…").
+- **Closing list** — "plan mode, channels" → "plan-first execution, delivery channels" (concept names); "sub-agents, hooks, memory" → "specialist sub-agents, hooks, memory files." Kept "is this a hook or a judgment?" (chapter-13 taxonomy term, concept not product UI).
+- **Appendix-as-perishable-zone sentence added** — "it is also, deliberately, the designated perishable zone of this book — the part that will go out of date first, which is why it lives at the back and online."
+- **Below-the-app-layer runway added** — "the agents themselves are already migrating below the app layer, into the operating systems and browsers and infrastructure your tools sit on, and the surfaces you learned on this year will look quaint in three."
+- **Exercise: DIAL, capstone preserved** — three-surface admonition explicitly names Track C as the book's capstone build. Pre-track "Before starting either track… code.claude.com" line deleted (was also miscounted — three tracks, not two). Track A de-branded. Track B de-branded; quickstart URL → companion. **Track C rewritten dial-per-step in plain English**: topology dial (no named orchestrator — with a note that the refusal is the pedagogical point), work dial (real stakes), observability dial (watch the shared substrate; tied to dimension 4), reuse dial (save as template; tied to composability). CMD+E, Antigravity 2.0, antigravity.google URLs, "Artifacts panel" → companion; "structured deliverables panel" used generically. All three submission blocks intact, including the "Go build the reef" capstone reflection.
+- **New "Is this still true?" verification lab** — two logged checks (can your tool run peers without a director; what happens when one fails = the tool's current position on the Tissue Test) + companion pointer.
+- **Leave-alone preserved** — Sloan/GM 1956 vs. coral colony, brain-vs-tissue, basal cognition passage, Hierarchy Assumption, four failure modes, Tissue Test, cognitive light cone, six dimensions, compose-across-scales + fractal property, Conway's Law in reverse, six-perturbation robustness test + perturbation-day admonition, Calder 3–3 board split and case logic, discussion guidelines, the closing ("Go build the reef"), "— Dr. Ernesto Lee, 2026" signature.
+
+## FLAGS
+
+- **Levin reference placement** — added as a per-chapter reference block at the very end of ch16 (after the signature). If the book consolidates references in Appendix H (Recommended Reading) or a bibliography, move it; the two in-text "(Levin, 2019)" cites stand either way.
+- **Ch 15 Snapshot sourcing** — both sidebars use "reported to the author in private conversation" per the audit's default. If Dr. Lee has actual citations for either the Big Four moat decomposition or the analyst-headcount figures, swap the label.
+- **Ch 15 Halverson $87M** — kept (audit's "Leave alone" covers the three-position structure and the audit only converts the dates; the ch09 case's "$87M in 2025" was a different firm/chapter). Note the coincidence: ch09's Meridian-adjacent case also uses $87M revenue. Not a Meridian collision, but two $87M firms in one book may be worth a dedupe glance.
+- **Ch 16 "Chapter Reference" heading** — new structural element; if MyST layout objects to a section after the signature, it can become a footnote on first Levin mention instead.
+- **HANDS-ON-STRATEGY compliance** — both chapters now have active verification labs (the strategy doc lists ch15/ch16 as "not yet"); ch15 carries the manual longitudinal thread in Track A per strategy §3.3.3; ch16 Track C build is in print per strategy §3.1.
+
+## FIGURES-TODO
+
+- **`ch15-moat-collapse.png`** (fig-ch15-collapse) — the audit's flagged chart. Art bakes in "1995–2015," "2022–2027," "starting 2024" era labels. Relabel to relative eras ("Internet era — two decades" / "AI era — first years of the transition" / "under attack now" / "narrowing but holding") **or** stamp the fixed window explicitly ("as projected in 2026"). Draft alt-text and caption already rewritten to the relative form ("two decades to take Moat 1… timeline measured in years, not decades") — art should match.
+- **`ch15-1-infographic.png` … `ch15-12` / `ch16-1` … `ch16-10` stub infographics** — not yet generated ("Coming soon"); no date/version constraints in their specs. No action now.
+- **No other ch15/ch16 figure changes** — ch15-four-moats, ch15-new-premiums, ch15-scorecard (0.65 is a framework constant, kept), and all seven ch16 figures are date- and vendor-free in art, alt, and caption.
