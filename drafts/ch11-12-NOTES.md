@@ -60,3 +60,40 @@ Drafts written to `drafts/ch11.md` and `drafts/ch12.md`. Originals untouched. Th
 - **fig-ch11-decision-matrix** (`ch11-decision-matrix.png`): alt text and art show a four-option matrix (Claude Code / vendor wrappers / no-code / SDK). With Managed Agents added as a fifth (hosted) option in the body, consider adding "hosted agents" to the art, or leave the 2×2 and note the hosted option textually. Not regenerated.
 - **fig-ch11-skim-the-docs**: fine as-is (generic doc page, no dated content).
 - **ch12 figures**: no dated/versioned content; no changes needed.
+
+---
+
+## Retrofit pass (per HANDS-ON-STRATEGY.md — DIAL restoration, Aug 2026)
+
+The COLLAPSE applied to both exercises in the first draft pass has been reversed. Tracks B and C are restored **in print** in both chapters, per Dr. Lee's decision (strategy doc Part 3.1 / Immediate Action item 5), using the ch09/ch10 DIAL pattern: full track structure in print; de-branded to the three surface types (chat assistant / terminal agent / agent-orchestration workspace); steps named for the evergreen decision they set; only literal click-paths, filenames, shortcuts, and URLs deferred to one-line companion pointers (drlee.io/ch11, drlee.io/ch12). Body text was NOT touched — all audit fixes from the first pass (thesis rewrite, Managed Agents paragraph, date scrubs, rounded figures, no-code de-roster, worked-example sidebar, ch11 "Is this still true?" body sidebar) stand as drafted. Originals in chapters/ untouched.
+
+### Ch 11 exercise — what changed in this pass
+
+- Audit said "Leave alone: all three exercise tracks"; the collapse was an unforced loss (flagged by the strategy doc). **Tracks B and C restored as close to the originals as possible**, applying only book-wide de-branding:
+  - Three-track admonition restored using the ch09/ch10 standard "One Exercise, Three Surfaces" text (track letters + surface types + drlee.io/ch11).
+  - "The Exercise" re-headed **Track A — Chat Assistant**; its rebuilt (audit-fixed) steps kept verbatim — not reverted to the original's Claude Desktop wording.
+  - **Track B**: original's six steps kept nearly verbatim; "Claude Code" → "your terminal agent" / "the agent"; the code.claude.com/agent-sdk/overview URL → "the vendor's Agent SDK overview page… current link: companion site" (audit Bug 13), with a tie-back to the Skim Checklist section. Original submission (brief + two sentences) restored intact, de-branded.
+  - **Track C**: original's six steps kept nearly verbatim; "Antigravity 2.0 IDE / Agent Manager / CMD+E / antigravity.google URL" → "orchestration workspace / manager view / exact click-path: companion site"; "markdown artifacts" → "structured deliverables." Original submission (brief + 75–100-word agree/disagree paragraph) restored intact.
+  - **Reflection**: merged — keeps the single-surface-safe rewrite from the first pass, restores the original's two-tool comparison as a conditional ("If you ran more than one surface…"). No track-label bugs introduced.
+
+- Ch 12 fell under the strategy doc's "keep collapsed" list, but Dr. Lee opted to restore; done in **DIAL style** (decision-named steps) rather than near-verbatim, since the originals carried two submission bugs (audit Bug 9):
+  - Three-track admonition restored (standard text + drlee.io/ch12). "The Exercise" re-headed **Track A — Chat Assistant**; steps 1–7 from the first pass kept verbatim — including the rebuilt evidence-gathering step 6 ("Gather notes or transcripts from your last five significant AI sessions…"), which also remains the template for the restored B/C review steps (no silent enumerate-my-history feature assumptions).
+  - **Track B (7 steps, DIAL)**: framed as "lessons live in a file you own" (ties to Ch 7). Steps named for decisions: open the memory layer as a file / gather the evidence (paste transcripts — audit-safe phrasing) / patterns → candidate rules / curate (accept recurring, reject situational) / **test that the lesson persists (fresh session)** / reusable reflection prompt / Friday calendar block. CLAUDE.md not named in print — "auto-loaded context file… current filename: companion site."
+  - **Bug 9a fixed in the restored track:** the original's steps never created the "updated CLAUDE.md" its submission demanded. Now step 4 explicitly writes the Operating Rules into the context file and saves it, and step 5 produces the fresh-session test output — the submission asks for exactly those two artifacts (updated context file + test output + one sentence).
+  - **Track C (6 steps, DIAL)**: framed on the workspace's reviewable record. Steps: open the record / review deliverables for failure patterns (with print fallback if the tool can't enumerate history) / **encode lessons at workspace scope** / re-run and verify / permanent review-template artifact / Friday calendar block ("Workspace Review" replaces the branded "Antigravity Review").
+  - **Bug 9b fixed in the restored track:** original said "project rules file" in the steps but demanded "updated Project Description" in the submission. Print now uses one consistent de-branded term throughout — "the workspace's standing rules file" — with an explicit instruction to use the same file regardless of the vendor's label; submission asks for "the updated rules file." The Project-Description-vs-rules-file naming is resolved on the companion page as a current-product detail.
+  - Track C's re-run-and-verify step (new vs. the original, which never re-ran the task) exists so the submission's "improved deliverable" is actually produced by a step — same class of fix as Bug 9a.
+  - **Reflection**: "After completing the exercise" → "After completing your track" (single-track-safe; unchanged otherwise).
+  - **Verification lab added** (strategy doc 3.2 gap list — "ch12 light"): two active checks — does the lesson persist without your memory note (which memory layer do you control), and can you open your rules artifact as a file (if not, you don't own it) — closing with the drlee.io/ch12 pointer.
+
+### Companion pages authored (new)
+
+- **companion/ch11-companion.md** and **companion/ch12-companion.md** created (companion/ dir is new). Structure per strategy doc 3.5: "Last verified: Fall 2026" header, changelog stub, current-surface-names table, per-track/per-step perishable details extracted from chapters/ch11.md and chapters/ch12.md (claude.ai/download, code.claude.com quickstart + agent-sdk/overview URLs, Antigravity install URL, CMD+E/CTRL+E, Agent Manager, Artifacts, Project Description, CLAUDE.md + `~/.claude/` paths, no-code roster incl. Make/Relevance AI which were de-rostered from print), plus an instructor refresh checklist. The ch12 changelog notes the two original-edition submission bugs for returning readers.
+- This **partially supersedes Flag 1** in the notes above: the companion pages now exist as content files; they still need to be published to drlee.io and get QR codes in the print layout.
+
+### Not done / for downstream
+
+- QR codes in exercise headers (strategy doc 3.5) — layout concern, not manuscript.
+- "Do This Now" inline boxes (strategy doc 3.4) — scoped to the ch01–ch09 pass, not these chapters.
+- Versioned track-sheet formatting ("Ch 11 · Track B · v. Fall 2026") on the live site — the content files here are the source material.
+- Submission blocks do not yet append the verification log (strategy doc 3.2 "make them submittable") — that is a book-wide convention change awaiting Dr. Lee's sign-off; not applied unilaterally here.
