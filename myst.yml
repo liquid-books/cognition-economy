@@ -39,6 +39,8 @@ project:
     # ─── FRONT MATTER ───────────────────────────────────────────────
     - title: Front Matter
       children:
+        - file: chapters/fm-copyright.md
+          title: "Copyright and Edition Note"
         - file: chapters/fm-foreword.md
           title: "Foreword: A Letter to the Reader"
         - file: chapters/fm-preface.md
